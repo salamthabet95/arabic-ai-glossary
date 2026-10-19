@@ -4,22 +4,23 @@
 
 المصطلحات التقنية في الذكاء الاصطناعي تُكتب بالإنجليزية، وترجمتها الحرفية غالباً تزيد الغموض بدل أن تزيله. هذا القاموس يشرح المصطلح بلغة يفهمها القارئ العربي، ويُبقي المصطلح اللاتيني كما هو لأنه الصيغة التي سيصادفها في أي مرجع.
 
-| | |
-|---|---|
-| **المجموع** | {{TOTAL}} مصطلح |
-| **مفاهيم** | [{{CONCEPT}}](terms/concept.md) |
-| **نماذج** | [{{MODEL}}](terms/model.md) |
-| **مقاييس** | [{{METRIC}}](terms/metric.md) |
-| **مجموعات بيانات** | [{{DATASET}}](terms/dataset.md) |
-| **مصطلحات جوهرية ⭐** | {{CORE}} — لها شرح موسّع في مقالة مستقلة |
+<table dir="rtl">
+<tr><td><b>المجموع</b></td><td>{{TOTAL}} مصطلح</td></tr>
+<tr><td>مفاهيم</td><td><a href="terms/concept.md">{{CONCEPT}}</a></td></tr>
+<tr><td>نماذج</td><td><a href="terms/model.md">{{MODEL}}</a></td></tr>
+<tr><td>مقاييس</td><td><a href="terms/metric.md">{{METRIC}}</a></td></tr>
+<tr><td>مجموعات بيانات</td><td><a href="terms/dataset.md">{{DATASET}}</a></td></tr>
+<tr><td><b>مصطلحات جوهرية ⭐</b></td><td>{{CORE}} — لكلٍّ منها مقالة شرح موسّع</td></tr>
+</table>
 
 ## الملفّات
 
-| الملف | الاستخدام |
-|---|---|
-| [`data/glossary.json`](data/glossary.json) | للبرمجة والتطبيقات |
-| [`data/glossary.csv`](data/glossary.csv) | للجداول وExcel (بترميز UTF-8 BOM) |
-| [`terms/*.md`](terms/) | للتصفّح والقراءة مباشرة هنا |
+<table dir="rtl">
+<tr><th>الملف</th><th>الاستخدام</th></tr>
+<tr><td><a href="data/glossary.json"><code>data/glossary.json</code></a></td><td>للبرمجة والتطبيقات</td></tr>
+<tr><td><a href="data/glossary.csv"><code>data/glossary.csv</code></a></td><td>للجداول وبرنامج Excel — مُرمَّز <code>UTF-8 BOM</code></td></tr>
+<tr><td><a href="terms/"><code>terms/*.md</code></a></td><td>للتصفّح والقراءة هنا مباشرة</td></tr>
+</table>
 
 ### بنية المدخلة
 
@@ -38,18 +39,19 @@
 
 المصطلحات لا تعيش منفردة: `attention` أساس `transformer`، و`RAG` تجمع `embedding` مع قاعدة بيانات متّجهة. ملف [`data/graph.json`](data/graph.json) يمثّل هذه العلاقات شبكةً غير موجّهة.
 
-| | |
-|---|---|
-| **العقد** | {{G_NODES}} (منها {{G_CONN}} موصولة) |
-| **الحوافّ** | {{G_EDGES}} |
+<table dir="rtl">
+<tr><td><b>العقد</b></td><td>{{G_NODES}} — منها {{G_CONN}} موصولة</td></tr>
+<tr><td><b>الحوافّ</b></td><td>{{G_EDGES}}</td></tr>
+</table>
 
 **كل حافّة مقيسة لا مُولّدة.** لم يُسأل نموذج لغة «ما علاقة س بـص» — ذلك يُنتج شبكة مقنعة الشكل خاطئة المضمون. مصدر كل حافّة تواجد فعلي محفوظ، ومعها حقل `via` يذكر مصدرها:
 
-| `via` | المعنى | الوزن |
-|---|---|---|
-| `cluster` | وردا في عنقود مُرتّب يدوياً | ×٥ |
-| `lesson` | وردا ضمن مصطلحات المقالة نفسها | ×٣ |
-| `issue`  | وردا في أوراق اليوم نفسه | ×١ |
+<table dir="rtl">
+<tr><th>قيمة <code>via</code></th><th>معناها</th><th>الوزن</th></tr>
+<tr><td><code>cluster</code></td><td>وردا في عنقود مُرتَّب يدوياً</td><td>×٥</td></tr>
+<tr><td><code>lesson</code></td><td>وردا ضمن مصطلحات المقالة نفسها</td><td>×٣</td></tr>
+<tr><td><code>issue</code></td><td>وردا في أوراق اليوم نفسه</td><td>×١</td></tr>
+</table>
 
 ويُصدَّر أيضاً [`data/graph_edges.csv`](data/graph_edges.csv) بأعمدة `Source,Target,Weight,Via` — يُفتح مباشرة في Gephi أو Cytoscape.
 
