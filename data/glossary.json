@@ -3,7 +3,7 @@
     "source": "https://ai.salamthabet.com/glossary.php",
     "license": "CC BY-SA 4.0",
     "updated": "2026-10-19",
-    "count": 2002,
+    "count": 1976,
     "terms": [
         {
             "term": "397B",
@@ -358,13 +358,16 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=AFTER"
         },
         {
-            "term": "agent",
-            "slug": "agent",
-            "type": "model",
+            "term": "agents",
+            "slug": "agents",
+            "type": "concept",
             "level": "core",
-            "definition": "agent هو كيان ذكي بيقدر يتخذ قرارات ويتفاعل مع البيئة بشكل مستقل، بنستعمله لتصميم روبوتات أو أنظمة توصية",
+            "definition": "هي نماذج AI بتتصرف لوحدها وبتاخذ قرارات وبتنفذ خطوات متعددة عشان توصل لهدف، مش بس تجاوب على سؤال. هلقيت كلنا بنسمع عنهم لأنهم مستقبل الـ AI العملي.",
+            "aliases": [
+                "agent"
+            ],
             "article": "https://ai.salamthabet.com/lesson.php?slug=ai-agents-why-important",
-            "source": "https://ai.salamthabet.com/glossary.php?q=agent"
+            "source": "https://ai.salamthabet.com/glossary.php?q=agents"
         },
         {
             "term": "agent benchmark",
@@ -533,15 +536,6 @@
             "level": "advanced",
             "definition": "agentic workflow هو أسلوب تنظيم الشغل بحيث كل جزء من النظام بيكون وكيل مستقل يقدر يتخذ قراراته ويكمل مهمته، بنستفيد منه لتصميم أنظمة مرنة وموزّعة.",
             "source": "https://ai.salamthabet.com/glossary.php?q=agentic%20workflow"
-        },
-        {
-            "term": "agents",
-            "slug": "agents",
-            "type": "concept",
-            "level": "core",
-            "definition": "هي نماذج AI بتتصرف لوحدها وبتاخذ قرارات وبتنفذ خطوات متعددة عشان توصل لهدف، مش بس تجاوب على سؤال. هلق كلنا بنسمع عنهم لأنهم مستقبل الـ AI العملي.",
-            "article": "https://ai.salamthabet.com/lesson.php?slug=ai-agents-why-important",
-            "source": "https://ai.salamthabet.com/glossary.php?q=agents"
         },
         {
             "term": "AGENTS.md",
@@ -896,6 +890,9 @@
             "type": "concept",
             "level": "advanced",
             "definition": "\"Attention Head\" هو جزء من نموذج الـTransformer، بيسمح للموديل يركز على كلمات معينة بالجملة، بدنا نعرفه عشان هو أساس توليد النصوص وفهم السياق.",
+            "aliases": [
+                "attention heads"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=Attention%20Head"
         },
         {
@@ -1450,15 +1447,10 @@
             "type": "dataset",
             "level": "basic",
             "definition": "مجموعة بيانات موثوقة بنقيس فيها أداء الموديلات، بتساعدنا نقارن النتائج عشان نعرف مين الأحسن.",
+            "aliases": [
+                "benchmark datasets"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=benchmark%20dataset"
-        },
-        {
-            "term": "benchmark datasets",
-            "slug": "benchmark-datasets",
-            "type": "dataset",
-            "level": "basic",
-            "definition": "مجموعة بيانات benchmark هي مجموعات قياسية بنقارن فيها أداء النماذج، عشان نعرف مين الأفضل",
-            "source": "https://ai.salamthabet.com/glossary.php?q=benchmark%20datasets"
         },
         {
             "term": "BERT",
@@ -2303,20 +2295,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=Codex"
         },
         {
-            "term": "coding agent",
-            "slug": "coding-agent",
-            "type": "model",
-            "level": "core",
-            "definition": "روبوت AI مخصص للبرمجة، بيفهم طلباتنا ويكتب كود أو يصححه، بنستعمله لتسريع الشغل على المشاريع.",
-            "article": "https://ai.salamthabet.com/lesson.php?slug=ai-coding-assistants",
-            "source": "https://ai.salamthabet.com/glossary.php?q=coding%20agent"
-        },
-        {
             "term": "coding agents",
             "slug": "coding-agents",
             "type": "model",
             "level": "advanced",
             "definition": "برامج ذكاء اصطناعي قادرة تكتب وتصحّح الأكواد بحالها من غير ما تحتاج مبرمج بيوجّهها طول الوقت. بنسمع عنها عشان بتحسّن من إنتاجية المبرمجين وبتسرّع عملية التطوير.",
+            "aliases": [
+                "coding agent"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=coding%20agents"
         },
         {
@@ -2560,19 +2546,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=contamination"
         },
         {
-            "term": "contamination control",
-            "slug": "contamination-control",
-            "type": "concept",
-            "level": "advanced",
-            "definition": "يعني بدنا نتأكد إن البيانات اللي بنستخدمها للتدريب مش ملوثة أو فيها أخطاء، عشان النموذج يتعلم بشكل صحيح ما تتلخبطش المعلومات.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=contamination%20control"
-        },
-        {
             "term": "contamination controls",
             "slug": "contamination-controls",
             "type": "concept",
             "level": "advanced",
             "definition": "إجراءات احنا بنسويها عشان نتأكّد إن بيانات التدريب ما فيها معلومات ملخبطة أو غلط قد تخرّب النموذج، يعني تنظيف الداتا قبل ما ندرّب فيها.",
+            "aliases": [
+                "contamination control"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=contamination%20controls"
         },
         {
@@ -3546,6 +3527,9 @@
             "type": "model",
             "level": "advanced",
             "definition": "نموذج بيولد نص أو صورة عن طريق انتشار الضوضا، يعني بنبلّش من شوية عشوائية وبنقلّص الضوضا لحد ما يطلع إشي مفهوم، بنشوفه كتير لأنه بساعدنا نولّد محتوى إبداعي",
+            "aliases": [
+                "diffusion language models"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=diffusion%20language%20model"
         },
         {
@@ -3557,19 +3541,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=diffusion%20loss"
         },
         {
-            "term": "diffusion model",
-            "slug": "diffusion-model",
-            "type": "model",
-            "level": "core",
-            "definition": "diffusion model نموذج توليدي بيضيف ضوضاء للصورة خطوة بخطوة وبعدين يزيلها، عشان يخلق صور جديدة واقعية.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=diffusion%20model"
-        },
-        {
             "term": "diffusion models",
             "slug": "diffusion-models",
             "type": "model",
             "level": "advanced",
             "definition": "نماذج بتشتغل بطريقة عكس الضوضاء تماماً - تبدأ من صورة عشوائية وتنضفها شوية شوية لحتى توصل لصورة حقيقية. بنسمع عنها كتير لأنها أساس أفضل أدوات توليد الصور الحديثة زي DALL-E و Stable Diffusion.",
+            "aliases": [
+                "diffusion model"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=diffusion%20models"
         },
         {
@@ -3581,19 +3560,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=diffusion%20pipelines"
         },
         {
-            "term": "diffusion prior",
-            "slug": "diffusion-prior",
-            "type": "concept",
-            "level": "advanced",
-            "definition": "إشي بنستخدمه في نماذج التوليد عشان نوجه العملية نحو نتائج معينة من الأول. يعني بدل ما نقول للنموذج وليد بشكل عشوائي، إحنا بنقوله: شوف هالمعلومات الأساسية وسِر في الاتجاه اللي نحتاجه.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=diffusion%20prior"
-        },
-        {
             "term": "diffusion priors",
             "slug": "diffusion-priors",
             "type": "concept",
             "level": "advanced",
             "definition": "diffusion priors هي المعلومات اللي بنحطها في النموذج قبل ما يبدأ يتعلم، زي ما بنقوله 'ابدأ من ضوضاء وارجع للصورة الأصلية شوي شوي'. بنسمع عنها كتير عشان هي اللي بتخلي نماذج توليد الصور زي Stable Diffusion تشتغل بشكل صح.",
+            "aliases": [
+                "diffusion prior"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=diffusion%20priors"
         },
         {
@@ -3602,6 +3576,9 @@
             "type": "model",
             "level": "advanced",
             "definition": "هالنموذج بدمج فكرة الـ diffusion مع بنية الـ transformer، يعني بيستفيد من قوة الـ transformer لتوليد محتوى بصورة تدريجية، بنسمع عنه لأنه بيعطي نتائج أقوى بالـ generative tasks",
+            "aliases": [
+                "Diffusion transformers"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=diffusion%20transformer"
         },
         {
@@ -3625,7 +3602,7 @@
             "slug": "diffusion-based-enhancer",
             "type": "concept",
             "level": "advanced",
-            "definition": "احنا بنستخدم نموذج الـ diffusion (اللي بتخيل صور من ضوضاء) عشان نحسّن جودة الصورة. يعني نبدأ من صورة ضعيفة وننظفها وننمّيها لصورة أحسن. بنسمع عنه كتير هلق عشان الـ diffusion models صاروا قويين جداً في تحسين الجودة.",
+            "definition": "احنا بنستخدم نموذج الـ diffusion (اللي بتخيل صور من ضوضاء) عشان نحسّن جودة الصورة. يعني نبدأ من صورة ضعيفة وننظفها وننمّيها لصورة أحسن. بنسمع عنه كتير هلقيت عشان الـ diffusion models صاروا قويين جداً في تحسين الجودة.",
             "source": "https://ai.salamthabet.com/glossary.php?q=diffusion-based%20enhancer"
         },
         {
@@ -4130,6 +4107,9 @@
             "type": "concept",
             "level": "core",
             "definition": "الـ embedding هو تمثيل الكلمات أو العناصر بأرقام بفضاء منخفض، الإشي هاد بيعطي معنى قريب للمعاني، فالموديل يقدر يتعامل مع الكلمات بسهولة.",
+            "aliases": [
+                "embeddings"
+            ],
             "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-an-embedding",
             "source": "https://ai.salamthabet.com/glossary.php?q=embedding"
         },
@@ -4182,15 +4162,6 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=embedding-pair%20classifier"
         },
         {
-            "term": "embeddings",
-            "slug": "embeddings",
-            "type": "concept",
-            "level": "core",
-            "definition": "embeddings هي تمثيلات رقمية للكلمات أو الصور بنخزن فيها المعنى بطريقة متجهية، لتسهل على النموذج يفهمهم",
-            "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-an-embedding",
-            "source": "https://ai.salamthabet.com/glossary.php?q=embeddings"
-        },
-        {
             "term": "embodied",
             "slug": "embodied",
             "type": "concept",
@@ -4199,19 +4170,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=embodied"
         },
         {
-            "term": "embodied agent",
-            "slug": "embodied-agent",
-            "type": "concept",
-            "level": "advanced",
-            "definition": "وكيل ذكي مرتبط بجسم فيزيائي حقيقي أو محاكاة (روبوت أو كائن في لعبة افتراضية)، مش بس برنامج في الكمبيوتر. بنركّز على هالمفهوم عشان نطلّع آلات ذكية تتفاعل مع العالم الحقيقي وتتعلم من تجاربها.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=embodied%20agent"
-        },
-        {
             "term": "embodied agents",
             "slug": "embodied-agents",
             "type": "concept",
             "level": "advanced",
             "definition": "هاي عبارة عن ذكاء اصطناعي مش بس بفكر، لأ كمان بتحرك وبتفاعل مع البيئة حواليه زي الروبوتات أو الشخصيات في العالم الافتراضي، بنسمع عنه كتير لأنه خطوة كبيرة نحو الذكاء الاصطناعي الشبيه بالإنسان.",
+            "aliases": [
+                "embodied agent"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=embodied%20agents"
         },
         {
@@ -4235,7 +4201,7 @@
             "slug": "embodied-task-planning",
             "type": "concept",
             "level": "advanced",
-            "definition": "هو لما بنخلي الروبوت أو الوكيل الذكي يخطط ويتصرف بالعالم الحقيقي من حواليه، مش بس يفكر بالنظري — بنسمع عنه عشان الروبوتات اليومين دول بدها تفهم بيئتها وتنفذ مهام فعلية زي ترتيب الغرفة أو تحضير الأكل.",
+            "definition": "هو لما بنخلي الروبوت أو الوكيل الذكي يخطط ويتصرف بالعالم الحقيقي من حواليه، مش بس يفكر بالنظري — بنسمع عنه عشان الروبوتات اليومين هدول بدها تفهم بيئتها وتنفذ مهام فعلية زي ترتيب الغرفة أو تحضير الأكل.",
             "source": "https://ai.salamthabet.com/glossary.php?q=Embodied%20Task%20Planning"
         },
         {
@@ -4928,19 +4894,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=forward-KL"
         },
         {
-            "term": "foundation model",
-            "slug": "foundation-model",
-            "type": "concept",
-            "level": "basic",
-            "definition": "foundation model هو نموذج كبير مدرب على بيانات عامة كتيرة، بيشتغل كقاعدة أساسية بنبني عليها تطبيقات مخصوصة، يعني بنستفيد من قوته ونخصصه لإشي معين.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=foundation%20model"
-        },
-        {
             "term": "foundation models",
             "slug": "foundation-models",
             "type": "concept",
             "level": "advanced",
             "definition": "النماذج الأساسية هي نماذج ضخمة اتدرّبت على كميات هائلة من البيانات عشان تكون قاعدة نبني عليها تطبيقات كتيرة، زي GPT وLLaMA، وبنسمع عنها لأنها صارت نقطة البداية لأي مشروع ذكاء اصطناعي هالأيام.",
+            "aliases": [
+                "foundation model"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=foundation%20models"
         },
         {
@@ -7052,20 +7013,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=language-visual%20reasoning"
         },
         {
-            "term": "large language model",
-            "slug": "large-language-model",
-            "type": "model",
-            "level": "core",
-            "definition": "Large language model هو نموذج ذكاء اصطناعي ضخم تدرب على كمية هائلة من النصوص، بدنا نستخدمه عشان يكتب نصوص، يجاوب أسئلة، أو يترجم بطريقة قريبة من البشر.",
-            "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-an-llm",
-            "source": "https://ai.salamthabet.com/glossary.php?q=large%20language%20model"
-        },
-        {
             "term": "Large Language Models",
             "slug": "large-language-models",
             "type": "model",
             "level": "advanced",
             "definition": "نموذج لغة كبير هو شبكة عصبية مدربة على كمية هائلة من النصوص، بتقدر تولّد نصوص تشبه اللي بنكتبها. بنسمع عنها لأنه هي الأساس لتطبيقات الذكاء الاصطناعي اللي بتفهم وتكتب",
+            "aliases": [
+                "large language model"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=Large%20Language%20Models"
         },
         {
@@ -7246,19 +7201,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=LBS"
         },
         {
-            "term": "leaderboard",
-            "slug": "leaderboard",
-            "type": "metric",
-            "level": "basic",
-            "definition": "جدول ترتيب بيظهر أيّ النماذج والفرق هي الأفضل في اختبارات معينة - زي جدول الدوري بتاع الرياضة بس للذكاء الاصطناعي.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=leaderboard"
-        },
-        {
             "term": "leaderboards",
             "slug": "leaderboards",
             "type": "concept",
             "level": "basic",
             "definition": "يعني قوائم ترتيب بتظهر أداء النماذج والأنظمة المختلفة على مهام معينة. احنا بنهتم فيها عشان بتساعدنا نعرف أيّ نموذج الأفضل والأقوى في أيّ مجال.",
+            "aliases": [
+                "leaderboard"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=leaderboards"
         },
         {
@@ -7348,6 +7298,9 @@
             "type": "model",
             "level": "core",
             "definition": "نموذج لغة ضخم بتعلم على مليارات الكلمات وبعدين بيقدر يتنبأ ويكتب نصوص زي ChatGPT و Claude. بدنا نعرف عنه عشان دخل كل شغلة بحياتنا من البحث للكتابة للبرمجة.",
+            "aliases": [
+                "LLMs"
+            ],
             "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-an-llm",
             "source": "https://ai.salamthabet.com/glossary.php?q=LLM"
         },
@@ -7357,15 +7310,10 @@
             "type": "concept",
             "level": "basic",
             "definition": "يعني نموذج لغوي بس مش بيجاوب وبس، هو بيفكّر ويتخذ قرارات ويستخدم أدوات عشان يوصل لحل المشكلة. بنسمع عنها عشان الشركات بدها أنظمة مستقلة تقدر تشتغل من حالها بدون ما تحتاج إنسان يتدخل في كل خطوة.",
+            "aliases": [
+                "LLM agents"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=LLM%20agent"
-        },
-        {
-            "term": "LLM agents",
-            "slug": "llm-agents",
-            "type": "model",
-            "level": "advanced",
-            "definition": "يعني برامج ذكية مبنية على نماذج لغة كبيرة، وهذي البرامج قادرة تتخذ قرارات وتقوم بمهام معقدة بنفسها بدون ما نخبرها كل خطوة. بنسمع عنها كتير الآن عشان هي الخطوة الجاية في تطور الذكاء الاصطناعي.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=LLM%20agents"
         },
         {
             "term": "LLM alignment",
@@ -7405,15 +7353,10 @@
             "type": "concept",
             "level": "basic",
             "definition": "سلسلة من الخطوات اللي بتشتغل مع بعضها عشان تحول السؤال أو الطلب لإجابة من نموذج اللغة الكبير، بتشمل معالجة المدخلات والحسابات والنتائج.",
+            "aliases": [
+                "LLM pipelines"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=LLM%20pipeline"
-        },
-        {
-            "term": "LLM pipelines",
-            "slug": "llm-pipelines",
-            "type": "concept",
-            "level": "advanced",
-            "definition": "إشي يعني نسلسل خطوات وعمليات مرتبة عشان نعالج المدخلات والمخرجات، مثلاً: نأخذ النص، نحللو، نعدل عليه، بعدين نطلعو للمستخدم.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=LLM%20pipelines"
         },
         {
             "term": "LLM-as-a-judge",
@@ -7455,14 +7398,6 @@
             "level": "advanced",
             "definition": "LLMRouter هو نموذج أو نظام بيوزع الأسئلة على مجموعة من نماذج اللغة الكبيرة حسب قدراتهم، بنستعمله عشان نحسّن الفعالية وما نضيع موارد.",
             "source": "https://ai.salamthabet.com/glossary.php?q=LLMRouter"
-        },
-        {
-            "term": "LLMs",
-            "slug": "llms",
-            "type": "concept",
-            "level": "basic",
-            "definition": "LLMs يعني Large Language Models، نماذج لغوية ضخمة بتتعلم من نصوص كتيرة، بنسمع عنها لأنه تغيّر طريقة كتابة المحتوى، الترجمة، وحتى البرمجة.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=LLMs"
         },
         {
             "term": "LLVM",
@@ -8011,19 +7946,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=MCP%20server"
         },
         {
-            "term": "MCP-based agent",
-            "slug": "mcp-based-agent",
-            "type": "concept",
-            "level": "advanced",
-            "definition": "وكيل ذكي مبني على بروتوكول MCP اللي بيسمح له يتواصل مع أدوات ومصادر مختلفة بشكل آمن ومنظم، عشان يقدر يعمل مهام معقدة بكفاءة.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=MCP-based%20agent"
-        },
-        {
             "term": "MCP-based agents",
             "slug": "mcp-based-agents",
             "type": "concept",
             "level": "advanced",
             "definition": "يعني agents مبنية على بروتوكول Model Context Protocol، واللي بيسمح للنماذج تتكلم مع أدوات وأنظمة مختلفة بطريقة معيارية. بدنا هاي الطريقة عشان تخلي الـ AI أكثر مرونة وقابلية للتطوير.",
+            "aliases": [
+                "MCP-based agent"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=MCP-based%20agents"
         },
         {
@@ -8379,12 +8309,15 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=MLE-Bench%20Lite"
         },
         {
-            "term": "MLLM",
-            "slug": "mllm",
+            "term": "MLLMs",
+            "slug": "mllms",
             "type": "model",
             "level": "advanced",
-            "definition": "نموذج ذكاء اصطناعي بيقدر يفهم ويتعامل مع أنواع بيانات مختلفة في نفس الوقت (صور، نص، صوت)، احنا بنسمع عنه كتير لأنه بيقدر يحل مسائل معقدة بكفاءة أعلى.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=MLLM"
+            "definition": "يعني نماذج ذكاء اصطناعي متقدمة بتشتغل مع أنواع معلومات مختلفة زي النصوص والصور والفيديو وأصوات في نفس الوقت. بنسمع عنها عشان هيدول النماذج بتفهم وتحلل معلومات معقدة أكتر من اللي بتشتغل على نص بس، وبتساعد في تطبيقات ذكية أكتر كفاءة.",
+            "aliases": [
+                "MLLM"
+            ],
+            "source": "https://ai.salamthabet.com/glossary.php?q=MLLMs"
         },
         {
             "term": "MLLM-as-Judge",
@@ -8393,14 +8326,6 @@
             "level": "advanced",
             "definition": "MLLM-as-Judge هو مفهوم بنستعمل فيه نموذج متعدد اللغات (MLLM) كحكم لتقييم جودة مخرجات نماذج تانية، يعني بدل ما بنعتمد على تقييم بشري بنخلي الذكاء الاصطناعي يحكم. بنسمع عنه لأنه بقلل الجهد البشري وبيسرّع عملية التقييم.",
             "source": "https://ai.salamthabet.com/glossary.php?q=MLLM-as-Judge"
-        },
-        {
-            "term": "MLLMs",
-            "slug": "mllms",
-            "type": "model",
-            "level": "advanced",
-            "definition": "يعني نماذج ذكاء اصطناعي متقدمة بتشتغل مع أنواع معلومات مختلفة زي النصوص والصور والفيديو وأصوات في نفس الوقت. بنسمع عنها عشان هيدول النماذج بتفهم وتحلل معلومات معقدة أكتر من اللي بتشتغل على نص بس، وبتساعد في تطبيقات ذكية أكتر كفاءة.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=MLLMs"
         },
         {
             "term": "MLM",
@@ -8611,7 +8536,7 @@
             "slug": "multi-agent-architecture",
             "type": "concept",
             "level": "advanced",
-            "definition": "يعني بناء نظام فيه عدة وكلاء ذكيين بيشتغلوا مع بعضهم علشان يحلّوا مشكلة معقدة. كل واحد فيهم له دوره، وبيتعاونوا عشان يوصلوا للنتيجة الأحسن.",
+            "definition": "يعني بناء نظام فيه عدة وكلاء ذكيين بيشتغلوا مع بعضهم عشان يحلّوا مشكلة معقدة. كل واحد فيهم له دوره، وبيتعاونوا عشان يوصلوا للنتيجة الأحسن.",
             "source": "https://ai.salamthabet.com/glossary.php?q=multi-agent%20architecture"
         },
         {
@@ -8639,19 +8564,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=multi-agent%20orchestration%20engine"
         },
         {
-            "term": "multi-agent system",
-            "slug": "multi-agent-system",
-            "type": "concept",
-            "level": "core",
-            "definition": "multi-agent system هو نظام فيه أكتر من وكيل (agent) بيتفاعلوا مع بعض لحل مشكلة أو تنفيذ مهمة، بنستعمله لتنسيق الروبوتات أو محاكاة سلوك جماعي، بنشوفه بالذكاء الاصطناعي المتقدم.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=multi-agent%20system"
-        },
-        {
             "term": "multi-agent systems",
             "slug": "multi-agent-systems",
             "type": "concept",
             "level": "advanced",
             "definition": "هي أنظمة فيها أكتر من عامل ذكي (agent) بيشتغلوا مع بعض عشان يوصلوا لهدف معين - كل واحد منهم بياخذ قرارات ويتفاعل مع الآخرين. بنسمع عنها كتير لأنها بتخليك تحل مشاكل معقدة بطريقة أذكى من الحل الواحد.",
+            "aliases": [
+                "multi-agent system"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=multi-agent%20systems"
         },
         {
@@ -8904,19 +8824,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=multimodal%20instruction%20tuning"
         },
         {
-            "term": "multimodal LLM",
-            "slug": "multimodal-llm",
-            "type": "model",
-            "level": "advanced",
-            "definition": "multimodal LLM هو نموذج لغة كبير يقدر يشتغل مع نصوص وصور وفيديوهات، يعني مش بس كلام، احنا بنستفيد منه لتطبيقات فيها أكتر من نوع بيانات.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=multimodal%20LLM"
-        },
-        {
             "term": "multimodal LLMs",
             "slug": "multimodal-llms",
             "type": "model",
             "level": "basic",
             "definition": "يعني نماذج لغة ذكية بتفهم أكتر من شي واحد في نفس الوقت: نصوص وصور وأصوات مثلاً. بهالطريقة بتقدر تجاوب على أسئلة أعقد وتشتغل في حالات أكتر واقعية.",
+            "aliases": [
+                "multimodal LLM"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=multimodal%20LLMs"
         },
         {
@@ -9189,6 +9104,9 @@
             "type": "concept",
             "level": "advanced",
             "definition": "neuron activations يعني القيم اللي بتطلع من كل خلية عصبية بالـmodel، بنشوفها عشان نفهم شو الشبكة تتعلم وإيش الإشي اللي يشتغل",
+            "aliases": [
+                "neuron activation"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=neuron%20activations"
         },
         {
@@ -10356,19 +10274,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=POSG"
         },
         {
-            "term": "positional encoding",
-            "slug": "positional-encoding",
-            "type": "concept",
-            "level": "advanced",
-            "definition": "هو الطريقة اللي بتحكي فيها للموديل وين كل كلمة واقفة بالجملة، لأنه لوحده مش قادر يحس بالترتيب. بنسمع عنه كتير لأنه أساس كيف الـ Transformers بتفهم النصوص.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=positional%20encoding"
-        },
-        {
             "term": "positional encodings",
             "slug": "positional-encodings",
             "type": "concept",
             "level": "advanced",
             "definition": "بوزيشنال إنكودينغز هي طريقة بنضيف فيها معلومات عن ترتيب العناصر داخل السلسلة، عشان النموذج يعرف إشي هو الأول والتاني، وبهالطريقة يقدر يفهم السياق بشكل أحسن",
+            "aliases": [
+                "positional encoding"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=positional%20encodings"
         },
         {
@@ -11278,6 +11191,9 @@
             "type": "concept",
             "level": "advanced",
             "definition": "مسار التفكير هو سجل للخطوات اللي بياخدها النموذج وهو بيحل مشكلة أو بيجاوب سؤال، بنستعمله لنفهم كيف وصل للنتيجة ونصحّحه إذا كان فيه غلطة.",
+            "aliases": [
+                "reasoning traces"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=reasoning%20trace"
         },
         {
@@ -11672,7 +11588,7 @@
             "slug": "retrieval",
             "type": "concept",
             "level": "basic",
-            "definition": "يعني البحث وإرجاع المعلومات المناسبة من كم كبير من البيانات بسرعة ودقة. احنا بنسمع عنها دايماً عشان هي الأساس بتاع محركات البحث وأنظمة الذكاء الاصطناعي اللي بتحتاج معلومات صحيحة.",
+            "definition": "يعني البحث وإرجاع المعلومات المناسبة من كم كبير من البيانات بسرعة ودقة. احنا بنسمع عنها دايماً عشان هي الأساس تبع محركات البحث وأنظمة الذكاء الاصطناعي اللي بتحتاج معلومات صحيحة.",
             "source": "https://ai.salamthabet.com/glossary.php?q=retrieval"
         },
         {
@@ -11829,19 +11745,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=reward%20mechanism"
         },
         {
-            "term": "reward model",
-            "slug": "reward-model",
-            "type": "model",
-            "level": "core",
-            "definition": "نموذج صغير بنعلمه يقيّم جودة الإجابات والمخرجات (شو اللي كويس وشو اللي مش كويس) عشان نستخدمو لتحسين النماذج الكبيرة.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=reward%20model"
-        },
-        {
             "term": "reward models",
             "slug": "reward-models",
             "type": "concept",
             "level": "advanced",
             "definition": "هو موديل بتدرّبه يحكم على إجابات الـ AI وييجي درجة، زي المعلم اللي بيقول هاي الإجابة كويسة وهاي مش كويسة. بنسمع عنه كتير في الـ RLHF عشان بيساعد نحسّن الموديل يكون أكثر فائدة وأمان.",
+            "aliases": [
+                "reward model"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=reward%20models"
         },
         {
@@ -11914,6 +11825,9 @@
             "type": "concept",
             "level": "advanced",
             "definition": "RLA هو benchmark (معيار تقييم) بنقيس فيه قدرة الموديلات على التعلم من ردود الفعل، بنسمع عنه عشان بساعدنا نقارن بين الموديلات بشكل عادل.",
+            "aliases": [
+                "RLAES"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=RLA"
         },
         {
@@ -12011,6 +11925,9 @@
             "type": "concept",
             "level": "basic",
             "definition": "الـ rollouts هي محاكاة أو تجارب متعددة للنموذج عشان نشوف كيف بيشتغل مع سيناريوهات مختلفة، بنستعملها لتقييم الأداء",
+            "aliases": [
+                "rollout"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=rollouts"
         },
         {
@@ -12276,15 +12193,10 @@
             "type": "concept",
             "level": "basic",
             "definition": "نظام مش معقول لو انقصّ أو غلط فيه، عشان بيؤثّر على سلامة الناس أو حياتهم مثل: نظام في مستشفى أو سيارة ذاتية القيادة. بنسمع عنها عشان بدنا حد يركّب نماذج ذكاء اصطناعي في أماكن مهمة وحساسة بس لازم تكون موثوقة مئة بالمئة.",
+            "aliases": [
+                "safety-critical systems"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=safety-critical%20system"
-        },
-        {
-            "term": "safety-critical systems",
-            "slug": "safety-critical-systems",
-            "type": "concept",
-            "level": "basic",
-            "definition": "أنظمة لو فيها خطأ ولو بسيط ممكن يصير فيها كارثة وحادث خطير، زي أنظمة الطائرات والسيارات ذاتية القيادة والأجهزة الطبية. احنا بنركّز عليها كتير عشان الأمان فيها مهم جداً والمسؤولية عليه كبيرة.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=safety-critical%20systems"
         },
         {
             "term": "SAH",
@@ -12428,6 +12340,9 @@
             "type": "concept",
             "level": "advanced",
             "definition": "search agent هو برنامج أو مكوّن بيساعد الـ model يدوّر على معلومات أو مستندات ضمن قاعدة بيانات، يعني هو اللي بيعمل البحث عشان يلاقي الإشي المطلوب",
+            "aliases": [
+                "Search Agents"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=search%20agent"
         },
         {
@@ -13668,7 +13583,7 @@
             "slug": "streaming-inference",
             "type": "concept",
             "level": "advanced",
-            "definition": "يعني النموذج بيطلع النتيجة شوي شوي وأنت لسا بتحكيله، مش بينتظر تخلص ويطلع الجواب دفعة وحدة، وبنسمع عنه لأنه بيخلي التجربة أسرع وأحسن للمستخدم زي ما بنشوف في ChatGPT لما الكلام بيجي حرف حرف.",
+            "definition": "يعني النموذج بيطلع النتيجة شوي شوي وأنت لسّا بتحكيله، مش بينتظر تخلص ويطلع الجواب دفعة وحدة، وبنسمع عنه لأنه بيخلي التجربة أسرع وأحسن للمستخدم زي ما بنشوف في ChatGPT لما الكلام بيجي حرف حرف.",
             "source": "https://ai.salamthabet.com/glossary.php?q=streaming%20inference"
         },
         {
@@ -14628,12 +14543,15 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=tokenizer"
         },
         {
-            "term": "tool",
-            "slug": "tool",
+            "term": "Tools",
+            "slug": "tools",
             "type": "concept",
-            "level": "basic",
-            "definition": "tool هو أي أداة أو برنامج بنستعمله عشان نساعد النموذج أو نسهّل الشغل بالذكاء الاصطناعي.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=tool"
+            "level": "advanced",
+            "definition": "Tools بالمفهوم الذكي يعني مجموعة من الأدوات أو الAPIs اللي بنقدر نستدعيها من داخل نموذج الذكاء الاصطناعي، بنستعملها لتوسيع قدرات الموديل عشان يقدر ينفّذ مهام واقعية.",
+            "aliases": [
+                "tool"
+            ],
+            "source": "https://ai.salamthabet.com/glossary.php?q=Tools"
         },
         {
             "term": "tool calls",
@@ -14674,14 +14592,6 @@
             "level": "advanced",
             "definition": "tool-use benchmark هو معيار بنقيس فيه قدرة النموذج يستخدم أدوات أو برامج خارجية، بدنا نعرف إذا الـ AI بيقدر يتعامل مع بيئات واقعية",
             "source": "https://ai.salamthabet.com/glossary.php?q=tool-use%20benchmark"
-        },
-        {
-            "term": "Tools",
-            "slug": "tools",
-            "type": "concept",
-            "level": "advanced",
-            "definition": "Tools بالمفهوم الذكي يعني مجموعة من الأدوات أو الAPIs اللي بنقدر نستدعيها من داخل نموذج الذكاء الاصطناعي، بنستعملها لتوسيع قدرات الموديل عشان يقدر ينفّذ مهام واقعية.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=Tools"
         },
         {
             "term": "TOP-D",
@@ -14809,6 +14719,9 @@
             "type": "model",
             "level": "core",
             "definition": "هو البنية الأساسية اللي قايم عليها الذكاء الاصطناعي الحديث كله، بيشتغل على مبدأ الانتباه يعني بيحدد شو الأهم في البيانات وبيركز عليه. بنسمع عنه لأنه الأساس اللي اتبنى عليه ChatGPT وكل النماذج الكبيرة.",
+            "aliases": [
+                "transformers"
+            ],
             "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-a-transformer",
             "source": "https://ai.salamthabet.com/glossary.php?q=transformer"
         },
@@ -14827,14 +14740,6 @@
             "level": "advanced",
             "definition": "transformer layer هو طبقة أساسية في بنية الـ Transformers بتعالج المعلومات عبر آلية الانتباه، بنسمع عنها لأنها الأساس اللي بيشتغل منه معظم نماذج الذكاء الاصطناعي اليوم.",
             "source": "https://ai.salamthabet.com/glossary.php?q=transformer%20layer"
-        },
-        {
-            "term": "transformers",
-            "slug": "transformers",
-            "type": "model",
-            "level": "basic",
-            "definition": "نموذج Transformers هو بنية ذكاء اصطناعي تعتمد على آلية الانتباه، وبتخلّي النموذج يركز على أجزاء معينة من النص أو البيانات.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=transformers"
         },
         {
             "term": "transition-focused evaluation agent",
@@ -15235,6 +15140,9 @@
             "type": "concept",
             "level": "advanced",
             "definition": "verification pipeline هو سلسلة خطوات بنمرّ من خلالها على البيانات أو النموذج لنأكد إنه كل شي شغال صح، بدنا نتأكد إنه ما في أخطاء قبل ما نطلق النظام.",
+            "aliases": [
+                "verification pipelines"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=verification%20pipeline"
         },
         {
@@ -15307,6 +15215,9 @@
             "type": "model",
             "level": "basic",
             "definition": "video models هي نماذج بتشتغل على الفيديو، بتفهم الإطارات المتتالية وتستخرج معلومات زمانية ومكانية، بنستعملها لتصنيف أو توليد محتوى فيديو",
+            "aliases": [
+                "video model"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=video%20models"
         },
         {
@@ -15347,6 +15258,9 @@
             "type": "model",
             "level": "advanced",
             "definition": "Video-LLM هو مفهوم ربط نماذج اللغة الكبيرة مع الفيديو، يعني النموذج يقدر يفهم أو يولد نصوص مرتبطة بالفيديو. بنسمع عنه لأنه بيفتح فرص لتطبيقات مثل الشرح التلقائي أو البحث داخل الفيديو.",
+            "aliases": [
+                "Video-LLMs"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=Video-LLM"
         },
         {
@@ -15387,6 +15301,9 @@
             "type": "model",
             "level": "advanced",
             "definition": "Vision Transformer هو نموذج للصور بيشتغل مثل الـ Transformer بالنص، بيقسم الصورة لباتشات (patches) وبيتعلم العلاقات بينهم لتصنيف أو استخراج ميزات، عشان يطلع أداء أقوى على مهام الرؤية.",
+            "aliases": [
+                "Vision Transformers"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=vision%20transformer"
         },
         {
@@ -15396,14 +15313,6 @@
             "level": "advanced",
             "definition": "يعني نموذج بيشتغل على الصور بنفس الطريقة اللي النماذج الكبيرة بتشتغل على الكلام (Transformers). بنسمع عنه كتير لأنه فعّال جداً في مهام الرؤية بتاعة الحاسوب والذكاء الاصطناعي.",
             "source": "https://ai.salamthabet.com/glossary.php?q=Vision%20Transformer%20%28ViT%29"
-        },
-        {
-            "term": "Vision Transformers",
-            "slug": "vision-transformers",
-            "type": "model",
-            "level": "basic",
-            "definition": "نموذج ذكي بيقرأ الصور زي ما بنقرأ النصوص - بينقسم الصورة لقطع صغيرة ويتعامل معها، وهاد أحسن بكتير من الطرق القديمة.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=Vision%20Transformers"
         },
         {
             "term": "Vision Transformers (ViT)",
@@ -15574,12 +15483,15 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=vLLM"
         },
         {
-            "term": "VLM",
-            "slug": "vlm",
+            "term": "VLMs",
+            "slug": "vlms",
             "type": "model",
-            "level": "core",
-            "definition": "اختصار لـ Vision Language Model، يعني نموذج ذكي بيفهم الصور والنصوص مع بعض. بنسمع عن هاي النماذج كتير الآن عشان بتفتح إمكانيات جديدة في تحليل الصور والفيديوهات.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=VLM"
+            "level": "advanced",
+            "definition": "هاي نماذج بتفهم الصور والنصوص مع بعض يعني بتقدر تحكيلها 'شو في بالصورة هاي؟' وتجاوبك، وبنسمع عنها لأنها صارت أساس كتير تطبيقات ذكاء اصطناعي بتجمع بين الرؤية واللغة.",
+            "aliases": [
+                "VLM"
+            ],
+            "source": "https://ai.salamthabet.com/glossary.php?q=VLMs"
         },
         {
             "term": "VLM-based Rejection Score",
@@ -15588,14 +15500,6 @@
             "level": "advanced",
             "definition": "الـ VLM-based Rejection Score هي مقياس بيقول لك إذا النموذج (اللي بيفهم صور ونصوص) بيرفض الإجابة على سؤال معين أم لا. احنا بنستخدمها عشان نعرف متى النموذج مش واثق من جوابه وبدنا نتجاهل إجابته.",
             "source": "https://ai.salamthabet.com/glossary.php?q=VLM-based%20Rejection%20Score"
-        },
-        {
-            "term": "VLMs",
-            "slug": "vlms",
-            "type": "model",
-            "level": "advanced",
-            "definition": "هاي نماذج بتفهم الصور والنصوص مع بعض يعني بتقدر تحكيلها 'شو في بالصورة هاي؟' وتجاوبك، وبنسمع عنها لأنها صارت أساس كتير تطبيقات ذكاء اصطناعي بتجمع بين الرؤية واللغة.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=VLMs"
         },
         {
             "term": "voice control",
@@ -15867,7 +15771,7 @@
             "slug": "working-memory",
             "type": "concept",
             "level": "advanced",
-            "definition": "ذاكرة مؤقتة عند الذكاء الاصطناعي بتشيل المعلومات اللي بيشتغل عليها هلق بس، زي ذاكرة الإنسان قصيرة المدى، بنسمع عنها عشان هي اللي بتحدد قد شو الموديل فاهم السياق الحالي.",
+            "definition": "ذاكرة مؤقتة عند الذكاء الاصطناعي بتشيل المعلومات اللي بيشتغل عليها هلقيت بس، زي ذاكرة الإنسان قصيرة المدى، بنسمع عنها عشان هي اللي بتحدد قد شو الموديل فاهم السياق الحالي.",
             "source": "https://ai.salamthabet.com/glossary.php?q=working%20memory"
         },
         {
@@ -15885,14 +15789,6 @@
             "level": "basic",
             "definition": "World Englishes هو مفهوم بيوضح إن الإنجليزي مش بس لهجة بريطانية أو أمريكية، بل فيه تنوع كبير بحسب الثقافات، وبنستعمله لفهم كيف الذكاء الاصطناعي يتعامل مع لهجات مختلفة.",
             "source": "https://ai.salamthabet.com/glossary.php?q=World%20Englishes"
-        },
-        {
-            "term": "world model",
-            "slug": "world-model",
-            "type": "model",
-            "level": "core",
-            "definition": "موديل العالم هو تمثيل داخل الذكاء الاصطناعي للواقع، بيساعد الموديل يتوقع شنو ممكن يصير عشان نخطط أحسن",
-            "source": "https://ai.salamthabet.com/glossary.php?q=world%20model"
         },
         {
             "term": "World Model RL",
