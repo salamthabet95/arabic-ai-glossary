@@ -39,7 +39,7 @@
 ```python
 import json, urllib.request
 
-url = "https://raw.githubusercontent.com/USER/arabic-ai-glossary/main/data/glossary.json"
+url = "https://raw.githubusercontent.com/salamthabet95/arabic-ai-glossary/main/data/glossary.json"
 data = json.load(urllib.request.urlopen(url))
 
 terms = {t["term"].lower(): t for t in data["terms"]}
@@ -47,7 +47,7 @@ print(terms["benchmark"]["definition"])
 ```
 
 ```javascript
-const res  = await fetch("https://raw.githubusercontent.com/USER/arabic-ai-glossary/main/data/glossary.json");
+const res  = await fetch("https://raw.githubusercontent.com/salamthabet95/arabic-ai-glossary/main/data/glossary.json");
 const data = await res.json();
 const find = q => data.terms.filter(t => t.term.toLowerCase().includes(q.toLowerCase()));
 ```
