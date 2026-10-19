@@ -34,6 +34,39 @@
 }
 ```
 
+## شبكة المصطلحات
+
+المصطلحات لا تعيش منفردة: `attention` أساس `transformer`، و`RAG` تجمع `embedding` مع قاعدة بيانات متّجهة. ملف [`data/graph.json`](data/graph.json) يمثّل هذه العلاقات شبكةً غير موجّهة.
+
+| | |
+|---|---|
+| **العقد** | {{G_NODES}} (منها {{G_CONN}} موصولة) |
+| **الحوافّ** | {{G_EDGES}} |
+
+**كل حافّة مقيسة لا مُولّدة.** لم يُسأل نموذج لغة «ما علاقة س بـص» — ذلك يُنتج شبكة مقنعة الشكل خاطئة المضمون. مصدر كل حافّة تواجد فعلي محفوظ، ومعها حقل `via` يذكر مصدرها:
+
+| `via` | المعنى | الوزن |
+|---|---|---|
+| `cluster` | وردا في عنقود مُرتّب يدوياً | ×٥ |
+| `lesson` | وردا ضمن مصطلحات المقالة نفسها | ×٣ |
+| `issue`  | وردا في أوراق اليوم نفسه | ×١ |
+
+ويُصدَّر أيضاً [`data/graph_edges.csv`](data/graph_edges.csv) بأعمدة `Source,Target,Weight,Via` — يُفتح مباشرة في Gephi أو Cytoscape.
+
+```python
+import json, networkx as nx
+
+g = json.load(open("data/graph.json"))
+G = nx.Graph()
+G.add_nodes_from((n["id"], n) for n in g["nodes"])
+G.add_weighted_edges_from((e["source"], e["target"], e["weight"]) for e in g["edges"])
+
+print(sorted(G.degree, key=lambda x: -x[1])[:10])   # الأكثر مركزية
+print(list(G.neighbors("llm"))[:20])                # جيران مصطلح
+```
+
+**معرّفات العقد هي `slug` نفسها في `glossary.json`** فيمكن ربط الملفّين مباشرة. والعقد المعزولة مُبقاة عمداً: إخفاؤها يموّه أن أغلب القاموس لم يُربط بعد.
+
 ## الاستخدام
 
 ```python
