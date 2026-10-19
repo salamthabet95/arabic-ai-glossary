@@ -3,7 +3,7 @@
     "source": "https://ai.salamthabet.com/glossary.php",
     "license": "CC BY-SA 4.0",
     "updated": "2026-10-19",
-    "count": 1976,
+    "count": 1932,
     "terms": [
         {
             "term": "397B",
@@ -675,14 +675,6 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=anchoring%20effect"
         },
         {
-            "term": "AND",
-            "slug": "and",
-            "type": "concept",
-            "level": "basic",
-            "definition": "AND هو مفهوم منطقي بيدل على الجمع بين شرطين أو أكثر لتوليد نتيجة واحدة، بنسمعه لأنه أساس كل عمليات اتخاذ القرار بالذكاء الاصطناعي.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=AND"
-        },
-        {
             "term": "annotation consistency",
             "slug": "annotation-consistency",
             "type": "metric",
@@ -1006,14 +998,6 @@
             "level": "basic",
             "definition": "هو رقم بين 0 و1 بيقيس قد الموديل شاطر يفرق بين الحالات الصح والغلط، كل ما قرب من 1 كل ما هو أحسن. بنسمع عنه كتير عشان هو من أعدل المقاييس خصوصاً لما البيانات مش متوازنة.",
             "source": "https://ai.salamthabet.com/glossary.php?q=AUC"
-        },
-        {
-            "term": "auction",
-            "slug": "auction",
-            "type": "concept",
-            "level": "advanced",
-            "definition": "auction هو مفهوم بيع أو شراء عن طريق مزايدة، بنشوف الناس يرفعوا أسعارهم لحد ما يلاقوا أعلى عرض، بنستعمله في أسواق البيانات أو الموارد الرقمية.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=auction"
         },
         {
             "term": "audio LLM",
@@ -1461,14 +1445,6 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=BERT"
         },
         {
-            "term": "beta",
-            "slug": "beta",
-            "type": "concept",
-            "level": "advanced",
-            "definition": "beta هو معامل بيتا اللي بنستخدمه لتوازن بين الاستكشاف والاستغلال أو لتعديل توزيع الاحتمالات، بنشوفه كتير في خوارزميات التعلم.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=beta"
-        },
-        {
             "term": "BFCL",
             "slug": "bfcl",
             "type": "concept",
@@ -1669,14 +1645,6 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=branching-based%20rollout"
         },
         {
-            "term": "breakthrough",
-            "slug": "breakthrough",
-            "type": "concept",
-            "level": "advanced",
-            "definition": "يعني إشي جديد وثوري بيغيّر اللعبة كليّاً في مجال معين. بنسمع عنه كتير في الذكاء الاصطناعي عشان كل شوي في اكتشافات جديدة بتقلب المعادلة وتخليك تقول: يا الله، هذا شيء ما فكرنا فيه قبل!",
-            "source": "https://ai.salamthabet.com/glossary.php?q=breakthrough"
-        },
-        {
             "term": "BTE",
             "slug": "bte",
             "type": "concept",
@@ -1851,14 +1819,6 @@
             "level": "advanced",
             "definition": "cascading router هو نموذج بيرتب الاستفسارات على أكتر من طبقة من الروترات، كل وحدة بتقرر إذا بتعالج السؤال أو بتمره للطبقة اللي بعدها. بنستعمله لتوزيع الأحمال وزيادة الفعالية.",
             "source": "https://ai.salamthabet.com/glossary.php?q=cascading%20router"
-        },
-        {
-            "term": "CASE",
-            "slug": "case",
-            "type": "model",
-            "level": "advanced",
-            "definition": "موديل اسمه CASE، بيستخدم تقنيات تعلم عميق لتصنيف أو توليد بيانات معينة. بنسمع عنه لأنه بيقدّم حلول سريعة وفعّالة لمهام معينة",
-            "source": "https://ai.salamthabet.com/glossary.php?q=CASE"
         },
         {
             "term": "case method",
@@ -2054,14 +2014,6 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=cheap-talk%20game"
         },
         {
-            "term": "checklist",
-            "slug": "checklist",
-            "type": "concept",
-            "level": "basic",
-            "definition": "قائمة فحص، بنكتب فيها إشي لازم نتأكد منه قبل ما نكمل شغل، بنستعملها لتقليل الأخطاء وضمان الجودة",
-            "source": "https://ai.salamthabet.com/glossary.php?q=checklist"
-        },
-        {
             "term": "Checkpoint and Restore",
             "slug": "checkpoint-and-restore",
             "type": "concept",
@@ -2093,14 +2045,6 @@
             "level": "advanced",
             "definition": "تحليل الدوائر الكهربائية، بنعمله لنفهم كيف التيار بيمر بين المكوّنات، احنا بنحتاجه للمهندسين والذكاء الاصطناعي اللي بيشتغل على تصميم شواحن",
             "source": "https://ai.salamthabet.com/glossary.php?q=circuit%20analysis"
-        },
-        {
-            "term": "claim",
-            "slug": "claim",
-            "type": "concept",
-            "level": "basic",
-            "definition": "الـ claim هو الادعاء أو الفكرة اللي بنحطها كإثبات بدراسة أو نموذج، بنسمع عنه لأن الباحثين بدهم يحددوا شو بيأكدوا.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=claim"
         },
         {
             "term": "Claim Cards",
@@ -2338,14 +2282,6 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=cold-start"
         },
         {
-            "term": "collaboration",
-            "slug": "collaboration",
-            "type": "concept",
-            "level": "basic",
-            "definition": "التعاون يعني إنه احنا بنشتغل سوا على إشي، بنقاسم الأفكار والموارد عشان نطلع بنتيجة أحسن، وبنسمع عنها لأنه المشاريع الكبيرة ما بتنجح إلا بتعاون الفرق.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=collaboration"
-        },
-        {
             "term": "collaborative computation",
             "slug": "collaborative-computation",
             "type": "concept",
@@ -2384,14 +2320,6 @@
             "level": "advanced",
             "definition": "competitive ratio هو مقياس بيقارن أداء خوارزمية على الإنترنت بأفضل حل ممكن لو كنا نعرف كل البيانات مسبقاً. احنا بنقيس فيه إذا الخوارزمية \"منافسة\" ولا لا.",
             "source": "https://ai.salamthabet.com/glossary.php?q=competitive%20ratio"
-        },
-        {
-            "term": "compiler",
-            "slug": "compiler",
-            "type": "concept",
-            "level": "basic",
-            "definition": "الكمبايلر هو برنامج بيحوّل الكود اللي كتبناه بلغة برمجة للغة الآلة عشان الكمبيوتر يقدر ينفّذها. بنشوفه كلّ يوم لأن كل برنامج بنستعمله لازم يمر بمرحلة التحويل.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=compiler"
         },
         {
             "term": "compiler optimization",
@@ -2528,14 +2456,6 @@
             "level": "advanced",
             "definition": "يعني دراسة شو اللي بصير لما شي يلمس شي تاني، من قوى واحتكاك وحركة. بنسمع عنه لأنه ضروري عشان نفهم كيفية تفاعل الأشياء في الواقع.",
             "source": "https://ai.salamthabet.com/glossary.php?q=contact%20dynamics"
-        },
-        {
-            "term": "container",
-            "slug": "container",
-            "type": "concept",
-            "level": "basic",
-            "definition": "container بالمفهوم التقني هو بيئة معزولة بتشغل فيها التطبيقات أو النماذج عشان تكون مستقلة عن النظام الأساسي. بنستعمله لتسهيل نشر وتشغيل نماذج الذكاء الاصطناعي.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=container"
         },
         {
             "term": "contamination",
@@ -3264,22 +3184,6 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=decoding%20stopping%20set"
         },
         {
-            "term": "decompilation",
-            "slug": "decompilation",
-            "type": "concept",
-            "level": "advanced",
-            "definition": "يعني تحويل الكود المُترجَم (البايناري) اللي بتشتغل فيه المعالجات لكود قابل للقراءة زي Python أو C. بنستخدمها عشان نفهم إشي مش عارفين شو بيعمل أو نتحقق من الأمان.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=decompilation"
-        },
-        {
-            "term": "decompiler",
-            "slug": "decompiler",
-            "type": "concept",
-            "level": "basic",
-            "definition": "أداة بتأخذ كود مكتوب وتحوّله من لغة معقدة لصيغة أسهل نقدر نفهمها، وبتستخدم كتير في تحليل النماذج الذكية وفهم شو بتعمل بالظبط.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=decompiler"
-        },
-        {
             "term": "deep reinforcement learning",
             "slug": "deep-reinforcement-learning",
             "type": "concept",
@@ -3369,14 +3273,6 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=dense%20video%20captioning"
         },
         {
-            "term": "depth",
-            "slug": "depth",
-            "type": "concept",
-            "level": "basic",
-            "definition": "الـdepth هو العمق داخل الموديل، يعني كم طبقة فيه عشان يلتقط تفاصيل أكتر، بنسمع عنه عشان بدنا نماذج أعمق لتقوية الدقة.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=depth"
-        },
-        {
             "term": "depth generation",
             "slug": "depth-generation",
             "type": "concept",
@@ -3455,14 +3351,6 @@
             "level": "advanced",
             "definition": "DFlash هو إطار عمل أو مكتبة لتسريع عمليات الفلاش في نماذج الذكاء الاصطناعي، بيوفر تخزين مؤقت سريع للبيانات. بنستعمله عشان يقلل زمن التدريب.",
             "source": "https://ai.salamthabet.com/glossary.php?q=DFlash"
-        },
-        {
-            "term": "diagnosis",
-            "slug": "diagnosis",
-            "type": "concept",
-            "level": "basic",
-            "definition": "diagnosis يعني عملية فحص النموذج أو النظام لتحديد المشاكل أو الأخطاء، بنستعمله عشان نعرف شو اللي مش شغّال صح",
-            "source": "https://ai.salamthabet.com/glossary.php?q=diagnosis"
         },
         {
             "term": "diagnostic accuracy",
@@ -4253,14 +4141,6 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=encoder-decoder%20architecture"
         },
         {
-            "term": "encryption",
-            "slug": "encryption",
-            "type": "concept",
-            "level": "basic",
-            "definition": "التشفير (encryption) هو تحويل البيانات لرموز ما حدا يقدر يقرأها غير اللي عنده المفتاح، بنستعمله عشان نحمي المعلومات من الاختراق.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=encryption"
-        },
-        {
             "term": "end-to-end",
             "slug": "end-to-end",
             "type": "concept",
@@ -4717,14 +4597,6 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=figure%20of%20merit"
         },
         {
-            "term": "filesystem",
-            "slug": "filesystem",
-            "type": "concept",
-            "level": "basic",
-            "definition": "filesystem هو نظام تنظيم الملفات على الكمبيوتر، يعني بنحط البيانات بملفات ومجلدات عشان نقدر نوصل إلها بسهولة",
-            "source": "https://ai.salamthabet.com/glossary.php?q=filesystem"
-        },
-        {
             "term": "Finch Collection",
             "slug": "finch-collection",
             "type": "dataset",
@@ -4937,14 +4809,6 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=frame-level%20distillation"
         },
         {
-            "term": "framing",
-            "slug": "framing",
-            "type": "concept",
-            "level": "advanced",
-            "definition": "الـ framing هو طريقة بنحدد فيها كيف بنعرض المعلومات أو المشكلة، عشان نفهمها بسهولة وما نضلّوا. بنسمع عنه لأنه بيساعدنا نوجه النماذج لتفكير معين.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=framing"
-        },
-        {
             "term": "framing effect",
             "slug": "framing-effect",
             "type": "concept",
@@ -5031,14 +4895,6 @@
             "level": "advanced",
             "definition": "Future-frame L1 هو مقياس بيقيس الفرق بين الإطار المتوقع والإطار الحقيقي باستخدام متوسط الخطأ المطلق، عشان نقيم جودة التنبؤات.",
             "source": "https://ai.salamthabet.com/glossary.php?q=Future-frame%20L1"
-        },
-        {
-            "term": "fuzzing",
-            "slug": "fuzzing",
-            "type": "concept",
-            "level": "basic",
-            "definition": "fuzzing هو طريقة اختبار بنحط فيها مدخلات عشوائية أو غير متوقعة على البرنامج لنشوف إذا بيصير فيه أخطاء أو عطل. بنستعمله عشان نكتشف ثغرات الأمان قبل ما يلاقيها الهاكرز.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=fuzzing"
         },
         {
             "term": "fuzzy logic",
@@ -5135,14 +4991,6 @@
             "level": "advanced",
             "definition": "gated spatial pooler مفهوم بيحكم على كيف بنجمع المعلومات المكانية في الشبكة العصبية، يعني بيختار وين يركز الانتباه عالأماكن المهمة؛ بنسمعه لأنه يحسّن دقة النموذج على الصور.",
             "source": "https://ai.salamthabet.com/glossary.php?q=gated%20spatial%20pooler"
-        },
-        {
-            "term": "gauge",
-            "slug": "gauge",
-            "type": "concept",
-            "level": "basic",
-            "definition": "gauge مفهوم عام بنستعمله لقياس أو ضبط إشي، سواء كان حجم، ضغط أو أداء نموذج، بنسميه كمان مقياس عشان نعرف إذا الشغلة شغالة صح.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=gauge"
         },
         {
             "term": "Gaussian",
@@ -5287,14 +5135,6 @@
             "level": "basic",
             "definition": "تأكد إن الشكل والمسافات بين العناصر تظل ثابتة عبر الإطارات أو المشاهد، مش لازم يتغيّروا عشوائياً",
             "source": "https://ai.salamthabet.com/glossary.php?q=geometric%20consistency"
-        },
-        {
-            "term": "geometry",
-            "slug": "geometry",
-            "type": "concept",
-            "level": "basic",
-            "definition": "geometry بنحكي فيها عن شكل الفضاء اللي فيه المتجهات أو النماذج، كيف بترتب وتتحرك",
-            "source": "https://ai.salamthabet.com/glossary.php?q=geometry"
         },
         {
             "term": "geometry consistency",
@@ -5836,28 +5676,12 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=Harness-Aware%20Training%20%28HAT%29"
         },
         {
-            "term": "hash",
-            "slug": "hash",
-            "type": "concept",
-            "level": "advanced",
-            "definition": "\"hash\" هو دالة بتحول أي بيانات لسلسلة ثابتة، بنستعمله لتخزين أو التحقق من سلامة البيانات، احنا بنشوفه كتير بالأمان والبلوك تشين.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=hash"
-        },
-        {
             "term": "Hash Decoder",
             "slug": "hash-decoder",
             "type": "model",
             "level": "advanced",
             "definition": "Hash Decoder نموذج بيحوّل الهاشات لتمثيلات مفهومة، يعني بدنا نطلع معلومات من رموز مختصرة، وبدنا نستخدمه عشان نسترجع البيانات بسرعة.",
             "source": "https://ai.salamthabet.com/glossary.php?q=Hash%20Decoder"
-        },
-        {
-            "term": "hashing",
-            "slug": "hashing",
-            "type": "concept",
-            "level": "basic",
-            "definition": "hashing عملية تحويل البيانات لإشارة ثابتة (hash) لتسهيل التخزين والبحث، بنستعملها عشان نتأكد إن الإشي متطابق مش محتاج مقارنة كاملة.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=hashing"
         },
         {
             "term": "Hazard Capability Graph",
@@ -6074,14 +5898,6 @@
             "level": "basic",
             "definition": "Hit@1 مقياس (metric) بيقيس إذا النموذج قدر يجيب النتيجة الصحيحة بالمركز الأول، بنقيس فيه جودة الترتيب عشان نعرف إذا النموذج شغّال تمام.",
             "source": "https://ai.salamthabet.com/glossary.php?q=Hit%401"
-        },
-        {
-            "term": "honesty",
-            "slug": "honesty",
-            "type": "concept",
-            "level": "basic",
-            "definition": "مفهوم بيقيس إذا النموذج بيقول الحقيقة أو بيخترع إجابات، مهم عشان نضمن مصداقية النماذج",
-            "source": "https://ai.salamthabet.com/glossary.php?q=honesty"
         },
         {
             "term": "Horn-clause",
@@ -6404,14 +6220,6 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=independence%20number"
         },
         {
-            "term": "index",
-            "slug": "index",
-            "type": "concept",
-            "level": "basic",
-            "definition": "الـ index هو بنية بيانات بنستعملها لتسريع البحث والوصول للبيانات، احنا بنحط إشي مرتب عشان نلاقيه بسرعة.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=index"
-        },
-        {
             "term": "inference",
             "slug": "inference",
             "type": "concept",
@@ -6474,14 +6282,6 @@
             "level": "advanced",
             "definition": "هيدا مفهوم بيقيس قديش الإشي اللي منضيفه للبيانات بيقلل الشك أو بيزيد الفهم، بنستعمله عشان نختار أسئلة أو تجارب بتعطي أكتر معلومة ممكنة",
             "source": "https://ai.salamthabet.com/glossary.php?q=information-gain"
-        },
-        {
-            "term": "infrastructure",
-            "slug": "infrastructure",
-            "type": "concept",
-            "level": "advanced",
-            "definition": "infrastructure هو الأساسيات التقنية اللي بتدعم تشغيل نماذج الذكاء الاصطناعي، مثل السرفرات والبيانات، بدنا إياها عشان ما نقدرش نشغّل أي شي من غيرها",
-            "source": "https://ai.salamthabet.com/glossary.php?q=infrastructure"
         },
         {
             "term": "inpainting",
@@ -6610,14 +6410,6 @@
             "level": "advanced",
             "definition": "هو أسلوب بيخلي الموديل يتبادل بين التفكير خطوة خطوة وبين إنتاج الجواب بنفس الوقت، بدل ما يكمّل كل تفكيره وبعدين يجاوب. بنسمع عنه لأنه بيحسّن دقة الإجابات على المسائل الصعبة.",
             "source": "https://ai.salamthabet.com/glossary.php?q=interleaved%20reasoning"
-        },
-        {
-            "term": "intermediate",
-            "slug": "intermediate",
-            "type": "concept",
-            "level": "basic",
-            "definition": "الـ intermediate يعني مرحلة وسط بين البداية والنهاية، يعني مش أول خطوة ولا آخر خطوة، بنقابلها بالمشاريع اللي بدنا نتطور فيها شوية",
-            "source": "https://ai.salamthabet.com/glossary.php?q=intermediate"
         },
         {
             "term": "intermediate representation",
@@ -10242,14 +10034,6 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=policy%20violation"
         },
         {
-            "term": "pop",
-            "slug": "pop",
-            "type": "concept",
-            "level": "advanced",
-            "definition": "pop اختصار لـ population أو ممكن يعني popular، بس في الذكاء الاصطناعي غالباً بنستعمله لوصف مجموعة الأفراد أو الحلول اللي بنجربها. بنسمع عنه عشان هو جزء من خوارزميات التطور.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=pop"
-        },
-        {
             "term": "POS tagging",
             "slug": "pos-tagging",
             "type": "concept",
@@ -10613,14 +10397,6 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=procedural%20similarity"
         },
         {
-            "term": "profit",
-            "slug": "profit",
-            "type": "metric",
-            "level": "basic",
-            "definition": "هو مقياس بيقيس الأرباح أو الفائدة اللي بنطلع فيها من المشروع أو النموذج، بنستعمله عشان نعرف إذا الشغل يجيب نتيجة.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=profit"
-        },
-        {
             "term": "Program-as-Weights (PAW)",
             "slug": "program-as-weights-paw",
             "type": "model",
@@ -10790,14 +10566,6 @@
             "level": "advanced",
             "definition": "يعني من وين جيت هاي المعلومة؟ مين عملها؟ وكيف وصلت لهون؟ زي شجرة النسب بس للبيانات. بنحتاجه عشان نتأكد إن المعلومة موثوقة ونعرف نتتبع أي غلطة لأصلها.",
             "source": "https://ai.salamthabet.com/glossary.php?q=provenance"
-        },
-        {
-            "term": "proverb",
-            "slug": "proverb",
-            "type": "dataset",
-            "level": "basic",
-            "definition": "مجموعة بيانات فيها أمثال شعبية من لغات مختلفة، بنستعملها لتدريب نماذج تفهم الثقافة واللغة.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=proverb"
         },
         {
             "term": "Proximal Policy Optimization",
@@ -10985,14 +10753,6 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=Qwen-Image-SciIR"
         },
         {
-            "term": "R^3-SQL",
-            "slug": "r-3-sql",
-            "type": "model",
-            "level": "advanced",
-            "definition": "R^3-SQL هو نموذج بيركّز على Retrieval, Reasoning, and Rewriting للـ SQL، بنستعمله عشان يطلع إجابات أدق من استفسارات قاعدة البيانات",
-            "source": "https://ai.salamthabet.com/glossary.php?q=R%5E3-SQL"
-        },
-        {
             "term": "R-SWA",
             "slug": "r-swa",
             "type": "concept",
@@ -11074,14 +10834,6 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=Randomized%20Smoothing"
         },
         {
-            "term": "rank",
-            "slug": "rank",
-            "type": "concept",
-            "level": "basic",
-            "definition": "الـ rank هو ترتيب أو مرتبة إشي بنقيس فيه أهميته أو قوته بين مجموعة، بنسمعه عشان بدنا نعرف مين الفوق ومين تحت",
-            "source": "https://ai.salamthabet.com/glossary.php?q=rank"
-        },
-        {
             "term": "rank-aware hyperbolic alignment",
             "slug": "rank-aware-hyperbolic-alignment",
             "type": "concept",
@@ -11096,14 +10848,6 @@
             "level": "advanced",
             "definition": "الـRank-KL هو مفهوم بيستعمل خسارة الـKullback-Leibler لتدريب نماذج الترتيب، بيساعد النموذج يفرق بين الترتيب الصح واللي مش صح",
             "source": "https://ai.salamthabet.com/glossary.php?q=Rank-KL"
-        },
-        {
-            "term": "rating",
-            "slug": "rating",
-            "type": "metric",
-            "level": "basic",
-            "definition": "rating هو مقياس لتقييم أداء نموذج أو خدمة، احنا بنستعمله عشان نقارن بين حلول مختلفة ونختار الأنسب",
-            "source": "https://ai.salamthabet.com/glossary.php?q=rating"
         },
         {
             "term": "rationale generation",
@@ -11334,14 +11078,6 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=red-teaming"
         },
         {
-            "term": "redundancy",
-            "slug": "redundancy",
-            "type": "concept",
-            "level": "basic",
-            "definition": "redundancy يعني وجود معلومات مكررة أو زائدة في البيانات أو النموذج. بنحاول نقللها لأنه بتزيد حجم التخزين وبتبطئ الأداء، وبدنا نضمن إنه كل جزء من البيانات له فائدة حقيقية.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=redundancy"
-        },
-        {
             "term": "Reference Context Packing",
             "slug": "reference-context-packing",
             "type": "concept",
@@ -11477,14 +11213,6 @@
             "level": "advanced",
             "definition": "REPOCOD هو مجموعة بيانات بتجمع أكواد برمجية من مستودعات مفتوحة المصدر، بنستعملها لتدريب نماذج توليد الكود وتحليل الأنماط البرمجية.",
             "source": "https://ai.salamthabet.com/glossary.php?q=REPOCOD"
-        },
-        {
-            "term": "repository",
-            "slug": "repository",
-            "type": "concept",
-            "level": "basic",
-            "definition": "repository هو مخزن أو مستودع للبيانات أو الكود، بنستخدمه عشان ننظم كل إشي ونرجعه بسهولة.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=repository"
         },
         {
             "term": "representation",
@@ -12068,14 +11796,6 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=Rubric%E2%80%91RL"
         },
         {
-            "term": "rule",
-            "slug": "rule",
-            "type": "concept",
-            "level": "advanced",
-            "definition": "قانون أو قاعدة بسيطة بنطبقها على البيانات أو النموذج لتوجيه السلوك، احنا بنستعمله عشان نقلل الأخطاء ونحافظ على استقرار التدريب.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=rule"
-        },
-        {
             "term": "rule hybridization",
             "slug": "rule-hybridization",
             "type": "concept",
@@ -12092,28 +11812,12 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=rule%20pool"
         },
         {
-            "term": "rulebook",
-            "slug": "rulebook",
-            "type": "concept",
-            "level": "advanced",
-            "definition": "rulebook هو مجموعة القواعد أو السياسات اللي بنطبقها على الأنظمة الذكية، بنستخدمه عشان نتأكد إنه التصرفات بتلتزم بالمعايير المطلوبة.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=rulebook"
-        },
-        {
             "term": "RULER",
             "slug": "ruler",
             "type": "dataset",
             "level": "advanced",
             "definition": "RULER هو مفهوم بيقيس مدى دقة النماذج في تقدير القواعد أو القوانين المتعلمة. بنسمع عنه عشان بدنا نعرف إذا النموذج بيفهم القواعد مش بس يتذكر.",
             "source": "https://ai.salamthabet.com/glossary.php?q=RULER"
-        },
-        {
-            "term": "runtime",
-            "slug": "runtime",
-            "type": "concept",
-            "level": "basic",
-            "definition": "runtime هو الوقت اللي بيشتغل فيه البرنامج أو الموديل، يعني لما بنشغّله بنقيس الأداء عالـ runtime.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=runtime"
         },
         {
             "term": "RVQ",
@@ -12384,14 +12088,6 @@
             "level": "basic",
             "definition": "مجموعة بيانات ضخمة من الصور والفيديوهات اللي بتستعمل لتدريب نماذج التعلم الذاتي، بنستفيد منها عشان نحسّن الفهم البصري",
             "source": "https://ai.salamthabet.com/glossary.php?q=SEER"
-        },
-        {
-            "term": "segment",
-            "slug": "segment",
-            "type": "concept",
-            "level": "basic",
-            "definition": "\"segment\" هو إشي بنقسم فيه البيانات لقطع أصغر، عشان احنا نقدر نتعامل مع كل جزء بسهولة، بنسمع عنه لأنه بيساعدنا نعمل معالجة أدق.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=segment"
         },
         {
             "term": "segmentation",
@@ -13089,14 +12785,6 @@
             "level": "advanced",
             "definition": "slot recovery هو مقياس بيقيس قدرة النموذج على استرجاع العناصر المهمة (slots) من نص أو حوار، زي الأسماء أو التواريخ. بنسمع عنه عشان بنحتاج نعرف إذا النموذج يلتقط المعلومات الصح.",
             "source": "https://ai.salamthabet.com/glossary.php?q=slot%20recovery"
-        },
-        {
-            "term": "slots",
-            "slug": "slots",
-            "type": "concept",
-            "level": "advanced",
-            "definition": "تخيلي إشي زي خانات أو جيوب في الذاكرة، كل خانة بتحفظ معلومات عن شي معين في الصورة أو المشهد، وهاد بيساعد النموذج يفصل بين الأشياء المختلفة بشكل ذكي ومنظم.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=slots"
         },
         {
             "term": "slow-fast architecture",
@@ -14790,14 +14478,6 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=Tree-sitter"
         },
         {
-            "term": "triage",
-            "slug": "triage",
-            "type": "model",
-            "level": "basic",
-            "definition": "triage هو عملية فرز الحالات حسب الأولوية، بنستخدمه بالطب والأنظمة الذكية لتحديد إشي لازم يتعالج أولاً.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=triage"
-        },
-        {
             "term": "Trial Parallelism",
             "slug": "trial-parallelism",
             "type": "concept",
@@ -14806,28 +14486,12 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=Trial%20Parallelism"
         },
         {
-            "term": "trigger",
-            "slug": "trigger",
-            "type": "concept",
-            "level": "basic",
-            "definition": "الـtrigger هو الحدث اللي بيفعل فعل أو عملية داخل النظام، مثلاً لما يجي سؤال بيشتغل الـtrigger لتوليد الرد",
-            "source": "https://ai.salamthabet.com/glossary.php?q=trigger"
-        },
-        {
             "term": "Triton",
             "slug": "triton",
             "type": "model",
             "level": "advanced",
             "definition": "Triton هو نظام من NVIDIA بيشغّل نماذج الذكاء الاصطناعي على السحابة أو على سيرفراتنا بسرعة، بنستفيد منه عشان نسرّع الاستدلال.",
             "source": "https://ai.salamthabet.com/glossary.php?q=Triton"
-        },
-        {
-            "term": "trust",
-            "slug": "trust",
-            "type": "concept",
-            "level": "basic",
-            "definition": "الموثوقية يعني إنه إحنا بنحس بالأمان إنه النظام بيعمل صح ومش بيخربطنا، بدنا نثق فيه قبل ما نعتمد عليه.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=trust"
         },
         {
             "term": "trusted execution environment",
@@ -15751,14 +15415,6 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=word%20error%20rate"
         },
         {
-            "term": "workflow",
-            "slug": "workflow",
-            "type": "concept",
-            "level": "basic",
-            "definition": "مجموعة الخطوات المتتابعة اللي بنمشي فيها عشان ننجز إشي، بنستعمله عشان نضمن إن الشغل منظم وما فيه خلل",
-            "source": "https://ai.salamthabet.com/glossary.php?q=workflow"
-        },
-        {
             "term": "Workflow memory",
             "slug": "workflow-memory",
             "type": "concept",
@@ -15957,14 +15613,6 @@
             "level": "advanced",
             "definition": "موديل اسمه β-OPSD بيستهدف تحسين أداء الأنظمة في توزيع الإشارات أو اتخاذ القرار، بنسمع عنه لأنه يعطي نتائج دقيقة ببيئات معقدة",
             "source": "https://ai.salamthabet.com/glossary.php?q=%CE%B2-OPSD"
-        },
-        {
-            "term": "τ^2-bench",
-            "slug": "2-bench",
-            "type": "dataset",
-            "level": "advanced",
-            "definition": "τ^2-bench هو اسم مجموعة بيانات (dataset) بتجمع اختبارات قياسية لتقييم نماذج الذكاء الاصطناعي على مهام معينة. بنسمع عنه لأنه بيوفر معيار موحد للمقارنة بين النماذج.",
-            "source": "https://ai.salamthabet.com/glossary.php?q=%CF%84%5E2-bench"
         },
         {
             "term": "τ-Emotion-Bench",
