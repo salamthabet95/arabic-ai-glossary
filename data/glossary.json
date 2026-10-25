@@ -2,9 +2,17 @@
     "name": "قاموس الذكاء الاصطناعي بالعربي",
     "source": "https://ai.salamthabet.com/glossary.php",
     "license": "CC BY-SA 4.0",
-    "updated": "2026-10-19",
-    "count": 2160,
+    "updated": "2026-10-25",
+    "count": 2247,
     "terms": [
+        {
+            "term": "2WikiMultihop",
+            "slug": "2wikimultihop",
+            "type": "dataset",
+            "level": "basic",
+            "definition": "مجموعة بيانات (dataset) بتجمع معلومات من مقالات ويكيبيديا لتدريب نماذج على الاستدلال المتعدد الخطوات (multihop)، يعني لازم النموذج يربط بين معلومات من مصادر مختلفة، بنسمع عنها لأنها بتساعد على تحسين قدرات الفهم والاستدلال.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=2WikiMultihop"
+        },
         {
             "term": "397B",
             "slug": "397b",
@@ -156,6 +164,14 @@
             "level": "advanced",
             "definition": "الـabductive reasoning هو نوع من التفكير بنحاول فيه نستنتج أفضل تفسير للبيانات المتوفرة، مش بس نستنتج منطقياً لكن بنحاول نلاقي الفرضية الأقرب للواقع",
             "source": "https://ai.salamthabet.com/glossary.php?q=abductive%20reasoning"
+        },
+        {
+            "term": "abstraction",
+            "slug": "abstraction",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "abstraction معناها تبسيط أو تجريد فكرة معقدة لتكون أسهل للفهم، بنستخدمها لنختصر تفاصيل كثيرة ونركز على الجوانب الأساسية. بنسمع عنها لأنه كل ما بنصمم نموذج AI بنحتاج نختصر المعلومات لنقدر نتعامل معها بسهولة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=abstraction"
         },
         {
             "term": "academic integrity",
@@ -326,6 +342,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=adaptive%20multi-granularity%20distillation"
         },
         {
+            "term": "adaptive workflow orchestration",
+            "slug": "adaptive-workflow-orchestration",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "adaptive workflow orchestration هو مفهوم بيشوف كيف ندير وننسق خطوات العمل بشكل ذكي ويتعدل حسب الظروف والنتائج. بنسمعه لأنه بيسهل تشغيل الأنظمة الكبيرة وتعديلها بسرعة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=adaptive%20workflow%20orchestration"
+        },
+        {
             "term": "ADC",
             "slug": "adc",
             "type": "concept",
@@ -342,6 +366,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=advantage%20estimator"
         },
         {
+            "term": "adversarial",
+            "slug": "adversarial",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "مصطلح بنستعمله لما يكون في هجمات أو اختبارات بتحاول تخدع نموذج الذكاء الاصطناعي، بنسمع عنه لأنه مهم نعرف كيف النموذج ممكن يوقع تحت هالضغوط.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=adversarial"
+        },
+        {
             "term": "adversarial attack",
             "slug": "adversarial-attack",
             "type": "concept",
@@ -356,6 +388,14 @@
             "level": "advanced",
             "definition": "هالطريقة بتفرض على النموذج يواجه هجمات خصمية أثناء التدريب، فبيصير أقوى وما بيخاف من الأخطاء، بنسمع عنها عشان بتحسّن الأمان والموثوقية",
             "source": "https://ai.salamthabet.com/glossary.php?q=Adversarial%20Forcing"
+        },
+        {
+            "term": "adversarial generation",
+            "slug": "adversarial-generation",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "adversarial generation هو مفهوم بيولد أمثلة صعبة أو مضللة لتحدي النماذج، بنستعمله عشان نختبر مدى صمود النموذج ضد الهجمات.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=adversarial%20generation"
         },
         {
             "term": "Adversarial Heuristic Learning",
@@ -561,6 +601,22 @@
             "level": "advanced",
             "definition": "agentic memory يعني ذاكرة للوكيل الذكي، يعني كيف الوكيل يتذكر تجاربه ويتعلم منها، بنسمعه لأنه بيسمح للروبوتات أو الأنظمة تتصرف بذكاء أكتر وتتكيف مع المواقف",
             "source": "https://ai.salamthabet.com/glossary.php?q=agentic%20memory"
+        },
+        {
+            "term": "agentic on-policy distillation",
+            "slug": "agentic-on-policy-distillation",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "agentic on-policy distillation مفهوم بيخلّي الـ agent يتعلم من تصرفاته الحالية (on-policy) ويقلدها بنموذج أصغر، بنستعمله لتقليل التعقيد وتحسين الكفاءة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=agentic%20on-policy%20distillation"
+        },
+        {
+            "term": "agentic orchestration",
+            "slug": "agentic-orchestration",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "المفهوم يعني تنظيم وتنسيق الوكّالات الذكية بحيث كل وحدة بتشتغل بذكاء وتتعامل مع غيرها، بنستعمله عشان نخلق أنظمة معقّدة بتتصرف بحكم ذاتي. بنسمع عنه لأنه بيفتح باب لتطبيقات أكتر تعقيداً.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=agentic%20orchestration"
         },
         {
             "term": "agentic post-training",
@@ -832,6 +888,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=allocentric%20novel-view%20generator"
         },
         {
+            "term": "ALLOT",
+            "slug": "allot",
+            "type": "model",
+            "level": "advanced",
+            "definition": "ALLOT نموذج بيركّز على توزيع الموارد بشكل ذكي داخل الشبكة، يعني بيفضل يخصص الانتباه للجزء المهم، بنستخدمه لتحسين كفاءة التدريب والت inference.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=ALLOT"
+        },
+        {
             "term": "Almgren-Chriss",
             "slug": "almgren-chriss",
             "type": "model",
@@ -1090,6 +1154,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=AST%20mean%20similarity"
         },
         {
+            "term": "ASTOR",
+            "slug": "astor",
+            "type": "model",
+            "level": "advanced",
+            "definition": "هالنموذج هو Adaptive Semantic Transformer for Object Retrieval، بيساعدنا نلقى أشياء بصور بناءً على وصف نصي، بنسمع عنه لأنه بيحسّن البحث البصري",
+            "source": "https://ai.salamthabet.com/glossary.php?q=ASTOR"
+        },
+        {
             "term": "asymmetric attention",
             "slug": "asymmetric-attention",
             "type": "concept",
@@ -1326,6 +1398,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=Audio-Visual-Skills"
         },
         {
+            "term": "audiovisual grounding",
+            "slug": "audiovisual-grounding",
+            "type": "concept",
+            "level": "basic",
+            "definition": "مصطلح يعني ربط النص بالصوت والصورة، يعني كيف النموذج بفهم العلاقة بين الكلام واللقطات. بنسمع عنه لأنه بساعدنا نطور أنظمة تفهم الفيديوهات زي البشر.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=audiovisual%20grounding"
+        },
+        {
             "term": "AUROC",
             "slug": "auroc",
             "type": "metric",
@@ -1366,13 +1446,15 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=autograd"
         },
         {
-            "term": "Autonomous Agent",
-            "slug": "autonomous-agent",
+            "term": "autonomous agents",
+            "slug": "autonomous-agents",
             "type": "concept",
-            "level": "core",
-            "definition": "وكيل مستقل — نظام ذكاء اصطناعي بيحقّق هدفاً بنفسه عبر حلقة تخطيط-تنفيذ-تصحيح بأقل تدخّل بشري",
-            "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-an-autonomous-agent",
-            "source": "https://ai.salamthabet.com/glossary.php?q=Autonomous%20Agent"
+            "level": "basic",
+            "definition": "هني نماذج أو برامج بتقدر تتصرف لحالها وتاخد قرارات بدون تدخل بشري، بنسمع عنهم لأنه بيقربوا من فكرة الروبوتات الذكية المستقلة.",
+            "aliases": [
+                "Autonomous Agent"
+            ],
+            "source": "https://ai.salamthabet.com/glossary.php?q=autonomous%20agents"
         },
         {
             "term": "autoregressive",
@@ -1437,6 +1519,14 @@
             "level": "advanced",
             "definition": "هو طريقة تدريب النماذج اللغوية إنه يتعلموا يكتبوا النص كلمة بكلمة بناءً على اللي قبله، بنسميه autoregressive pretraining عشان يقدروا يولدوا جمل منطقية.",
             "source": "https://ai.salamthabet.com/glossary.php?q=autoregressive%20pretraining"
+        },
+        {
+            "term": "autoregressive video model",
+            "slug": "autoregressive-video-model",
+            "type": "model",
+            "level": "advanced",
+            "definition": "موديل بيولد فيديو خطوة بخطوة اعتماداً على الإطارات السابقة، يعني كل فريم بيتنبأ فيه بناءً على اللي قبله. بنسمع عنه لأنه بيسمح بإنشاء فيديوهات واقعية أو تعديلها بسهولة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=autoregressive%20video%20model"
         },
         {
             "term": "autoscaling",
@@ -1925,6 +2015,22 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=block-causal%20conditioning"
         },
         {
+            "term": "block-sparse attention",
+            "slug": "block-sparse-attention",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "block-sparse attention هو طريقة انتباه بتقسم المصفوفة إلى كتل وتخلي بعضها نادر، لتقليل حسابات النموذج وزيادة السرعة، بنشوفه كتير بالموديلات الكبيرة لتقليل التكلفة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=block-sparse%20attention"
+        },
+        {
+            "term": "block-wise sparse attention",
+            "slug": "block-wise-sparse-attention",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "طريقة انتباه بتعتمد على تقسيم البيانات لكتل وتطبيق انتباه خفيف على كل كتلة، يعني ما بدنا نحسب كل علاقة مع كل وحدة. بنستعمله لتسريع التدريب على بيانات ضخمة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=block-wise%20sparse%20attention"
+        },
+        {
             "term": "blocking mechanism",
             "slug": "blocking-mechanism",
             "type": "concept",
@@ -2061,6 +2167,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=cache%20admission"
         },
         {
+            "term": "cache policy",
+            "slug": "cache-policy",
+            "type": "concept",
+            "level": "basic",
+            "definition": "سياسة الcache بتحدد كيف ومنين بنخزن البيانات عالـmemory لحتى نسرّع الوصول للبيانات، بنسمع عنها لأنّها بتقليل وقت الاستجابة وتخفّف الحمل على السيرفر.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=cache%20policy"
+        },
+        {
             "term": "cached inference",
             "slug": "cached-inference",
             "type": "concept",
@@ -2107,6 +2221,14 @@
             "level": "advanced",
             "definition": "هاي مجموعة بيانات مبنية على محادثات تليفونية حقيقية مع قواعد وإرشادات محددة، بنستخدمها عشان ندرّب نماذج تفهم كيف تتصرف صح في سيناريوهات خدمة العملاء.",
             "source": "https://ai.salamthabet.com/glossary.php?q=Call%20Playbook"
+        },
+        {
+            "term": "callgraph",
+            "slug": "callgraph",
+            "type": "concept",
+            "level": "basic",
+            "definition": "مصطلح بيشير لخريطة أو رسم يوضح كيف الدوال أو الوظائف داخل برنامج بتستدعي بعض. بنحتاجه لنفهم تدفق التنفيذ ونحسن الأداء.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=callgraph"
         },
         {
             "term": "camera conditioning",
@@ -2165,6 +2287,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=CARVE"
         },
         {
+            "term": "cascading",
+            "slug": "cascading",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "cascading هو مفهوم تمرير المخرجات من خطوة لتانية بشكل متسلسل، بنشوفه عشان بنقدر نبني نماذج أعمق وتتعلم من الأخطاء خطوة بخطوة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=cascading"
+        },
+        {
             "term": "cascading router",
             "slug": "cascading-router",
             "type": "model",
@@ -2187,6 +2317,14 @@
             "level": "advanced",
             "definition": "causal distillation طريقة بنقل المعرفة من موديل كبير لموديل أصغر بطريقة تحافظ على التسلسل الزمني، بنستعملها عشان نسرّع التنبؤات بدون ما نفقد الدقة.",
             "source": "https://ai.salamthabet.com/glossary.php?q=causal%20distillation"
+        },
+        {
+            "term": "causal graph algorithms",
+            "slug": "causal-graph-algorithms",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "causal graph algorithms هي خوارزميات بتحلل العلاقات السببية بين المتغيّرات على شكل رسم بياني، بنستعملها لنفهم كيف حدث شي بيأثر على شي تاني.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=causal%20graph%20algorithms"
         },
         {
             "term": "causal inference",
@@ -2219,6 +2357,14 @@
             "level": "advanced",
             "definition": "يعني إنه بنحدّد وين وامتى بيصير السبب والنتيجة بالبيانات، بنستعمله عشان نفهم العلاقة السببية بين الأحداث، وبنسمع عنه لأنه بساعدنا نبني نماذج AI تفهم كيف إشي بيأثر على إشي تاني",
             "source": "https://ai.salamthabet.com/glossary.php?q=causal%20localization"
+        },
+        {
+            "term": "causal memory predictor",
+            "slug": "causal-memory-predictor",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "causal memory predictor هو مفهوم بيحكي عن توقع الذاكرة بناءً على السبب والنتيجة، بنستعمله لتوقع كيف رح يتذكر الموديل معلومات سابقة بناءً على السياق.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=causal%20memory%20predictor"
         },
         {
             "term": "causal pretraining",
@@ -2399,6 +2545,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=Checkpoint%20and%20Restore"
         },
         {
+            "term": "Chinese Remainder Theorem",
+            "slug": "chinese-remainder-theorem",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "Chinese Remainder Theorem هو مفهوم رياضي بيحل أنظمة معادلات باقي القسمة، بنسمع عنه لأنه بيساعد بنماذج AI بحل مشاكل تجميع معلومات من مصادر مختلفة بطريقة رياضية.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=Chinese%20Remainder%20Theorem"
+        },
+        {
             "term": "Chinese Room",
             "slug": "chinese-room",
             "type": "concept",
@@ -2430,6 +2584,14 @@
             "level": "basic",
             "definition": "CIELAB هو مقياس لون بيقيس الفرق بين الألوان بطريقة دقيقة، بنستعمله عشان نتأكد إن الصور أو الفيديوهات بتظهر بألوان صحيحة ومطابقة للواقع",
             "source": "https://ai.salamthabet.com/glossary.php?q=CIELAB"
+        },
+        {
+            "term": "circuit",
+            "slug": "circuit",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "circuit يعني طريقة ربط مكوّنات الذكاء الاصطناعي مع بعض لتشكّل شبكة، بنسمع عنه لأنه بيساعدنا نفهم كيف المعلومات بتنتقل وتتحول داخل النموذج.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=circuit"
         },
         {
             "term": "circuit analysis",
@@ -2724,6 +2886,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=colored%20tokens"
         },
         {
+            "term": "COMET-GRPO",
+            "slug": "comet-grpo",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "COMET-GRPO هو مفهوم بيستخدم نماذج لتوليد توقعات الأحداث المستقبلية بناءً على سياق معين، بنسمعه لأنه بيفيدنا بالتخطيط والاستباق.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=COMET-GRPO"
+        },
+        {
             "term": "competitive ratio",
             "slug": "competitive-ratio",
             "type": "concept",
@@ -2740,12 +2910,28 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=compiler%20optimization"
         },
         {
+            "term": "COMPL-AI",
+            "slug": "compl-ai",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "مفهوم COMPL-AI بيشير لتقنية تكامل الذكاء الاصطناعي مع الأنظمة الموجودة، بنسمعه لأنه بيسهل دمج القدرات الذكية ضمن التطبيقات اليومية.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=COMPL-AI"
+        },
+        {
             "term": "compositional generalization",
             "slug": "compositional-generalization",
             "type": "concept",
             "level": "advanced",
             "definition": "هالمفهوم بيحكي عن قدرة النموذج يفهم تركيبات جديدة من الأشياء اللي تعلّمها قبل، يعني يقدر يطبّق القواعد على تركيبات ما شافها. بنسمع عنه عشان بنحتاج نماذج تفهم اللغة أو الكود بطريقة أعمق.",
             "source": "https://ai.salamthabet.com/glossary.php?q=compositional%20generalization"
+        },
+        {
+            "term": "compute budget",
+            "slug": "compute-budget",
+            "type": "metric",
+            "level": "advanced",
+            "definition": "هو مقدار الموارد الحوسبية (CPU, GPU, RAM) المخصص لمهمة أو مشروع، بنقيسه كميزانية عشان ما نتجاوز حدود التكلفة أو الوقت، بنسمع عنه لأنّ كل مشروع AI له حدود ميزانية لازم نلتزم فيها.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=compute%20budget"
         },
         {
             "term": "Computer Vision",
@@ -3292,6 +3478,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=Cross-Conditional%20Reconstruction"
         },
         {
+            "term": "cross-entropy loss",
+            "slug": "cross-entropy-loss",
+            "type": "metric",
+            "level": "basic",
+            "definition": "مقياس خسارة بيقيس الفرق بين التوقعات والنتائج الفعلية، يعني بنقيس قديش النموذج غلط. بنستعمله لتدريب النماذج وتحسين الدقة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=cross-entropy%20loss"
+        },
+        {
             "term": "Cross-Expert Wavefront Pipelining",
             "slug": "cross-expert-wavefront-pipelining",
             "type": "concept",
@@ -3540,6 +3734,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=DAPR"
         },
         {
+            "term": "DAR-MGSM",
+            "slug": "dar-mgsm",
+            "type": "dataset",
+            "level": "advanced",
+            "definition": "DAR-MGSM هو مجموعة بيانات (dataset) بتحتوي على نصوص ومقاطع صوتية لتدريب نماذج الفهم اللغوي، بنسمع عنها لأنها متنوّعة وبتغطي لهجات مختلفة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=DAR-MGSM"
+        },
+        {
             "term": "Data Augmentation",
             "slug": "data-augmentation",
             "type": "concept",
@@ -3727,6 +3929,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=decoding%20stopping%20set"
         },
         {
+            "term": "Deep Fusion Memory",
+            "slug": "deep-fusion-memory",
+            "type": "model",
+            "level": "advanced",
+            "definition": "Deep Fusion Memory هو موديل بيجمع بين ذاكرة طويلة وقصيرة المدى بطريقة ذكية، بنستعمله عشان يحسن استرجاع المعلومات ويقلل النسيان.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=Deep%20Fusion%20Memory"
+        },
+        {
             "term": "deep reinforcement learning",
             "slug": "deep-reinforcement-learning",
             "type": "concept",
@@ -3886,6 +4096,14 @@
             "level": "advanced",
             "definition": "يعني القدرة على التعامل الدقيق والماهر مع الأشياء، مثل قبضة اليد الروبوتية اللي بتقدر تمسك الأشياء الدقيقة وتتحكم فيها بمهارة عالية.",
             "source": "https://ai.salamthabet.com/glossary.php?q=dexterous%20manipulation"
+        },
+        {
+            "term": "dFast",
+            "slug": "dfast",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "dFast هو مفهوم بيحكي عن تسريع عمليات التدريب أو الاستدلال باستخدام تقنيات توزيع أو تحسينات خوارزمية. بنسمعه لأنه بقلل الوقت والموارد المطلوبة لتشغيل النماذج الكبيرة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=dFast"
         },
         {
             "term": "DFlash",
@@ -4766,6 +4984,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=end-to-end%20training"
         },
         {
+            "term": "Energy-Driven Pathfinding",
+            "slug": "energy-driven-pathfinding",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "طريقة للبحث عن مسار في شبكة أو بيئة تعتمد على استهلاك الطاقة بدل المسافة بس، بنستعملها لتقليل استهلاك الطاقة في الروبوتات أو الأنظمة، بنسمع عنها عشان الطاقة صارت معيار مهم بالذكاء الاصطناعي.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=Energy-Driven%20Pathfinding"
+        },
+        {
             "term": "entity",
             "slug": "entity",
             "type": "concept",
@@ -4868,6 +5094,14 @@
             "level": "advanced",
             "definition": "evaluation bias يعني التحيّز اللي بيظهر وقت تقييم النموذج، يعني النتائج ما بتكون عادلة عشان البيانات أو الطريقة المستخدمة.",
             "source": "https://ai.salamthabet.com/glossary.php?q=evaluation%20bias"
+        },
+        {
+            "term": "evaluation protocol",
+            "slug": "evaluation-protocol",
+            "type": "concept",
+            "level": "basic",
+            "definition": "طريقة منظمة لتقييم أداء نموذج أو نظام، تشمل مجموعة بيانات، مقاييس، وإجراءات اختبار. بنحطها عشان نضمن النتائج تكون موثوقة ومقارنة بين النماذج.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=evaluation%20protocol"
         },
         {
             "term": "Evaluation-Verification Reward (EVR)",
@@ -4996,6 +5230,14 @@
             "level": "advanced",
             "definition": "هيدي اتفاقيات بتنظم كيف بننفّذ المهام بين الأنظمة، بدنا نعرف شو القواعد اللي بتنطبق عالـ execution contracts عشان ما يصير فوضى",
             "source": "https://ai.salamthabet.com/glossary.php?q=execution%20contracts"
+        },
+        {
+            "term": "execution-based quality gates",
+            "slug": "execution-based-quality-gates",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "هي quality gates بتشتغل على أساس تنفيذ الكود أو النموذج، يعني بنقيس جودة الشغل وقت التنفيذ مش بس بعد التدريب، بنسمع عنها عشان بنحتاج نضمن الأداء الحقيقي قبل النشر.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=execution-based%20quality%20gates"
         },
         {
             "term": "execution-state capsules",
@@ -5134,6 +5376,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=Faithful-RFT"
         },
         {
+            "term": "faithfulness",
+            "slug": "faithfulness",
+            "type": "concept",
+            "level": "basic",
+            "definition": "faithfulness يعني الإخلاص أو الدقة بالمخرجات، بنستخدمه لنقيس إذا الموديل بيعطي إجابات متوافقة مع الحقيقة أو مع التعليمات.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=faithfulness"
+        },
+        {
             "term": "False Positive",
             "slug": "false-positive",
             "type": "concept",
@@ -5150,6 +5400,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=family%20password"
         },
         {
+            "term": "FAPL",
+            "slug": "fapl",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "مصطلح FAPL يعني فكرة أو مفهوم أساسي بنستخدمه لنشرح كيف بنبني نماذج الذكاء الاصطناعي، بنسمع عنه لأنه بيحدد الأسس التقنية للمشروع.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=FAPL"
+        },
+        {
             "term": "FAQPage",
             "slug": "faqpage",
             "type": "concept",
@@ -5164,6 +5422,14 @@
             "level": "advanced",
             "definition": "Fast-LeWM هو نموذج سريع لتعلم تمثيل العالم المخفي، بيشتغل على تقليل الوقت اللازم لتوقعات المستقبل، بنسمع عنه عشان بدنا نمشي بسرعة أكبر بالبحث",
             "source": "https://ai.salamthabet.com/glossary.php?q=Fast-LeWM"
+        },
+        {
+            "term": "FDBench v3",
+            "slug": "fdbench-v3",
+            "type": "dataset",
+            "level": "basic",
+            "definition": "مجموعة بيانات متكاملة لتقييم نماذج الفهم اللغوي باللهجة الفلسطينية، فيها نصوص وأسئلة، بنستعملها لتقارن بين أداء النماذج المختلفة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=FDBench%20v3"
         },
         {
             "term": "feature learning",
@@ -5325,6 +5591,14 @@
             "level": "advanced",
             "definition": "first‑principles computations يعني حسابات بتعتمد على القوانين الأساسية للفيزياء بدون تجارب سابقة، بنستعمله عشان ننبئ خصائص المواد من الصفر",
             "source": "https://ai.salamthabet.com/glossary.php?q=first-principles%20computations"
+        },
+        {
+            "term": "First-Token Cueing",
+            "slug": "first-token-cueing",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "هيدا مفهوم بيحكي إنه أول توكن بالنص بيفتح باب لتوجيه النموذج لبقية العملية. بنشوفه لتقليل الضبابية وتحسين الفهم من البداية.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=First-Token%20Cueing"
         },
         {
             "term": "Fisher‑Rao geometry",
@@ -5498,6 +5772,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=FPS"
         },
         {
+            "term": "frame-aligned corpus",
+            "slug": "frame-aligned-corpus",
+            "type": "dataset",
+            "level": "advanced",
+            "definition": "مجموعة بيانات فيها نصوص أو أوصاف متطابقة مع إطارات فيديو معينة، يعني كل فريم إلها شرح أو ترجمة. بنستعملها لتدريب موديلات تفهم الفيديو وتولّد نصوص مرتبطة. بنسمع عنها لأنها أساسية لتطوير أنظمة فيديو-نص دقيقة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=frame-aligned%20corpus"
+        },
+        {
             "term": "frame-level distillation",
             "slug": "frame-level-distillation",
             "type": "concept",
@@ -5601,6 +5883,14 @@
             "level": "advanced",
             "definition": "احنا بنأخذ نموذج اتدرّب قبل هيك وننضيف تدريب إضافي عليه باستخدام بيانات جديدة أو متخصصة، عشان نحسّن قدراته في مجالات معينة أو نعلّمه معلومات جديدة.",
             "source": "https://ai.salamthabet.com/glossary.php?q=further%20pre-training"
+        },
+        {
+            "term": "Future Chunk Prediction",
+            "slug": "future-chunk-prediction",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "هالمفهوم بيحكي عن توقع القطع (chunks) الجايّة من البيانات أو النص قبل ما تصير، بنستعمله لتسريع المعالجة وتخطيط الموارد، بنسمع عنه لأنه بيساعد نماذج اللغة تتعامل مع سلاسل طويلة بكفاءة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=Future%20Chunk%20Prediction"
         },
         {
             "term": "future confidence distillation",
@@ -6158,6 +6448,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=gradient-based"
         },
         {
+            "term": "grammar",
+            "slug": "grammar",
+            "type": "concept",
+            "level": "basic",
+            "definition": "مصطلح grammar يعني القواعد اللغوية اللي بتنظم كيف بنكتب ونقرأ النصوص، بنسمع عنه لأنه كل نموذج AI لازم يفهم القواعد ليقدر يولّد نصوص صحيحة ومفهومة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=grammar"
+        },
+        {
             "term": "granularity router",
             "slug": "granularity-router",
             "type": "concept",
@@ -6520,6 +6818,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=HBM"
         },
         {
+            "term": "Heartbeat Thinking",
+            "slug": "heartbeat-thinking",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "مفهوم بيحكي عن التفكير المتواصل والمرن، يعني بنفكر بسرعة وبنعدل أفكارنا حسب المعلومات الجديدة، بنسمع عنه لانه بساعدنا نواكب التغيّر بسرعة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=Heartbeat%20Thinking"
+        },
+        {
             "term": "HELM",
             "slug": "helm",
             "type": "concept",
@@ -6704,6 +7010,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=Hit%401"
         },
         {
+            "term": "HOLIWORLD-Data",
+            "slug": "holiworld-data",
+            "type": "dataset",
+            "level": "advanced",
+            "definition": "HOLIWORLD-Data هو مجموعة بيانات مخصصة لتدريب وتقييم نماذج الفهم البصري-النصي، بنستخدمه عشان نوفر بيانات غنية ومتنوعة لتعليم النماذج.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=HOLIWORLD-Data"
+        },
+        {
             "term": "Horn-clause",
             "slug": "horn-clause",
             "type": "concept",
@@ -6734,6 +7048,14 @@
             "level": "core",
             "definition": "الإبداع البشري — شرط في هدول كثيرة لتسجيل حقوق النشر",
             "source": "https://ai.salamthabet.com/glossary.php?q=human%20authorship"
+        },
+        {
+            "term": "human evaluation",
+            "slug": "human-evaluation",
+            "type": "concept",
+            "level": "basic",
+            "definition": "human evaluation تقييم بيعمله بشر على مخرجات النموذج، بنعتمد عليه عشان نضمن إن النتائج مفهومة ومفيدة للناس مش بس رقمية.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=human%20evaluation"
         },
         {
             "term": "human oversight",
@@ -7025,6 +7347,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=importance%20score"
         },
         {
+            "term": "importance weighting",
+            "slug": "importance-weighting",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "importance weighting يعني نعطي وزن أكبر للبيانات أو الخصائص اللي إلها تأثير أقوى على النتيجة، بنستعمله عشان نحسّن دقة النموذج ونقلل الضجيج.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=importance%20weighting"
+        },
+        {
             "term": "importance-corrected objective",
             "slug": "importance-corrected-objective",
             "type": "concept",
@@ -7159,6 +7489,14 @@
             "level": "advanced",
             "definition": "هيدا مفهوم بيقيس قديش الإشي اللي منضيفه للبيانات بيقلل الشك أو بيزيد الفهم، بنستعمله عشان نختار أسئلة أو تجارب بتعطي أكتر معلومة ممكنة",
             "source": "https://ai.salamthabet.com/glossary.php?q=information-gain"
+        },
+        {
+            "term": "INLP",
+            "slug": "inlp",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "INLP أو Iterative Nullspace Projection هو مفهوم بيزيل معلومات حساسة من تمثيلات النموذج، بنستعمله عشان نحافظ على الخصوصية ونقلل التحيز.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=INLP"
         },
         {
             "term": "inpainting",
@@ -7537,6 +7875,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=keyword%20search"
         },
         {
+            "term": "KG-to-text",
+            "slug": "kg-to-text",
+            "type": "concept",
+            "level": "basic",
+            "definition": "KG-to-text هو مفهوم تحويل المعرفة من قاعدة بيانات رسومية (Knowledge Graph) لنصوص طبيعية، بنسمعه لأنه بيساعدنا نطلع معلومات معقّدة بشكل مفهوم للناس.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=KG-to-text"
+        },
+        {
             "term": "KGD",
             "slug": "kgd",
             "type": "model",
@@ -7750,6 +8096,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=Large%20Language%20Models"
         },
         {
+            "term": "LASAGNA",
+            "slug": "lasagna",
+            "type": "model",
+            "level": "advanced",
+            "definition": "LASAGNA هو اسم موديل (model) للذكاء الاصطناعي بيشتغل على معالجة النصوص بطريقة متقدمة، بنسمع عنه لأنه بيحقق أداء عالي في الفهم اللغوي.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=LASAGNA"
+        },
+        {
             "term": "LASEF",
             "slug": "lasef",
             "type": "model",
@@ -7780,6 +8134,14 @@
             "level": "advanced",
             "definition": "latent هو الفضاء المخفي أو المتغيّر اللي بيمثل الخصائص الأساسية للبيانات بعد ما النموذج يضغطها، بنستعمله لنفهم كيف النموذج بيشوف البيانات",
             "source": "https://ai.salamthabet.com/glossary.php?q=latent"
+        },
+        {
+            "term": "latent communication",
+            "slug": "latent-communication",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "latent communication يعني التواصل المخفي بين مكوّنات النموذج اللي بيصير داخل الفضاء الضمني للتمثيلات، بنسمع عنه لأنه بيفهمنا كيف النماذج بتشارك معلومات بدون ما تكون واضحة مباشرة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=latent%20communication"
         },
         {
             "term": "latent conditioning",
@@ -7839,6 +8201,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=latent%20reasoning"
         },
         {
+            "term": "latent reasoning tokens",
+            "slug": "latent-reasoning-tokens",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "latent reasoning tokens هي رموز مخفية بتساعد النموذج يشتغل بعمق أكتر، يعني بتخزن معلومات داخلية للمنطق، بنسمع عنها لما نحتاج نماذج تفكر قبل ما تعطي جواب.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=latent%20reasoning%20tokens"
+        },
+        {
             "term": "latent recurrence",
             "slug": "latent-recurrence",
             "type": "concept",
@@ -7868,6 +8238,9 @@
             "type": "model",
             "level": "advanced",
             "definition": "latent token هو تمثيل مخفي لكلمة أو جزء من البيانات داخل نموذج كبير، بيحمل معلومات مش واضحة للعين. بنسمع عنه عشان بيساعد النموذج يفهم السياق أعمق.",
+            "aliases": [
+                "latent tokens"
+            ],
             "source": "https://ai.salamthabet.com/glossary.php?q=latent%20token"
         },
         {
@@ -8160,6 +8533,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=LLM-based%20coding%20agents"
         },
         {
+            "term": "LLM-judge",
+            "slug": "llm-judge",
+            "type": "model",
+            "level": "advanced",
+            "definition": "موديل كبير للغة (Large Language Model) بيشتغل كحكم أو مقيم لنتائج أو إجابات نماذج ثانية، بنسمعه لأنه بيساعدنا نقيم جودة المخرجات بشكل أوتوماتيكي.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=LLM-judge"
+        },
+        {
             "term": "LLMRouter",
             "slug": "llmrouter",
             "type": "model",
@@ -8254,6 +8635,14 @@
             "level": "advanced",
             "definition": "Logic-Render Alignment هو مقياس بيقيس مدى توافق المنطق المبرمج مع المخرجات البصرية، بنستعمله عشان نتأكد إنه النموذج بيظهر النتائج صح",
             "source": "https://ai.salamthabet.com/glossary.php?q=Logic-Render%20Alignment"
+        },
+        {
+            "term": "logistic regression",
+            "slug": "logistic-regression",
+            "type": "model",
+            "level": "basic",
+            "definition": "logistic regression هو نموذج إحصائي بيستخدم لتصنيف البيانات إلى فئتين أو أكتر، بيعطي احتمال الانتماء لكل فئة. بنشوفه كتير لأنه سهل الفهم وبيشتغل بسرعة على مشاكل التصنيف.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=logistic%20regression"
         },
         {
             "term": "long-context",
@@ -8738,6 +9127,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=MC-Sparse"
         },
         {
+            "term": "MCCL",
+            "slug": "mccl",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "اختصار لمفهوم Multi-Contextual Contrastive Learning، يعني طريقة تدريب النموذج على ربط معلومات من سياقات مختلفة لتعلم تمثيلات أقوى. بنستعمله لتحسين الفهم المتعدد السياقات.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=MCCL"
+        },
+        {
             "term": "MCP",
             "slug": "mcp",
             "type": "concept",
@@ -8964,6 +9361,22 @@
             "level": "core",
             "definition": "الشركة الأم لفيسبوك وإنستغرام وواتساب — ناشرة عائلة نماذج Llama المفتوحة",
             "source": "https://ai.salamthabet.com/glossary.php?q=Meta"
+        },
+        {
+            "term": "Meta Expert",
+            "slug": "meta-expert",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "مفهوم بيحكي عن خبير عام بيقدر يتعامل مع مهام مختلفة عن طريق توجيه خبرات متخصصة. بنسمع عنه لتصميم أنظمة مرنة تتعلم من تجارب سابقة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=Meta%20Expert"
+        },
+        {
+            "term": "Meta-Agent",
+            "slug": "meta-agent",
+            "type": "model",
+            "level": "advanced",
+            "definition": "meta-agent هو مفهوم بيفهمنا إنه في وكيل أو نظام بيدير أو ينسق وكيل تانيين، يعني وكيل فوق الوكلاء. بنسمعه لأنه بيساعدنا نبني أنظمة ذكية أكتر تنظيم وتعاون بين مكونات AI.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=Meta-Agent"
         },
         {
             "term": "meta-learning",
@@ -9489,6 +9902,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=multi-hop%20QA"
         },
         {
+            "term": "multi-hop reasoning",
+            "slug": "multi-hop-reasoning",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "هيدا مفهوم يعني إنه النموذج بيقدر يربط بين كذا خطوة أو معلومة ليوصل لإجابة، مش بس يجاوب على سؤال مباشر. بنسمع عنه لأنه بيساعد الذكاء الاصطناعي يفهم أسئلة معقّدة أكتر.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=multi-hop%20reasoning"
+        },
+        {
             "term": "Multi-LCB",
             "slug": "multi-lcb",
             "type": "concept",
@@ -9577,6 +9998,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=multilingual"
         },
         {
+            "term": "multilingual benchmark",
+            "slug": "multilingual-benchmark",
+            "type": "dataset",
+            "level": "advanced",
+            "definition": "مجموعة بيانات بتقيس أداء النماذج على لغات كتيرة، يعني بنختبر النموذج إذا بيشتغل كويس بأكتر من لغة. بنستعمله لنقارن بين الأنظمة عالمياً.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=multilingual%20benchmark"
+        },
+        {
             "term": "multilingual math benchmark",
             "slug": "multilingual-math-benchmark",
             "type": "dataset",
@@ -9624,6 +10053,14 @@
             "level": "advanced",
             "definition": "multimodal autoregressive model نموذج بيولد محتوى خطوة بخطوة وبيدعم أكتر من نوع بيانات (نص، صورة، صوت)، بنسمعه لأنه بيفتح مجال لتطبيقات أكتر تعقيد",
             "source": "https://ai.salamthabet.com/glossary.php?q=multimodal%20autoregressive%20model"
+        },
+        {
+            "term": "multimodal coding agent",
+            "slug": "multimodal-coding-agent",
+            "type": "model",
+            "level": "advanced",
+            "definition": "وكيل بيفهم أكتر من نوع بيانات (نص، صورة، صوت) وبيكتب كود بناءً على هالمعلومات. بنستعمله لتسهيل البرمجة وتوليد حلول برمجية من مصادر متعددة. بنسمع عنه لأنه بيوفّر إنتاجية أعلى للمبرمجين.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=multimodal%20coding%20agent"
         },
         {
             "term": "multimodal continual pretraining",
@@ -9925,6 +10362,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=nDCG%4010"
         },
         {
+            "term": "nDCG@K",
+            "slug": "ndcg-k",
+            "type": "metric",
+            "level": "advanced",
+            "definition": "هالمقياس بيقيس جودة ترتيب النتائج لحد K، مع إعطاء وزن أعلى للنتائج اللي بتظهر بأعلى القائمة، بنستعمله لتقييم محركات البحث وتوصية المحتوى.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=nDCG%40K"
+        },
+        {
             "term": "Negative Self-Distillation",
             "slug": "negative-self-distillation",
             "type": "concept",
@@ -10073,6 +10518,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=next-word%20prediction"
         },
         {
+            "term": "NLI",
+            "slug": "nli",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "NLI أو Natural Language Inference هو مفهوم بيختبر إذا الجملة الثانية بتستنتج من الأولى، بنستعمله لتقييم الفهم اللغوي للنماذج.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=NLI"
+        },
+        {
             "term": "NLL",
             "slug": "nll",
             "type": "metric",
@@ -10120,6 +10573,14 @@
             "level": "advanced",
             "definition": "no-thinking هو مفهوم بيحكي عن حالات ما بيستخدم فيها النموذج أي عملية تفكير أو تحليل، يعني بيعطي إجابة مباشرة من الذاكرة. بنسمع عنه لأنه بيوضح حدود قدرة النماذج على التفكير العميق.",
             "source": "https://ai.salamthabet.com/glossary.php?q=no-thinking"
+        },
+        {
+            "term": "non-parametric memory",
+            "slug": "non-parametric-memory",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "نوع من الذاكرة ما بيعتمد على وزن ثابت داخل النموذج، بل بيخزن معلومات خارجية يمكن استرجاعها وقت الحاجة. بنستفيد منه لزيادة سعة المعرفة بدون تعقيد النموذج.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=non-parametric%20memory"
         },
         {
             "term": "normalization",
@@ -10419,6 +10880,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=Online%20Debiasing"
         },
         {
+            "term": "online evaluation",
+            "slug": "online-evaluation",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "هالمفهوم يعني إنه بنقيم نموذج أو نظام بشكل لحظي وعلى الإنترنت، مش بننتظر بعدين، بنسمعه عشان بساعدنا نعرف الأداء الحقيقي بالوقت الحقيقي",
+            "source": "https://ai.salamthabet.com/glossary.php?q=online%20evaluation"
+        },
+        {
             "term": "online-softmax",
             "slug": "online-softmax",
             "type": "concept",
@@ -10466,6 +10935,14 @@
             "level": "advanced",
             "definition": "اختصار لـ Optimal Policy Distillation أو شيء مشابه، بنستعمله لتقدير الفروق الطورية بين إشارات أو سياسات، بنسمع عنه لأنه بساعد بتحسين دقة النماذج",
             "source": "https://ai.salamthabet.com/glossary.php?q=OPD"
+        },
+        {
+            "term": "open scientific discovery",
+            "slug": "open-scientific-discovery",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "هيدا المفهوم بيحكي عن استخدام الذكاء الاصطناعي لتوليد أفكار واكتشافات علمية جديدة من دون قيود، يعني بنخلي الموديل يشتغل بحرية ويقترح تجارب أو نظريات. بنسمع عنه لأنه بيساعدنا نسرّع التقدّم العلمي.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=open%20scientific%20discovery"
         },
         {
             "term": "Open Source AI",
@@ -11751,6 +12228,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=programmatic%20tool%20calling"
         },
         {
+            "term": "Progress-Aligned Recurrence",
+            "slug": "progress-aligned-recurrence",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "Progress-Aligned Recurrence مفهوم بيحكي عن تكرار العمليات بطريقة متوافقة مع التقدم اللي بنحققه، بنسمعه لأنه بيساعدنا نفهم كيف النموذج بيتعلم بشكل مستمر.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=Progress-Aligned%20Recurrence"
+        },
+        {
             "term": "Progressive Disclosure",
             "slug": "progressive-disclosure",
             "type": "concept",
@@ -11896,6 +12381,14 @@
             "level": "advanced",
             "definition": "proof generation هو توليد براهين رياضية أو منطقية من قبل الـ AI، بنحتاجه عشان نتأكد من صحة الاستنتاجات ونعطي ثقة للنتائج.",
             "source": "https://ai.salamthabet.com/glossary.php?q=proof%20generation"
+        },
+        {
+            "term": "Property Graph Database",
+            "slug": "property-graph-database",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "Property Graph Database قاعدة بيانات بتمثّل الكائنات والعلاقات بينها مع خصائص (properties) لكل وحدة، بنستعملها لتخزين بيانات معقدة وتسهيل الاستعلامات على الرسومات.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=Property%20Graph%20Database"
         },
         {
             "term": "protein sequences",
@@ -12131,12 +12624,28 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=Qwen-Image-SciIR"
         },
         {
+            "term": "R-Precision",
+            "slug": "r-precision",
+            "type": "metric",
+            "level": "advanced",
+            "definition": "هالمقياس بيقيس نسبة المستندات ذات الصلة اللي بنسترجعها ضمن أول R نتيجة، بنستعمله لتقييم أنظمة البحث لأنه بيهتم بأهم النتائج الأولى.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=R-Precision"
+        },
+        {
             "term": "R-SWA",
             "slug": "r-swa",
             "type": "concept",
             "level": "advanced",
             "definition": "هاد مفهوم بيشير لتقنية انتباه موجّهة ومحسّنة داخل النماذج، بتحسّن طريقة تركيز الـ model على الأجزاء المهمة من البيانات بكفاءة أعلى. بنسمع عنه في سياق تحسين أداء الـ transformers وتقليل استهلاك الموارد.",
             "source": "https://ai.salamthabet.com/glossary.php?q=R-SWA"
+        },
+        {
+            "term": "RACE",
+            "slug": "race",
+            "type": "metric",
+            "level": "basic",
+            "definition": "RACE هو مقياس لتقييم أداء النماذج على أسئلة الفهم القرائي، بيقيس الدقة والقدرة على الاستنتاج. بنستخدمه عشان نعرف إذا النموذج بيفهم النصوص زي القارئ البشري.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=RACE"
         },
         {
             "term": "Rad-CoT",
@@ -12178,6 +12687,14 @@
             "level": "core",
             "definition": "قاعدة الاختيار: RAG للمعلومات المتغيّرة والمصادر، Fine-tuning للأسلوب والسلوك والصيغة",
             "source": "https://ai.salamthabet.com/glossary.php?q=RAG%20vs%20Fine-tuning"
+        },
+        {
+            "term": "RAGAS",
+            "slug": "ragas",
+            "type": "metric",
+            "level": "advanced",
+            "definition": "مقياس لتقييم جودة استرجاع المعلومات في أنظمة Retrieval-Augmented Generation. بنقيس فيه هل النموذج يجيب معلومات دقيقة ومفيدة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=RAGAS"
         },
         {
             "term": "RAGognize",
@@ -12381,6 +12898,14 @@
             "level": "advanced",
             "definition": "هو مفهوم بيحكي عن إنه نعيد صياغة أو نعيد وضع النص ضمن سياق جديد، عشان النموذج يفهم أكتر. بنسمع عنه لأنه بساعد تحسين الفهم وتوليد الردود.",
             "source": "https://ai.salamthabet.com/glossary.php?q=RECONTEXT"
+        },
+        {
+            "term": "recurrence",
+            "slug": "recurrence",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "هيدا concept بيحكي عن تكرار الحالة أو الذاكرة عبر الوقت، يعني النموذج بيفضل يتذكر معلومات سابقة ليأثر على المستقبل. بنسمع عنه كثير بنماذج السلاسل الزمنية والـRNNs.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=recurrence"
         },
         {
             "term": "recurrent architecture",
@@ -12624,6 +13149,14 @@
             "level": "advanced",
             "definition": "REPOCOD هو مجموعة بيانات بتجمع أكواد برمجية من مستودعات مفتوحة المصدر، بنستعملها لتدريب نماذج توليد الكود وتحليل الأنماط البرمجية.",
             "source": "https://ai.salamthabet.com/glossary.php?q=REPOCOD"
+        },
+        {
+            "term": "repos",
+            "slug": "repos",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "repos هو اختصار للـ repositories، يعني مخازن الكود أو البيانات اللي بنحفظ فيها مشاريع الذكاء الاصطناعي، بنسمع عنه لأنه بيسهّل التعاون بين الفرق.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=repos"
         },
         {
             "term": "representation",
@@ -13126,6 +13659,14 @@
                 "rollout"
             ],
             "source": "https://ai.salamthabet.com/glossary.php?q=rollouts"
+        },
+        {
+            "term": "Rollout-to-Scorer Distillation",
+            "slug": "rollout-to-scorer-distillation",
+            "type": "model",
+            "level": "advanced",
+            "definition": "Rollout-to-Scorer Distillation طريقة لتقليل حجم الموديل بنقل المعرفة من نموذج كبير (rollout) لنموذج أصغر (scorer)، بنستعملها لتسريع الاستدلال بدون خسارة كبيرة بالأداء.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=Rollout-to-Scorer%20Distillation"
         },
         {
             "term": "ROPD",
@@ -13920,6 +14461,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=semantic%20similarity"
         },
         {
+            "term": "Semantic Topology Graph",
+            "slug": "semantic-topology-graph",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "هالرسم البياني بيمثّل العلاقات الدلالية بين المفاهيم بطريقة Topology، يعني بيوضح كيف الأفكار مترابطة بشكل هيكلي، بنسمع عنه لأنه بيسهّل الفهم والتحليل العميق للمعارف.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=Semantic%20Topology%20Graph"
+        },
+        {
             "term": "semantic tree",
             "slug": "semantic-tree",
             "type": "concept",
@@ -14385,6 +14934,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=social%20influence"
         },
         {
+            "term": "Socratic Skill Learning",
+            "slug": "socratic-skill-learning",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "Socratic Skill Learning هو مفهوم بيعلم الماكينة تتعلم من خلال أسئلة سقراطية، يعني بتطرح أسئلة لتوجيه التفكير، بنستخدمه لتدريب مهارات حل المشكلات بطريقة تفاعلية.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=Socratic%20Skill%20Learning"
+        },
+        {
             "term": "Soft Actor-Critic (SAC)",
             "slug": "soft-actor-critic-sac",
             "type": "model",
@@ -14399,6 +14956,14 @@
             "level": "advanced",
             "definition": "طريقة بنمزج معلومات من مصادر مختلفة بطريقة ناعمة بدل ما نختار واحدة منهم، مثل بنحط وزن لكل مصدر ونطلّع النتيجة النهائية من المزج، احنا بنستخدمها عشان تكون النتائج أفضل وأدق.",
             "source": "https://ai.salamthabet.com/glossary.php?q=soft%20fusion"
+        },
+        {
+            "term": "soft labels",
+            "slug": "soft-labels",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "هني تسميات غير صلبة أو مؤكدة، يعني بدل ما نعطي تصنيف نهائي بنعطي احتمالات أو درجات، بنستخدمها لتقوية التدريب وجعل النموذج أكثر مرونة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=soft%20labels"
         },
         {
             "term": "soft targets",
@@ -14955,6 +15520,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=STST"
         },
         {
+            "term": "student",
+            "slug": "student",
+            "type": "concept",
+            "level": "basic",
+            "definition": "student هو نموذج أصغر أو أبسط بيتعلم من نموذج أكبر (teacher) عبر عملية الـ distillation، بنستعمله لتقليل حجم الحسابات مع الحفاظ على جودة النتائج.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=student"
+        },
+        {
             "term": "Student-Teacher Mismatch",
             "slug": "student-teacher-mismatch",
             "type": "concept",
@@ -15277,6 +15850,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=synthetic%20OCR%20dataset"
         },
         {
+            "term": "synthetic questions",
+            "slug": "synthetic-questions",
+            "type": "concept",
+            "level": "basic",
+            "definition": "synthetic questions أسئلة مُولدة آلياً لتدريب أو اختبار النماذج، بنستعملها لأنه بتعطينا كمية كبيرة من البيانات بدون ما نكتب كل سؤال يدويًا.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=synthetic%20questions"
+        },
+        {
             "term": "Synthetic Self-Distillation",
             "slug": "synthetic-self-distillation",
             "type": "concept",
@@ -15459,6 +16040,14 @@
             "level": "advanced",
             "definition": "هالمفهوم بيحكي عن الفرق بين طريقة المعلم يكمّل الشغل مع الطالب وطريقة الطالب يكمّل بعد ما يخلص المعلم، يعني المعلم بيضل يوجه أكتر من الطالب. بنسمع عنه عشان بفهمنا كيف نطوّر نماذج التعلم المتتابعة.",
             "source": "https://ai.salamthabet.com/glossary.php?q=teacher-student%20continuation%20asymmetry"
+        },
+        {
+            "term": "teacher-student disagreement",
+            "slug": "teacher-student-disagreement",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "teacher‑student disagreement هو الفرق بين توقعات النموذج “المعلم” وتوقعات النموذج “الطالب” خلال التدريب، بنلاحظه عشان نعرف وين النموذج بحاجة لتعلم أكتر.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=teacher-student%20disagreement"
         },
         {
             "term": "teacher/student",
@@ -15726,6 +16315,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=textual%20gradient"
         },
         {
+            "term": "TF-IDF",
+            "slug": "tf-idf",
+            "type": "model",
+            "level": "basic",
+            "definition": "TF-IDF هو طريقة بسيطة بتحسب وزن الكلمات بحسب تكرارها بالمستند وعلى مستوى كل مجموعة، بنستعمله لنحدد أهم الكلمات ونصنف النصوص. بنسمع عنه لأنه أساسى لتصنيف المستندات وتحديد الموضوع.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=TF-IDF"
+        },
+        {
             "term": "The Pile",
             "slug": "the-pile",
             "type": "dataset",
@@ -15748,6 +16345,14 @@
             "level": "basic",
             "definition": "Theory-of-Mind هو مجموعة بيانات بتختبر قدرة النموذج على فهم نوايا ومشاعر البشر، بنسمعه لأنه مهم لتطوير أنظمة تفاعلية بتفهم المستخدمين.",
             "source": "https://ai.salamthabet.com/glossary.php?q=Theory%20of%20Mind"
+        },
+        {
+            "term": "Thinker",
+            "slug": "thinker",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "هالمفهوم بيشير للشخص أو النموذج اللي بيقدر يحلّ مشاكل معقّدة ويولّد أفكار جديدة، بنحكي عنه لأنه هو أساس الابتكار بالذكاء الاصطناعي.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=Thinker"
         },
         {
             "term": "Thinker-Talker",
@@ -15911,6 +16516,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=token%20usage"
         },
         {
+            "term": "token-gated attention",
+            "slug": "token-gated-attention",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "token-gated attention هو آلية انتباه بتسمح للنموذج يركز على توكنات معينة بناءً على شروط أو قواعد، بنستخدمه عشان نحسّن دقة الفهم والتركيز على معلومات مهمة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=token-gated%20attention"
+        },
+        {
             "term": "token-level clipping",
             "slug": "token-level-clipping",
             "type": "concept",
@@ -15977,6 +16590,14 @@
             "level": "basic",
             "definition": "tool calls هو metric أو مقياس بنقيس فيه عدد المرات اللي الموديل بيستدعي فيها أدوات خارجية (tools) خلال مهمة، بنستعمله لنقيس كفاءة وتكامل الموديل مع الأدوات.",
             "source": "https://ai.salamthabet.com/glossary.php?q=tool%20calls"
+        },
+        {
+            "term": "tool interface",
+            "slug": "tool-interface",
+            "type": "concept",
+            "level": "basic",
+            "definition": "tool interface يعني الواجهة اللي بتخلّي الأدوات تتواصل مع بعضها، بنستعملها لتسهيل تشغيل الموديلات وإعطاء أوامر بسيطة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=tool%20interface"
         },
         {
             "term": "Tool Policy",
@@ -16131,12 +16752,28 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=trajectory%20balance"
         },
         {
+            "term": "trajectory calibration",
+            "slug": "trajectory-calibration",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "trajectory calibration عملية تعديل مسار تعلم النموذج لتصحيح الأخطاء وتثبيت الأداء، يعني بنضبط الخطوات اللي بيتبعها النموذج عشان يوصل لأفضل نتيجة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=trajectory%20calibration"
+        },
+        {
             "term": "trajectory dataset",
             "slug": "trajectory-dataset",
             "type": "dataset",
             "level": "advanced",
             "definition": "Trajectory dataset هو مجموعة بيانات بتحتوي على مسارات حركة أشياء أو روبوتات، بنستخدمه عشان ندرب نماذج تتوقع الحركات الجاية، بنسمعه لأنه أساس لتعليم الروبوتات كيف تتحرك.",
             "source": "https://ai.salamthabet.com/glossary.php?q=trajectory%20dataset"
+        },
+        {
+            "term": "trajectory head",
+            "slug": "trajectory-head",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "trajectory head هو جزء من الموديل بيحدد مسار الحركة أو الخطوات المستقبلية للـ agent، بنستعمله لنفهم كيف النموذج بيتنبأ بالخطوات الجاية.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=trajectory%20head"
         },
         {
             "term": "trajectory representations",
@@ -16279,6 +16916,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=TTFT"
         },
         {
+            "term": "TTR-Compressor",
+            "slug": "ttr-compressor",
+            "type": "model",
+            "level": "advanced",
+            "definition": "موديل بضغط تمثيلات النصوص والفيديوهات بطريقة فعّالة، يعني بيقلل حجم البيانات بدون ما يضيع المعنى. بنسمع عنه لأنه بقلل استهلاك الذاكرة والسرعة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=TTR-Compressor"
+        },
+        {
             "term": "TTS",
             "slug": "tts",
             "type": "concept",
@@ -16311,6 +16956,14 @@
             "level": "basic",
             "definition": "TWAP هو اختصار لـ Time‑Weighted Average Price، يعني متوسط السعر موزع على الوقت، بنستعمله عشان نحدد سعر عادل للصفقة إذا بدنا نتجنب تقلبات السوق السريعة.",
             "source": "https://ai.salamthabet.com/glossary.php?q=TWAP"
+        },
+        {
+            "term": "Type Match",
+            "slug": "type-match",
+            "type": "metric",
+            "level": "basic",
+            "definition": "Type Match هو مقياس بيقيس مدى تطابق الأنواع أو الفئات بين نموذج وبياناته، بنستخدمه لنقيس دقة النموذج ولأنّه مهم لتقييم الأداء.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=Type%20Match"
         },
         {
             "term": "U-Lens",
@@ -16359,6 +17012,22 @@
             "level": "advanced",
             "definition": "Ulysses sequence parallelism هو أسلوب لتقسيم السلاسل الطويلة ومعالجتها بالتوازي، عشان نسرّع التدريب ونقلل استهلاك الذاكرة.",
             "source": "https://ai.salamthabet.com/glossary.php?q=Ulysses%20sequence%20parallelism"
+        },
+        {
+            "term": "UMM",
+            "slug": "umm",
+            "type": "model",
+            "level": "basic",
+            "definition": "هالنموذج هو Unified Multimodal Model، بيشتغل على دمج صور ونصوص مع بعض لتوليد مخرجات أذكى، بنستعمله لتطبيقات الذكاء المتعدد الوسائط",
+            "source": "https://ai.salamthabet.com/glossary.php?q=UMM"
+        },
+        {
+            "term": "Unanswerability",
+            "slug": "unanswerability",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "المفهوم بيشير لحالات الأسئلة أو المهام اللي ما في إجابة واضحة أو معروفة للنموذج. بنحتاج نحددها عشان ما نخلي الموديل يطلع إجابات عشوائية أو خاطئة. بنسمع عنها لأنها مهمة لتقييم موثوقية الأنظمة.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=Unanswerability"
         },
         {
             "term": "Uncertainty estimation",
@@ -16423,6 +17092,14 @@
             "level": "basic",
             "definition": "مجموعة بيانات من مكتب البراءات والعلامات التجارية الأمريكي، فيها معلومات عن براءات الاختراع، بنستفيد منها لتدريب نماذج الذكاء الاصطناعي على الفهم القانوني.",
             "source": "https://ai.salamthabet.com/glossary.php?q=USPTO"
+        },
+        {
+            "term": "utility",
+            "slug": "utility",
+            "type": "metric",
+            "level": "basic",
+            "definition": "utility كمقياس بيقيس فائدة النموذج أو النتيجة، يعني قدّيش النتيجة مفيدة أو عملية بالمقارنة مع غيرها، بنستعمله لتقييم الأداء بشكل عملي.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=utility"
         },
         {
             "term": "utility estimation",
@@ -16912,6 +17589,14 @@
             "source": "https://ai.salamthabet.com/glossary.php?q=visual%20reconstruction"
         },
         {
+            "term": "visual token merging",
+            "slug": "visual-token-merging",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "عملية دمج توكنات بصرية لتقليل عددها، يعني بنجمع نقاط مشابهة بالفيديو لتقليل الحمل. بنسمع عنها لتقليل تكلفة المعالجة البصرية.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=visual%20token%20merging"
+        },
+        {
             "term": "visual transition reasoning",
             "slug": "visual-transition-reasoning",
             "type": "concept",
@@ -17041,6 +17726,22 @@
             "level": "advanced",
             "definition": "الـ Voxel هو زي الـ Pixel بس في التلاتة أبعاد، يعني مكعبات صغيرة بتملوا الفضا التلاتي الأبعاد عشان نمثل أجسام أو بيئات. بنسمع عنه في الألعاب والطب وتطبيقات الـ 3D reconstruction لأنه طريقة بسيطة وفعّالة نحفظ فيها معلومات الفضا.",
             "source": "https://ai.salamthabet.com/glossary.php?q=voxel%20space"
+        },
+        {
+            "term": "VP-WorldBench",
+            "slug": "vp-worldbench",
+            "type": "concept",
+            "level": "advanced",
+            "definition": "VP-WorldBench هو benchmark بنقيس فيه أداء نماذج الذكاء الاصطناعي على مهام متعددة، بنستعمله عشان نعرف شو النموذج قوي فيه وشو محتاج تحسين.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=VP-WorldBench"
+        },
+        {
+            "term": "VPM-Data",
+            "slug": "vpm-data",
+            "type": "dataset",
+            "level": "advanced",
+            "definition": "VPM-Data هو مجموعة بيانات مخصصة لموديل Video-Point Model، فيها فيديوهات مع علامات توضح النقاط المهمة، بنستخدمها لتدريب وتقييم الموديل.",
+            "source": "https://ai.salamthabet.com/glossary.php?q=VPM-Data"
         },
         {
             "term": "VQA",

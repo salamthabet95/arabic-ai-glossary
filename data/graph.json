@@ -2,16 +2,16 @@
     "name": "شبكة مصطلحات الذكاء الاصطناعي بالعربي",
     "source": "https://ai.salamthabet.com/glossary.php",
     "license": "CC BY-SA 4.0",
-    "updated": "2026-10-19",
+    "updated": "2026-10-25",
     "directed": false,
     "method": "حوافّ من تواجد فعلي محفوظ: عناقيد محرَّرة يدوياً (×٥)، مصطلحات نفس المقالة (×٣)، مصطلحات نفس العدد اليومي (×١). ما في حافّة مولّدة بنموذج لغة.",
     "stats": {
-        "nodes": 2160,
-        "edges": 3143,
-        "connected": 752,
+        "nodes": 2247,
+        "edges": 3240,
+        "connected": 769,
         "clusters": 3,
         "lessons": 136,
-        "issues": 115
+        "issues": 120
     },
     "nodes": [
         {
@@ -27,7 +27,7 @@
             "term": "benchmark",
             "type": "metric",
             "level": "core",
-            "degree": 232,
+            "degree": 237,
             "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-a-benchmark"
         },
         {
@@ -35,7 +35,7 @@
             "term": "reinforcement learning",
             "type": "concept",
             "level": "core",
-            "degree": 170,
+            "degree": 173,
             "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-reinforcement-learning"
         },
         {
@@ -45,6 +45,13 @@
             "level": "core",
             "degree": 96,
             "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-fine-tuning"
+        },
+        {
+            "id": "kv-cache",
+            "term": "KV cache",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 61
         },
         {
             "id": "transformer",
@@ -59,14 +66,7 @@
             "term": "distillation",
             "type": "concept",
             "level": "core",
-            "degree": 53
-        },
-        {
-            "id": "kv-cache",
-            "term": "KV cache",
-            "type": "concept",
-            "level": "advanced",
-            "degree": 52
+            "degree": 57
         },
         {
             "id": "multimodal",
@@ -92,11 +92,33 @@
             "article": "https://ai.salamthabet.com/lesson.php?slug=rag-retrieval-augmented-generation"
         },
         {
+            "id": "autoregressive",
+            "term": "autoregressive",
+            "type": "concept",
+            "level": "basic",
+            "degree": 40
+        },
+        {
             "id": "attention",
             "term": "attention",
             "type": "concept",
             "level": "core",
             "degree": 39
+        },
+        {
+            "id": "diffusion",
+            "term": "diffusion",
+            "type": "concept",
+            "level": "core",
+            "degree": 39,
+            "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-diffusion"
+        },
+        {
+            "id": "accuracy",
+            "term": "accuracy",
+            "type": "metric",
+            "level": "basic",
+            "degree": 37
         },
         {
             "id": "grpo",
@@ -121,13 +143,6 @@
             "degree": 34
         },
         {
-            "id": "autoregressive",
-            "term": "autoregressive",
-            "type": "concept",
-            "level": "basic",
-            "degree": 32
-        },
-        {
             "id": "in-context-learning",
             "term": "In-Context Learning",
             "type": "concept",
@@ -150,27 +165,12 @@
             "degree": 32
         },
         {
-            "id": "diffusion",
-            "term": "diffusion",
-            "type": "concept",
-            "level": "core",
-            "degree": 31,
-            "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-diffusion"
-        },
-        {
             "id": "moe",
             "term": "MoE",
             "type": "model",
             "level": "core",
             "degree": 31,
             "article": "https://ai.salamthabet.com/lesson.php?slug=mixture-of-experts"
-        },
-        {
-            "id": "accuracy",
-            "term": "accuracy",
-            "type": "metric",
-            "level": "basic",
-            "degree": 30
         },
         {
             "id": "coding-agents",
@@ -187,6 +187,13 @@
             "degree": 29
         },
         {
+            "id": "retrieval",
+            "term": "retrieval",
+            "type": "concept",
+            "level": "basic",
+            "degree": 28
+        },
+        {
             "id": "reverse-kl",
             "term": "reverse-KL",
             "type": "concept",
@@ -194,15 +201,15 @@
             "degree": 28
         },
         {
-            "id": "latent-space",
-            "term": "latent space",
-            "type": "concept",
-            "level": "advanced",
-            "degree": 26
-        },
-        {
             "id": "sft",
             "term": "SFT",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 27
+        },
+        {
+            "id": "latent-space",
+            "term": "latent space",
             "type": "concept",
             "level": "advanced",
             "degree": 26
@@ -291,18 +298,18 @@
             "article": "https://ai.salamthabet.com/lesson.php?slug=latent-reasoning"
         },
         {
-            "id": "retrieval",
-            "term": "retrieval",
-            "type": "concept",
-            "level": "basic",
-            "degree": 21
-        },
-        {
             "id": "self-attention",
             "term": "self-attention",
             "type": "concept",
             "level": "core",
             "degree": 21
+        },
+        {
+            "id": "qwen",
+            "term": "Qwen",
+            "type": "model",
+            "level": "advanced",
+            "degree": 20
         },
         {
             "id": "mllms",
@@ -359,6 +366,13 @@
             "term": "AUC",
             "type": "metric",
             "level": "basic",
+            "degree": 16
+        },
+        {
+            "id": "cross-attention",
+            "term": "cross-attention",
+            "type": "concept",
+            "level": "advanced",
             "degree": 16
         },
         {
@@ -875,12 +889,26 @@
             "degree": 11
         },
         {
+            "id": "pass-k",
+            "term": "pass@k",
+            "type": "metric",
+            "level": "advanced",
+            "degree": 11
+        },
+        {
             "id": "peft",
             "term": "PEFT",
             "type": "concept",
             "level": "core",
             "degree": 11,
             "article": "https://ai.salamthabet.com/lesson.php?slug=peft-why-not-train-everything"
+        },
+        {
+            "id": "policy",
+            "term": "policy",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 11
         },
         {
             "id": "potential-game",
@@ -900,13 +928,6 @@
             "id": "quantization-aware-training",
             "term": "Quantization-Aware Training",
             "type": "concept",
-            "level": "advanced",
-            "degree": 11
-        },
-        {
-            "id": "qwen",
-            "term": "Qwen",
-            "type": "model",
             "level": "advanced",
             "degree": 11
         },
@@ -1295,9 +1316,23 @@
             "degree": 9
         },
         {
+            "id": "cache-policy",
+            "term": "cache policy",
+            "type": "concept",
+            "level": "basic",
+            "degree": 9
+        },
+        {
             "id": "colored-tokens",
             "term": "colored tokens",
             "type": "concept",
+            "level": "advanced",
+            "degree": 9
+        },
+        {
+            "id": "compute-budget",
+            "term": "compute budget",
+            "type": "metric",
             "level": "advanced",
             "degree": 9
         },
@@ -1332,13 +1367,6 @@
         {
             "id": "continual-pac-learning",
             "term": "continual PAC-learning",
-            "type": "concept",
-            "level": "advanced",
-            "degree": 9
-        },
-        {
-            "id": "cross-attention",
-            "term": "cross-attention",
             "type": "concept",
             "level": "advanced",
             "degree": 9
@@ -1386,6 +1414,13 @@
             "degree": 9
         },
         {
+            "id": "energy-driven-pathfinding",
+            "term": "Energy-Driven Pathfinding",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 9
+        },
+        {
             "id": "entity",
             "term": "entity",
             "type": "concept",
@@ -1400,8 +1435,22 @@
             "degree": 9
         },
         {
+            "id": "execution-based-quality-gates",
+            "term": "execution-based quality gates",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 9
+        },
+        {
             "id": "feedback-driven-process",
             "term": "feedback-driven process",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 9
+        },
+        {
+            "id": "future-chunk-prediction",
+            "term": "Future Chunk Prediction",
             "type": "concept",
             "level": "advanced",
             "degree": 9
@@ -1626,6 +1675,13 @@
             "degree": 9
         },
         {
+            "id": "semantic-topology-graph",
+            "term": "Semantic Topology Graph",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 9
+        },
+        {
             "id": "semantic-tree",
             "term": "semantic tree",
             "type": "concept",
@@ -1739,6 +1795,13 @@
             "degree": 8
         },
         {
+            "id": "causal-memory-predictor",
+            "term": "causal memory predictor",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 8
+        },
+        {
             "id": "contract-preserving-compression",
             "term": "contract-preserving compression",
             "type": "concept",
@@ -1749,6 +1812,13 @@
             "id": "cross-model",
             "term": "cross-model",
             "type": "concept",
+            "level": "advanced",
+            "degree": 8
+        },
+        {
+            "id": "deep-fusion-memory",
+            "term": "Deep Fusion Memory",
+            "type": "model",
             "level": "advanced",
             "degree": 8
         },
@@ -1805,6 +1875,20 @@
             "id": "faed",
             "term": "FAED",
             "type": "metric",
+            "level": "advanced",
+            "degree": 8
+        },
+        {
+            "id": "faithfulness",
+            "term": "faithfulness",
+            "type": "concept",
+            "level": "basic",
+            "degree": 8
+        },
+        {
+            "id": "fapl",
+            "term": "FAPL",
+            "type": "concept",
             "level": "advanced",
             "degree": 8
         },
@@ -1888,6 +1972,13 @@
             "article": "https://ai.salamthabet.com/lesson.php?slug=knowledge-cutoff"
         },
         {
+            "id": "lasagna",
+            "term": "LASAGNA",
+            "type": "model",
+            "level": "advanced",
+            "degree": 8
+        },
+        {
             "id": "latent-intent-reasoning",
             "term": "Latent Intent Reasoning",
             "type": "concept",
@@ -1969,13 +2060,6 @@
             "id": "multimodal-pre-training",
             "term": "multimodal pre-training",
             "type": "concept",
-            "level": "advanced",
-            "degree": 8
-        },
-        {
-            "id": "pass-k",
-            "term": "pass@k",
-            "type": "metric",
             "level": "advanced",
             "degree": 8
         },
@@ -2425,13 +2509,6 @@
             "degree": 7
         },
         {
-            "id": "policy",
-            "term": "policy",
-            "type": "concept",
-            "level": "advanced",
-            "degree": 7
-        },
-        {
             "id": "policy-optimization",
             "term": "policy optimization",
             "type": "concept",
@@ -2856,6 +2933,13 @@
             "degree": 6
         },
         {
+            "id": "recursive-self-improvement",
+            "term": "recursive self-improvement",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 6
+        },
+        {
             "id": "rmsnorm",
             "term": "RMSNorm",
             "type": "model",
@@ -3243,13 +3327,6 @@
             "degree": 5
         },
         {
-            "id": "recursive-self-improvement",
-            "term": "recursive self-improvement",
-            "type": "concept",
-            "level": "advanced",
-            "degree": 5
-        },
-        {
             "id": "rule-based-mt",
             "term": "Rule-based MT",
             "type": "concept",
@@ -3421,6 +3498,13 @@
             "degree": 4
         },
         {
+            "id": "exact-match",
+            "term": "exact-match",
+            "type": "metric",
+            "level": "basic",
+            "degree": 4
+        },
+        {
             "id": "flores-200",
             "term": "FLORES-200",
             "type": "concept",
@@ -3521,6 +3605,13 @@
             "degree": 4
         },
         {
+            "id": "multimodal-memory",
+            "term": "multimodal memory",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 4
+        },
+        {
             "id": "ndcg-10",
             "term": "nDCG@10",
             "type": "metric",
@@ -3546,6 +3637,13 @@
             "term": "Ollama",
             "type": "concept",
             "level": "core",
+            "degree": 4
+        },
+        {
+            "id": "omni-modal",
+            "term": "omni-modal",
+            "type": "concept",
+            "level": "advanced",
             "degree": 4
         },
         {
@@ -3611,6 +3709,13 @@
             "term": "post-training",
             "type": "concept",
             "level": "basic",
+            "degree": 4
+        },
+        {
+            "id": "progress-aligned-recurrence",
+            "term": "Progress-Aligned Recurrence",
+            "type": "concept",
+            "level": "advanced",
             "degree": 4
         },
         {
@@ -3764,6 +3869,13 @@
             "degree": 4
         },
         {
+            "id": "tool-interface",
+            "term": "tool interface",
+            "type": "concept",
+            "level": "basic",
+            "degree": 4
+        },
+        {
             "id": "training-data",
             "term": "training data",
             "type": "concept",
@@ -3775,6 +3887,13 @@
             "term": "trusted execution environment",
             "type": "concept",
             "level": "advanced",
+            "degree": 4
+        },
+        {
+            "id": "type-match",
+            "term": "Type Match",
+            "type": "metric",
+            "level": "basic",
             "degree": 4
         },
         {
@@ -4965,12 +5084,11 @@
             "article": "https://ai.salamthabet.com/lesson.php?slug=ai-hiring-cv"
         },
         {
-            "id": "autonomous-agent",
-            "term": "Autonomous Agent",
+            "id": "autonomous-agents",
+            "term": "autonomous agents",
             "type": "concept",
-            "level": "core",
-            "degree": 1,
-            "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-an-autonomous-agent"
+            "level": "basic",
+            "degree": 1
         },
         {
             "id": "blank-page-problem",
@@ -5370,6 +5488,13 @@
             "degree": 1
         },
         {
+            "id": "2wikimultihop",
+            "term": "2WikiMultihop",
+            "type": "dataset",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "3d-bounding-boxes",
             "term": "3D bounding boxes",
             "type": "concept",
@@ -5456,6 +5581,13 @@
         {
             "id": "abductive-reasoning",
             "term": "abductive reasoning",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "abstraction",
+            "term": "abstraction",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -5559,6 +5691,13 @@
             "degree": 0
         },
         {
+            "id": "adaptive-workflow-orchestration",
+            "term": "adaptive workflow orchestration",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "adc",
             "term": "ADC",
             "type": "concept",
@@ -5566,8 +5705,22 @@
             "degree": 0
         },
         {
+            "id": "adversarial",
+            "term": "adversarial",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "adversarial-forcing",
             "term": "Adversarial Forcing",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "adversarial-generation",
+            "term": "adversarial generation",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -5692,6 +5845,20 @@
             "degree": 0
         },
         {
+            "id": "agentic-on-policy-distillation",
+            "term": "agentic on-policy distillation",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "agentic-orchestration",
+            "term": "agentic orchestration",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "agentic-post-training",
             "term": "agentic post-training",
             "type": "concept",
@@ -5779,6 +5946,13 @@
         {
             "id": "allocentric-novel-view-generator",
             "term": "allocentric novel-view generator",
+            "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "allot",
+            "term": "ALLOT",
             "type": "model",
             "level": "advanced",
             "degree": 0
@@ -5906,6 +6080,13 @@
             "id": "ast-mean-similarity",
             "term": "AST mean similarity",
             "type": "metric",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "astor",
+            "term": "ASTOR",
+            "type": "model",
             "level": "advanced",
             "degree": 0
         },
@@ -6043,6 +6224,13 @@
             "degree": 0
         },
         {
+            "id": "audiovisual-grounding",
+            "term": "audiovisual grounding",
+            "type": "concept",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "author-critic-architecture",
             "term": "author-critic architecture",
             "type": "concept",
@@ -6088,6 +6276,13 @@
             "id": "autoregressive-prediction",
             "term": "autoregressive prediction",
             "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "autoregressive-video-model",
+            "term": "autoregressive video model",
+            "type": "model",
             "level": "advanced",
             "degree": 0
         },
@@ -6393,6 +6588,20 @@
             "degree": 0
         },
         {
+            "id": "block-sparse-attention",
+            "term": "block-sparse attention",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "block-wise-sparse-attention",
+            "term": "block-wise sparse attention",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "bloom-s-taxonomy",
             "term": "Bloom's Taxonomy",
             "type": "concept",
@@ -6505,6 +6714,13 @@
             "degree": 0
         },
         {
+            "id": "callgraph",
+            "term": "callgraph",
+            "type": "concept",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "camera-conditioning",
             "term": "camera conditioning",
             "type": "concept",
@@ -6540,6 +6756,13 @@
             "degree": 0
         },
         {
+            "id": "cascading",
+            "term": "cascading",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "cascading-router",
             "term": "cascading router",
             "type": "model",
@@ -6556,6 +6779,13 @@
         {
             "id": "causal-distillation",
             "term": "causal distillation",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "causal-graph-algorithms",
+            "term": "causal graph algorithms",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -6694,10 +6924,24 @@
             "degree": 0
         },
         {
+            "id": "chinese-remainder-theorem",
+            "term": "Chinese Remainder Theorem",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "cielab",
             "term": "CIELAB",
             "type": "metric",
             "level": "basic",
+            "degree": 0
+        },
+        {
+            "id": "circuit",
+            "term": "circuit",
+            "type": "concept",
+            "level": "advanced",
             "degree": 0
         },
         {
@@ -6883,6 +7127,13 @@
             "degree": 0
         },
         {
+            "id": "comet-grpo",
+            "term": "COMET-GRPO",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "competitive-ratio",
             "term": "competitive ratio",
             "type": "concept",
@@ -6892,6 +7143,13 @@
         {
             "id": "compiler-optimization",
             "term": "compiler optimization",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "compl-ai",
+            "term": "COMPL-AI",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -7213,6 +7471,13 @@
             "degree": 0
         },
         {
+            "id": "cross-entropy-loss",
+            "term": "cross-entropy loss",
+            "type": "metric",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "cross-expert-wavefront-pipelining",
             "term": "Cross-Expert Wavefront Pipelining",
             "type": "concept",
@@ -7381,6 +7646,13 @@
             "degree": 0
         },
         {
+            "id": "dar-mgsm",
+            "term": "DAR-MGSM",
+            "type": "dataset",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "data-fidelity",
             "term": "data fidelity",
             "type": "concept",
@@ -7544,6 +7816,13 @@
         {
             "id": "dexterous-hand-object-interaction",
             "term": "dexterous hand-object interaction",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "dfast",
+            "term": "dFast",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -8137,6 +8416,13 @@
             "degree": 0
         },
         {
+            "id": "evaluation-protocol",
+            "term": "evaluation protocol",
+            "type": "concept",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "evaluator-bias",
             "term": "evaluator bias",
             "type": "concept",
@@ -8183,13 +8469,6 @@
             "term": "evolutionary search",
             "type": "concept",
             "level": "advanced",
-            "degree": 0
-        },
-        {
-            "id": "exact-match",
-            "term": "exact-match",
-            "type": "metric",
-            "level": "basic",
             "degree": 0
         },
         {
@@ -8281,6 +8560,13 @@
             "term": "Fast-LeWM",
             "type": "model",
             "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "fdbench-v3",
+            "term": "FDBench v3",
+            "type": "dataset",
+            "level": "basic",
             "degree": 0
         },
         {
@@ -8377,6 +8663,13 @@
         {
             "id": "first-principles-computations",
             "term": "first-principles computations",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "first-token-cueing",
+            "term": "First-Token Cueing",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -8483,6 +8776,13 @@
             "id": "fpga",
             "term": "FPGA",
             "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "frame-aligned-corpus",
+            "term": "frame-aligned corpus",
+            "type": "dataset",
             "level": "advanced",
             "degree": 0
         },
@@ -8844,6 +9144,13 @@
             "degree": 0
         },
         {
+            "id": "grammar",
+            "term": "grammar",
+            "type": "concept",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "graph",
             "term": "graph",
             "type": "concept",
@@ -9089,6 +9396,13 @@
             "degree": 0
         },
         {
+            "id": "heartbeat-thinking",
+            "term": "Heartbeat Thinking",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "helm",
             "term": "HELM",
             "type": "concept",
@@ -9229,8 +9543,22 @@
             "degree": 0
         },
         {
+            "id": "holiworld-data",
+            "term": "HOLIWORLD-Data",
+            "type": "dataset",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "html-css",
             "term": "HTML/CSS",
+            "type": "concept",
+            "level": "basic",
+            "degree": 0
+        },
+        {
+            "id": "human-evaluation",
+            "term": "human evaluation",
             "type": "concept",
             "level": "basic",
             "degree": 0
@@ -9411,6 +9739,13 @@
             "degree": 0
         },
         {
+            "id": "importance-weighting",
+            "term": "importance weighting",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "importance-corrected-objective",
             "term": "importance-corrected objective",
             "type": "concept",
@@ -9476,6 +9811,13 @@
         {
             "id": "information-gain",
             "term": "information-gain",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "inlp",
+            "term": "INLP",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -9726,6 +10068,13 @@
             "degree": 0
         },
         {
+            "id": "kg-to-text",
+            "term": "KG-to-text",
+            "type": "concept",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "kgd",
             "term": "KGD",
             "type": "model",
@@ -9831,6 +10180,13 @@
             "degree": 0
         },
         {
+            "id": "latent-communication",
+            "term": "latent communication",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "latent-conditioning",
             "term": "latent conditioning",
             "type": "concept",
@@ -9861,6 +10217,13 @@
         {
             "id": "latent-motion-space",
             "term": "latent motion space",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "latent-reasoning-tokens",
+            "term": "latent reasoning tokens",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -10014,6 +10377,13 @@
             "degree": 0
         },
         {
+            "id": "llm-judge",
+            "term": "LLM-judge",
+            "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "llmrouter",
             "term": "LLMRouter",
             "type": "model",
@@ -10081,6 +10451,13 @@
             "term": "Logic-Render Alignment",
             "type": "metric",
             "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "logistic-regression",
+            "term": "logistic regression",
+            "type": "model",
+            "level": "basic",
             "degree": 0
         },
         {
@@ -10392,6 +10769,13 @@
             "degree": 0
         },
         {
+            "id": "mccl",
+            "term": "MCCL",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "mcp-based-agents",
             "term": "MCP-based agents",
             "type": "concept",
@@ -10487,6 +10871,20 @@
             "term": "mesh",
             "type": "concept",
             "level": "basic",
+            "degree": 0
+        },
+        {
+            "id": "meta-expert",
+            "term": "Meta Expert",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "meta-agent",
+            "term": "Meta-Agent",
+            "type": "model",
+            "level": "advanced",
             "degree": 0
         },
         {
@@ -10792,6 +11190,13 @@
             "degree": 0
         },
         {
+            "id": "multi-hop-reasoning",
+            "term": "multi-hop reasoning",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "multi-lcb",
             "term": "Multi-LCB",
             "type": "concept",
@@ -10855,6 +11260,13 @@
             "degree": 0
         },
         {
+            "id": "multilingual-benchmark",
+            "term": "multilingual benchmark",
+            "type": "dataset",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "multilingual-math-benchmark",
             "term": "multilingual math benchmark",
             "type": "dataset",
@@ -10878,6 +11290,13 @@
         {
             "id": "multimodal-autoregressive-model",
             "term": "multimodal autoregressive model",
+            "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "multimodal-coding-agent",
+            "term": "multimodal coding agent",
             "type": "model",
             "level": "advanced",
             "degree": 0
@@ -10957,13 +11376,6 @@
             "term": "multimodal LLMs",
             "type": "model",
             "level": "basic",
-            "degree": 0
-        },
-        {
-            "id": "multimodal-memory",
-            "term": "multimodal memory",
-            "type": "concept",
-            "level": "advanced",
             "degree": 0
         },
         {
@@ -11093,6 +11505,13 @@
             "degree": 0
         },
         {
+            "id": "ndcg-k",
+            "term": "nDCG@K",
+            "type": "metric",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "negative-binomial-mixed-model",
             "term": "negative-binomial mixed model",
             "type": "model",
@@ -11163,6 +11582,13 @@
             "degree": 0
         },
         {
+            "id": "nli",
+            "term": "NLI",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "nll",
             "term": "NLL",
             "type": "metric",
@@ -11181,6 +11607,13 @@
             "term": "no-CoT",
             "type": "concept",
             "level": "basic",
+            "degree": 0
+        },
+        {
+            "id": "non-parametric-memory",
+            "term": "non-parametric memory",
+            "type": "concept",
+            "level": "advanced",
             "degree": 0
         },
         {
@@ -11289,13 +11722,6 @@
             "degree": 0
         },
         {
-            "id": "omni-modal",
-            "term": "omni-modal",
-            "type": "concept",
-            "level": "advanced",
-            "degree": 0
-        },
-        {
             "id": "on-policy",
             "term": "on-policy",
             "type": "concept",
@@ -11331,6 +11757,13 @@
             "degree": 0
         },
         {
+            "id": "online-evaluation",
+            "term": "online evaluation",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "online-softmax",
             "term": "online-softmax",
             "type": "concept",
@@ -11354,6 +11787,13 @@
         {
             "id": "ood",
             "term": "OOD",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "open-scientific-discovery",
+            "term": "open scientific discovery",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -12115,6 +12555,13 @@
             "degree": 0
         },
         {
+            "id": "property-graph-database",
+            "term": "Property Graph Database",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "protein-sequences",
             "term": "protein sequences",
             "type": "concept",
@@ -12255,10 +12702,24 @@
             "degree": 0
         },
         {
+            "id": "r-precision",
+            "term": "R-Precision",
+            "type": "metric",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "r-swa",
             "term": "R-SWA",
             "type": "concept",
             "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "race",
+            "term": "RACE",
+            "type": "metric",
+            "level": "basic",
             "degree": 0
         },
         {
@@ -12287,6 +12748,13 @@
             "term": "RAG vs Fine-tuning",
             "type": "concept",
             "level": "core",
+            "degree": 0
+        },
+        {
+            "id": "ragas",
+            "term": "RAGAS",
+            "type": "metric",
+            "level": "advanced",
             "degree": 0
         },
         {
@@ -12399,6 +12867,13 @@
             "term": "Recall@1000",
             "type": "metric",
             "level": "basic",
+            "degree": 0
+        },
+        {
+            "id": "recurrence",
+            "term": "recurrence",
+            "type": "concept",
+            "level": "advanced",
             "degree": 0
         },
         {
@@ -12531,6 +13006,13 @@
             "id": "repocod",
             "term": "REPOCOD",
             "type": "dataset",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "repos",
+            "term": "repos",
+            "type": "concept",
             "level": "advanced",
             "degree": 0
         },
@@ -12755,6 +13237,13 @@
             "id": "role-assignment",
             "term": "role assignment",
             "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "rollout-to-scorer-distillation",
+            "term": "Rollout-to-Scorer Distillation",
+            "type": "model",
             "level": "advanced",
             "degree": 0
         },
@@ -13501,6 +13990,13 @@
             "degree": 0
         },
         {
+            "id": "socratic-skill-learning",
+            "term": "Socratic Skill Learning",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "soft-actor-critic-sac",
             "term": "Soft Actor-Critic (SAC)",
             "type": "model",
@@ -13510,6 +14006,13 @@
         {
             "id": "soft-fusion",
             "term": "soft fusion",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "soft-labels",
+            "term": "soft labels",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -13844,6 +14347,13 @@
             "degree": 0
         },
         {
+            "id": "student",
+            "term": "student",
+            "type": "concept",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "style-captions",
             "term": "style captions",
             "type": "concept",
@@ -14005,6 +14515,13 @@
             "degree": 0
         },
         {
+            "id": "synthetic-questions",
+            "term": "synthetic questions",
+            "type": "concept",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "synthetic-self-distillation",
             "term": "Synthetic Self-Distillation",
             "type": "concept",
@@ -14138,6 +14655,13 @@
             "degree": 0
         },
         {
+            "id": "teacher-student-disagreement",
+            "term": "teacher-student disagreement",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "teleoperated-real-robot-trajectories",
             "term": "teleoperated real-robot trajectories",
             "type": "concept",
@@ -14222,6 +14746,13 @@
             "degree": 0
         },
         {
+            "id": "tf-idf",
+            "term": "TF-IDF",
+            "type": "model",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "the-pile",
             "term": "The Pile",
             "type": "dataset",
@@ -14232,6 +14763,13 @@
             "id": "themis",
             "term": "Themis",
             "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "thinker",
+            "term": "Thinker",
+            "type": "concept",
             "level": "advanced",
             "degree": 0
         },
@@ -14315,6 +14853,13 @@
         {
             "id": "token-pruning",
             "term": "token pruning",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "token-gated-attention",
+            "term": "token-gated attention",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -14425,9 +14970,23 @@
             "degree": 0
         },
         {
+            "id": "trajectory-calibration",
+            "term": "trajectory calibration",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "trajectory-dataset",
             "term": "trajectory dataset",
             "type": "dataset",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "trajectory-head",
+            "term": "trajectory head",
+            "type": "concept",
             "level": "advanced",
             "degree": 0
         },
@@ -14523,6 +15082,13 @@
             "degree": 0
         },
         {
+            "id": "ttr-compressor",
+            "term": "TTR-Compressor",
+            "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "tvbi-token",
             "term": "TVBI token",
             "type": "concept",
@@ -14565,6 +15131,20 @@
             "degree": 0
         },
         {
+            "id": "umm",
+            "term": "UMM",
+            "type": "model",
+            "level": "basic",
+            "degree": 0
+        },
+        {
+            "id": "unanswerability",
+            "term": "Unanswerability",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "uncertainty-estimation",
             "term": "Uncertainty estimation",
             "type": "concept",
@@ -14596,6 +15176,13 @@
             "id": "uspto",
             "term": "USPTO",
             "type": "dataset",
+            "level": "basic",
+            "degree": 0
+        },
+        {
+            "id": "utility",
+            "term": "utility",
+            "type": "metric",
             "level": "basic",
             "degree": 0
         },
@@ -14873,6 +15460,13 @@
             "degree": 0
         },
         {
+            "id": "visual-token-merging",
+            "term": "visual token merging",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "visual-transition-reasoning",
             "term": "visual transition reasoning",
             "type": "concept",
@@ -14918,6 +15512,20 @@
             "id": "voxel-space",
             "term": "voxel space",
             "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "vp-worldbench",
+            "term": "VP-WorldBench",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "vpm-data",
+            "term": "VPM-Data",
+            "type": "dataset",
             "level": "advanced",
             "degree": 0
         },
@@ -15273,6 +15881,15 @@
             ]
         },
         {
+            "source": "accuracy",
+            "target": "benchmark",
+            "weight": 9,
+            "via": [
+                "cluster",
+                "issue"
+            ]
+        },
+        {
             "source": "benchmark",
             "target": "transformer",
             "weight": 9,
@@ -15341,15 +15958,6 @@
             "via": [
                 "cluster",
                 "lesson"
-            ]
-        },
-        {
-            "source": "accuracy",
-            "target": "benchmark",
-            "weight": 8,
-            "via": [
-                "cluster",
-                "issue"
             ]
         },
         {
@@ -18155,7 +18763,7 @@
         },
         {
             "source": "agent-loop",
-            "target": "autonomous-agent",
+            "target": "autonomous-agents",
             "weight": 3,
             "via": [
                 "lesson"
@@ -19818,6 +20426,14 @@
             ]
         },
         {
+            "source": "benchmark",
+            "target": "retrieval",
+            "weight": 3,
+            "via": [
+                "issue"
+            ]
+        },
+        {
             "source": "llm",
             "target": "retrieval",
             "weight": 3,
@@ -19987,7 +20603,7 @@
         },
         {
             "source": "benchmark",
-            "target": "retrieval",
+            "target": "cross-attention",
             "weight": 2,
             "via": [
                 "issue"
@@ -20268,6 +20884,14 @@
         {
             "source": "llm",
             "target": "swe-bench",
+            "weight": 2,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "pass-k",
+            "target": "reinforcement-learning",
             "weight": 2,
             "via": [
                 "issue"
@@ -20580,6 +21204,14 @@
         {
             "source": "fine-tuning",
             "target": "kv-cache",
+            "weight": 2,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "autoregressive",
+            "target": "diffusion",
             "weight": 2,
             "via": [
                 "issue"
@@ -22084,14 +22716,6 @@
         {
             "source": "benchmark",
             "target": "blocking-mechanism",
-            "weight": 1,
-            "via": [
-                "issue"
-            ]
-        },
-        {
-            "source": "benchmark",
-            "target": "cross-attention",
             "weight": 1,
             "via": [
                 "issue"
@@ -26228,14 +26852,6 @@
         {
             "source": "on-policy-distillation",
             "target": "vr-grpo",
-            "weight": 1,
-            "via": [
-                "issue"
-            ]
-        },
-        {
-            "source": "pass-k",
-            "target": "reinforcement-learning",
             "weight": 1,
             "via": [
                 "issue"
@@ -33707,14 +34323,6 @@
         },
         {
             "source": "autoregressive",
-            "target": "diffusion",
-            "weight": 1,
-            "via": [
-                "issue"
-            ]
-        },
-        {
-            "source": "autoregressive",
             "target": "diffusion-transformer",
             "weight": 1,
             "via": [
@@ -40388,6 +40996,782 @@
         {
             "source": "token-usage",
             "target": "tools",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "multimodal-memory",
+            "target": "pass-k",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "multimodal-memory",
+            "target": "policy",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "multimodal-memory",
+            "target": "reinforcement-learning",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "multimodal-memory",
+            "target": "tool-interface",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "pass-k",
+            "target": "policy",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "pass-k",
+            "target": "tool-interface",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "policy",
+            "target": "reinforcement-learning",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "policy",
+            "target": "tool-interface",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "reinforcement-learning",
+            "target": "tool-interface",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "distillation",
+            "target": "exact-match",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "distillation",
+            "target": "omni-modal",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "distillation",
+            "target": "progress-aligned-recurrence",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "distillation",
+            "target": "type-match",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "exact-match",
+            "target": "omni-modal",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "exact-match",
+            "target": "progress-aligned-recurrence",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "exact-match",
+            "target": "type-match",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "omni-modal",
+            "target": "progress-aligned-recurrence",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "omni-modal",
+            "target": "type-match",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "progress-aligned-recurrence",
+            "target": "type-match",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "autoregressive",
+            "target": "cache-policy",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "autoregressive",
+            "target": "compute-budget",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "autoregressive",
+            "target": "energy-driven-pathfinding",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "autoregressive",
+            "target": "execution-based-quality-gates",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "autoregressive",
+            "target": "future-chunk-prediction",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "autoregressive",
+            "target": "kv-cache",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "autoregressive",
+            "target": "qwen",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "autoregressive",
+            "target": "semantic-topology-graph",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "cache-policy",
+            "target": "compute-budget",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "cache-policy",
+            "target": "diffusion",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "cache-policy",
+            "target": "energy-driven-pathfinding",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "cache-policy",
+            "target": "execution-based-quality-gates",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "cache-policy",
+            "target": "future-chunk-prediction",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "cache-policy",
+            "target": "kv-cache",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "cache-policy",
+            "target": "qwen",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "cache-policy",
+            "target": "semantic-topology-graph",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "compute-budget",
+            "target": "diffusion",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "compute-budget",
+            "target": "energy-driven-pathfinding",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "compute-budget",
+            "target": "execution-based-quality-gates",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "compute-budget",
+            "target": "future-chunk-prediction",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "compute-budget",
+            "target": "kv-cache",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "compute-budget",
+            "target": "qwen",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "compute-budget",
+            "target": "semantic-topology-graph",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion",
+            "target": "energy-driven-pathfinding",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion",
+            "target": "execution-based-quality-gates",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion",
+            "target": "future-chunk-prediction",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion",
+            "target": "kv-cache",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion",
+            "target": "qwen",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion",
+            "target": "semantic-topology-graph",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "energy-driven-pathfinding",
+            "target": "execution-based-quality-gates",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "energy-driven-pathfinding",
+            "target": "future-chunk-prediction",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "energy-driven-pathfinding",
+            "target": "kv-cache",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "energy-driven-pathfinding",
+            "target": "qwen",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "energy-driven-pathfinding",
+            "target": "semantic-topology-graph",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "execution-based-quality-gates",
+            "target": "future-chunk-prediction",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "execution-based-quality-gates",
+            "target": "kv-cache",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "execution-based-quality-gates",
+            "target": "qwen",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "execution-based-quality-gates",
+            "target": "semantic-topology-graph",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "future-chunk-prediction",
+            "target": "kv-cache",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "future-chunk-prediction",
+            "target": "qwen",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "future-chunk-prediction",
+            "target": "semantic-topology-graph",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "kv-cache",
+            "target": "qwen",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "kv-cache",
+            "target": "semantic-topology-graph",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "qwen",
+            "target": "semantic-topology-graph",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "accuracy",
+            "target": "causal-memory-predictor",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "accuracy",
+            "target": "cross-attention",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "accuracy",
+            "target": "deep-fusion-memory",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "accuracy",
+            "target": "faithfulness",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "accuracy",
+            "target": "fapl",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "accuracy",
+            "target": "lasagna",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "accuracy",
+            "target": "retrieval",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "benchmark",
+            "target": "causal-memory-predictor",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "benchmark",
+            "target": "deep-fusion-memory",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "benchmark",
+            "target": "faithfulness",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "benchmark",
+            "target": "fapl",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "benchmark",
+            "target": "lasagna",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "causal-memory-predictor",
+            "target": "cross-attention",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "causal-memory-predictor",
+            "target": "deep-fusion-memory",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "causal-memory-predictor",
+            "target": "faithfulness",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "causal-memory-predictor",
+            "target": "fapl",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "causal-memory-predictor",
+            "target": "lasagna",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "causal-memory-predictor",
+            "target": "retrieval",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "cross-attention",
+            "target": "deep-fusion-memory",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "cross-attention",
+            "target": "faithfulness",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "cross-attention",
+            "target": "fapl",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "cross-attention",
+            "target": "lasagna",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "cross-attention",
+            "target": "retrieval",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "deep-fusion-memory",
+            "target": "faithfulness",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "deep-fusion-memory",
+            "target": "fapl",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "deep-fusion-memory",
+            "target": "lasagna",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "deep-fusion-memory",
+            "target": "retrieval",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "faithfulness",
+            "target": "fapl",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "faithfulness",
+            "target": "lasagna",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "faithfulness",
+            "target": "retrieval",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "fapl",
+            "target": "lasagna",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "fapl",
+            "target": "retrieval",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "lasagna",
+            "target": "retrieval",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "recursive-self-improvement",
+            "target": "sft",
             "weight": 1,
             "via": [
                 "issue"
