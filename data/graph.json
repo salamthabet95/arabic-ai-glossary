@@ -2,16 +2,16 @@
     "name": "شبكة مصطلحات الذكاء الاصطناعي بالعربي",
     "source": "https://ai.salamthabet.com/glossary.php",
     "license": "CC BY-SA 4.0",
-    "updated": "2026-10-25",
+    "updated": "2026-11-01",
     "directed": false,
     "method": "حوافّ من تواجد فعلي محفوظ: عناقيد محرَّرة يدوياً (×٥)، مصطلحات نفس المقالة (×٣)، مصطلحات نفس العدد اليومي (×١). ما في حافّة مولّدة بنموذج لغة.",
     "stats": {
-        "nodes": 2247,
-        "edges": 3240,
-        "connected": 769,
+        "nodes": 2401,
+        "edges": 3409,
+        "connected": 802,
         "clusters": 3,
         "lessons": 136,
-        "issues": 120
+        "issues": 127
     },
     "nodes": [
         {
@@ -19,7 +19,7 @@
             "term": "LLM",
             "type": "model",
             "level": "core",
-            "degree": 304,
+            "degree": 312,
             "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-an-llm"
         },
         {
@@ -27,7 +27,7 @@
             "term": "benchmark",
             "type": "metric",
             "level": "core",
-            "degree": 237,
+            "degree": 243,
             "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-a-benchmark"
         },
         {
@@ -35,7 +35,7 @@
             "term": "reinforcement learning",
             "type": "concept",
             "level": "core",
-            "degree": 173,
+            "degree": 177,
             "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-reinforcement-learning"
         },
         {
@@ -43,7 +43,7 @@
             "term": "fine-tuning",
             "type": "concept",
             "level": "core",
-            "degree": 96,
+            "degree": 101,
             "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-fine-tuning"
         },
         {
@@ -67,6 +67,14 @@
             "type": "concept",
             "level": "core",
             "degree": 57
+        },
+        {
+            "id": "diffusion",
+            "term": "diffusion",
+            "type": "concept",
+            "level": "core",
+            "degree": 52,
+            "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-diffusion"
         },
         {
             "id": "multimodal",
@@ -99,19 +107,18 @@
             "degree": 40
         },
         {
+            "id": "self-distillation",
+            "term": "self-distillation",
+            "type": "concept",
+            "level": "basic",
+            "degree": 40
+        },
+        {
             "id": "attention",
             "term": "attention",
             "type": "concept",
             "level": "core",
             "degree": 39
-        },
-        {
-            "id": "diffusion",
-            "term": "diffusion",
-            "type": "concept",
-            "level": "core",
-            "degree": 39,
-            "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-diffusion"
         },
         {
             "id": "accuracy",
@@ -128,12 +135,27 @@
             "degree": 37
         },
         {
+            "id": "lora",
+            "term": "LoRA",
+            "type": "model",
+            "level": "core",
+            "degree": 37,
+            "article": "https://ai.salamthabet.com/lesson.php?slug=lora-explained-simply"
+        },
+        {
             "id": "chain-of-thought",
             "term": "chain-of-thought",
             "type": "concept",
             "level": "core",
             "degree": 36,
             "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-chain-of-thought"
+        },
+        {
+            "id": "sft",
+            "term": "SFT",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 36
         },
         {
             "id": "zero-shot",
@@ -147,22 +169,7 @@
             "term": "In-Context Learning",
             "type": "concept",
             "level": "advanced",
-            "degree": 32
-        },
-        {
-            "id": "lora",
-            "term": "LoRA",
-            "type": "model",
-            "level": "core",
-            "degree": 32,
-            "article": "https://ai.salamthabet.com/lesson.php?slug=lora-explained-simply"
-        },
-        {
-            "id": "self-distillation",
-            "term": "self-distillation",
-            "type": "concept",
-            "level": "basic",
-            "degree": 32
+            "degree": 33
         },
         {
             "id": "moe",
@@ -171,6 +178,14 @@
             "level": "core",
             "degree": 31,
             "article": "https://ai.salamthabet.com/lesson.php?slug=mixture-of-experts"
+        },
+        {
+            "id": "quantization",
+            "term": "quantization",
+            "type": "concept",
+            "level": "core",
+            "degree": 31,
+            "article": "https://ai.salamthabet.com/lesson.php?slug=quantization-and-qlora"
         },
         {
             "id": "coding-agents",
@@ -199,13 +214,6 @@
             "type": "concept",
             "level": "advanced",
             "degree": 28
-        },
-        {
-            "id": "sft",
-            "term": "SFT",
-            "type": "concept",
-            "level": "advanced",
-            "degree": 27
         },
         {
             "id": "latent-space",
@@ -245,6 +253,14 @@
             "article": "https://ai.salamthabet.com/lesson.php?slug=small-language-models-slm"
         },
         {
+            "id": "embedding",
+            "term": "embedding",
+            "type": "concept",
+            "level": "core",
+            "degree": 23,
+            "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-an-embedding"
+        },
+        {
             "id": "knowledge-graph",
             "term": "knowledge graph",
             "type": "dataset",
@@ -257,14 +273,6 @@
             "type": "dataset",
             "level": "advanced",
             "degree": 23
-        },
-        {
-            "id": "embedding",
-            "term": "embedding",
-            "type": "concept",
-            "level": "core",
-            "degree": 22,
-            "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-an-embedding"
         },
         {
             "id": "prompt",
@@ -280,6 +288,13 @@
             "type": "model",
             "level": "advanced",
             "degree": 22
+        },
+        {
+            "id": "ema",
+            "term": "EMA",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 21
         },
         {
             "id": "hallucination",
@@ -376,13 +391,6 @@
             "degree": 16
         },
         {
-            "id": "ema",
-            "term": "EMA",
-            "type": "concept",
-            "level": "advanced",
-            "degree": 16
-        },
-        {
             "id": "knowledge-distillation",
             "term": "knowledge distillation",
             "type": "concept",
@@ -396,14 +404,6 @@
             "type": "concept",
             "level": "advanced",
             "degree": 16
-        },
-        {
-            "id": "quantization",
-            "term": "quantization",
-            "type": "concept",
-            "level": "core",
-            "degree": 16,
-            "article": "https://ai.salamthabet.com/lesson.php?slug=quantization-and-qlora"
         },
         {
             "id": "rlvr",
@@ -490,6 +490,13 @@
             "degree": 14
         },
         {
+            "id": "curriculum-learning",
+            "term": "curriculum learning",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 14
+        },
+        {
             "id": "gated-deltanet-gdn",
             "term": "Gated DeltaNet (GDN)",
             "type": "model",
@@ -539,6 +546,13 @@
             "degree": 13
         },
         {
+            "id": "code-generation",
+            "term": "code generation",
+            "type": "concept",
+            "level": "basic",
+            "degree": 13
+        },
+        {
             "id": "cross-modal-attention",
             "term": "cross-modal attention",
             "type": "concept",
@@ -553,12 +567,26 @@
             "degree": 13
         },
         {
+            "id": "libero",
+            "term": "LIBERO",
+            "type": "dataset",
+            "level": "advanced",
+            "degree": 13
+        },
+        {
             "id": "mcp",
             "term": "MCP",
             "type": "concept",
             "level": "core",
             "degree": 13,
             "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-mcp-model-context-protocol"
+        },
+        {
+            "id": "mixed-precision",
+            "term": "mixed-precision",
+            "type": "concept",
+            "level": "basic",
+            "degree": 13
         },
         {
             "id": "multi-agent",
@@ -638,13 +666,6 @@
             "term": "autoregressive model",
             "type": "model",
             "level": "advanced",
-            "degree": 12
-        },
-        {
-            "id": "code-generation",
-            "term": "code generation",
-            "type": "concept",
-            "level": "basic",
             "degree": 12
         },
         {
@@ -1065,6 +1086,13 @@
             "degree": 10
         },
         {
+            "id": "clip",
+            "term": "CLIP",
+            "type": "model",
+            "level": "core",
+            "degree": 10
+        },
+        {
             "id": "contextual-bandit",
             "term": "contextual bandit",
             "type": "concept",
@@ -1199,6 +1227,13 @@
             "term": "privilege illusion",
             "type": "concept",
             "level": "advanced",
+            "degree": 10
+        },
+        {
+            "id": "pruning",
+            "term": "pruning",
+            "type": "concept",
+            "level": "basic",
             "degree": 10
         },
         {
@@ -1795,10 +1830,24 @@
             "degree": 8
         },
         {
+            "id": "causal-attention",
+            "term": "causal attention",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 8
+        },
+        {
             "id": "causal-memory-predictor",
             "term": "causal memory predictor",
             "type": "concept",
             "level": "advanced",
+            "degree": 8
+        },
+        {
+            "id": "confidentiality",
+            "term": "confidentiality",
+            "type": "concept",
+            "level": "basic",
             "degree": 8
         },
         {
@@ -1811,6 +1860,13 @@
         {
             "id": "cross-model",
             "term": "cross-model",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 8
+        },
+        {
+            "id": "dct",
+            "term": "DCT",
             "type": "concept",
             "level": "advanced",
             "degree": 8
@@ -1830,6 +1886,20 @@
             "degree": 8
         },
         {
+            "id": "dgcnn",
+            "term": "DGCNN",
+            "type": "model",
+            "level": "advanced",
+            "degree": 8
+        },
+        {
+            "id": "diffusion-language-model",
+            "term": "diffusion language model",
+            "type": "model",
+            "level": "advanced",
+            "degree": 8
+        },
+        {
             "id": "diffusion-loss",
             "term": "diffusion loss",
             "type": "concept",
@@ -1846,6 +1916,13 @@
         {
             "id": "docker",
             "term": "Docker",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 8
+        },
+        {
+            "id": "ecot",
+            "term": "ECoT",
             "type": "concept",
             "level": "advanced",
             "degree": 8
@@ -1900,9 +1977,23 @@
             "degree": 8
         },
         {
+            "id": "fid",
+            "term": "FID",
+            "type": "metric",
+            "level": "advanced",
+            "degree": 8
+        },
+        {
             "id": "foundation-models",
             "term": "foundation models",
             "type": "concept",
+            "level": "advanced",
+            "degree": 8
+        },
+        {
+            "id": "gafu",
+            "term": "GAFU",
+            "type": "model",
             "level": "advanced",
             "degree": 8
         },
@@ -1953,6 +2044,13 @@
             "id": "interphyre",
             "term": "Interphyre",
             "type": "concept",
+            "level": "advanced",
+            "degree": 8
+        },
+        {
+            "id": "joint-embedding-predictive-architecture",
+            "term": "Joint-Embedding Predictive Architecture",
+            "type": "model",
             "level": "advanced",
             "degree": 8
         },
@@ -2050,6 +2148,13 @@
             "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-machine-learning"
         },
         {
+            "id": "mosaic-effect",
+            "term": "mosaic effect",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 8
+        },
+        {
             "id": "multi-head-latent-control",
             "term": "Multi-Head Latent Control",
             "type": "model",
@@ -2060,6 +2165,27 @@
             "id": "multimodal-pre-training",
             "term": "multimodal pre-training",
             "type": "concept",
+            "level": "advanced",
+            "degree": 8
+        },
+        {
+            "id": "optical-flow",
+            "term": "optical flow",
+            "type": "concept",
+            "level": "basic",
+            "degree": 8
+        },
+        {
+            "id": "osad",
+            "term": "OSAD",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 8
+        },
+        {
+            "id": "ovo-s-bench",
+            "term": "OVO-S-Bench",
+            "type": "dataset",
             "level": "advanced",
             "degree": 8
         },
@@ -2098,6 +2224,13 @@
             "level": "core",
             "degree": 8,
             "article": "https://ai.salamthabet.com/lesson.php?slug=how-to-write-prompts"
+        },
+        {
+            "id": "prompt-enhancer",
+            "term": "Prompt Enhancer",
+            "type": "model",
+            "level": "advanced",
+            "degree": 8
         },
         {
             "id": "prompter",
@@ -2234,8 +2367,22 @@
             "degree": 8
         },
         {
+            "id": "vstar-bench",
+            "term": "VStar-Bench",
+            "type": "dataset",
+            "level": "advanced",
+            "degree": 8
+        },
+        {
             "id": "xhc",
             "term": "xHC",
+            "type": "model",
+            "level": "advanced",
+            "degree": 8
+        },
+        {
+            "id": "youtu-omni-encoder",
+            "term": "Youtu-Omni-Encoder",
             "type": "model",
             "level": "advanced",
             "degree": 8
@@ -2565,6 +2712,13 @@
             "degree": 7
         },
         {
+            "id": "recursive-self-improvement",
+            "term": "recursive self-improvement",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 7
+        },
+        {
             "id": "reverse-kl-control",
             "term": "reverse-KL control",
             "type": "concept",
@@ -2583,6 +2737,13 @@
             "term": "self-consistency",
             "type": "metric",
             "level": "advanced",
+            "degree": 7
+        },
+        {
+            "id": "semantic-search",
+            "term": "semantic search",
+            "type": "concept",
+            "level": "core",
             "degree": 7
         },
         {
@@ -2706,6 +2867,13 @@
             "degree": 6
         },
         {
+            "id": "bfcl",
+            "term": "BFCL",
+            "type": "metric",
+            "level": "advanced",
+            "degree": 6
+        },
+        {
             "id": "builder-model",
             "term": "builder model",
             "type": "model",
@@ -2740,13 +2908,6 @@
             "term": "CUA",
             "type": "concept",
             "level": "basic",
-            "degree": 6
-        },
-        {
-            "id": "curriculum-learning",
-            "term": "curriculum learning",
-            "type": "concept",
-            "level": "advanced",
             "degree": 6
         },
         {
@@ -2808,6 +2969,13 @@
         {
             "id": "granularity-router",
             "term": "granularity router",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 6
+        },
+        {
+            "id": "hierarchical-memory",
+            "term": "hierarchical memory",
             "type": "concept",
             "level": "advanced",
             "degree": 6
@@ -2877,13 +3045,6 @@
             "degree": 6
         },
         {
-            "id": "mixed-precision",
-            "term": "mixed-precision",
-            "type": "concept",
-            "level": "basic",
-            "degree": 6
-        },
-        {
             "id": "mle-bench-lite",
             "term": "MLE-Bench Lite",
             "type": "dataset",
@@ -2933,10 +3094,10 @@
             "degree": 6
         },
         {
-            "id": "recursive-self-improvement",
-            "term": "recursive self-improvement",
+            "id": "proactive-interaction",
+            "term": "proactive interaction",
             "type": "concept",
-            "level": "advanced",
+            "level": "basic",
             "degree": 6
         },
         {
@@ -2965,13 +3126,6 @@
             "term": "self-supervision",
             "type": "concept",
             "level": "basic",
-            "degree": 6
-        },
-        {
-            "id": "semantic-search",
-            "term": "semantic search",
-            "type": "concept",
-            "level": "core",
             "degree": 6
         },
         {
@@ -3052,9 +3206,30 @@
             "degree": 6
         },
         {
+            "id": "trajectory",
+            "term": "trajectory",
+            "type": "concept",
+            "level": "core",
+            "degree": 6
+        },
+        {
+            "id": "trajectory-tracing",
+            "term": "Trajectory Tracing",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 6
+        },
+        {
             "id": "video-diffusion-transformer",
             "term": "video Diffusion Transformer",
             "type": "model",
+            "level": "advanced",
+            "degree": 6
+        },
+        {
+            "id": "video-foundation-models",
+            "term": "video foundation models",
+            "type": "concept",
             "level": "advanced",
             "degree": 6
         },
@@ -3101,8 +3276,22 @@
             "degree": 5
         },
         {
+            "id": "am-bench",
+            "term": "AM-Bench",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 5
+        },
+        {
             "id": "associative-memory",
             "term": "associative memory",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 5
+        },
+        {
+            "id": "asymmetric-attention",
+            "term": "asymmetric attention",
             "type": "concept",
             "level": "advanced",
             "degree": 5
@@ -3143,6 +3332,13 @@
             "degree": 5
         },
         {
+            "id": "conditional-experience-transfer",
+            "term": "conditional experience transfer",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 5
+        },
+        {
             "id": "cross-scale-knowledge-transfer",
             "term": "cross-scale knowledge transfer",
             "type": "concept",
@@ -3172,10 +3368,24 @@
             "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-deepfake-how-to-spot-it"
         },
         {
+            "id": "difficulty-axis",
+            "term": "difficulty axis",
+            "type": "concept",
+            "level": "basic",
+            "degree": 5
+        },
+        {
             "id": "early-outcome-prediction",
             "term": "early outcome prediction",
             "type": "concept",
             "level": "advanced",
+            "degree": 5
+        },
+        {
+            "id": "evaluation-metrics",
+            "term": "evaluation metrics",
+            "type": "concept",
+            "level": "basic",
             "degree": 5
         },
         {
@@ -3214,13 +3424,6 @@
             "degree": 5
         },
         {
-            "id": "libero",
-            "term": "LIBERO",
-            "type": "dataset",
-            "level": "advanced",
-            "degree": 5
-        },
-        {
             "id": "llama",
             "term": "LLaMA",
             "type": "model",
@@ -3240,6 +3443,13 @@
             "term": "multimodal alignment",
             "type": "concept",
             "level": "advanced",
+            "degree": 5
+        },
+        {
+            "id": "multimodal-questions",
+            "term": "multimodal questions",
+            "type": "concept",
+            "level": "basic",
             "degree": 5
         },
         {
@@ -3320,6 +3530,20 @@
             "degree": 5
         },
         {
+            "id": "pose-graph-optimization",
+            "term": "pose-graph optimization",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 5
+        },
+        {
+            "id": "post-training",
+            "term": "post-training",
+            "type": "concept",
+            "level": "basic",
+            "degree": 5
+        },
+        {
             "id": "recontext",
             "term": "RECONTEXT",
             "type": "concept",
@@ -3341,6 +3565,13 @@
             "degree": 5
         },
         {
+            "id": "semantic-accuracy",
+            "term": "semantic accuracy",
+            "type": "metric",
+            "level": "basic",
+            "degree": 5
+        },
+        {
             "id": "skill-aligned-hierarchical-clustering",
             "term": "skill-aligned hierarchical clustering",
             "type": "concept",
@@ -3355,6 +3586,13 @@
             "degree": 5
         },
         {
+            "id": "svg",
+            "term": "SVG",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 5
+        },
+        {
             "id": "swe-bench-verified",
             "term": "SWE-bench Verified",
             "type": "dataset",
@@ -3365,6 +3603,20 @@
             "id": "synthetic-experience",
             "term": "synthetic experience",
             "type": "concept",
+            "level": "advanced",
+            "degree": 5
+        },
+        {
+            "id": "task-pool",
+            "term": "task pool",
+            "type": "concept",
+            "level": "basic",
+            "degree": 5
+        },
+        {
+            "id": "teacher-model",
+            "term": "teacher model",
+            "type": "model",
             "level": "advanced",
             "degree": 5
         },
@@ -3411,13 +3663,6 @@
             "degree": 4
         },
         {
-            "id": "am-bench",
-            "term": "AM-Bench",
-            "type": "concept",
-            "level": "advanced",
-            "degree": 4
-        },
-        {
             "id": "ani",
             "term": "ANI",
             "type": "concept",
@@ -3438,13 +3683,6 @@
             "level": "core",
             "degree": 4,
             "article": "https://ai.salamthabet.com/lesson.php?slug=asr-speech-to-text"
-        },
-        {
-            "id": "asymmetric-attention",
-            "term": "asymmetric attention",
-            "type": "concept",
-            "level": "advanced",
-            "degree": 4
         },
         {
             "id": "attribution-graph",
@@ -3480,6 +3718,13 @@
             "term": "Big Data",
             "type": "concept",
             "level": "core",
+            "degree": 4
+        },
+        {
+            "id": "cl-bench",
+            "term": "CL-Bench",
+            "type": "concept",
+            "level": "advanced",
             "degree": 4
         },
         {
@@ -3562,6 +3807,13 @@
             "degree": 4
         },
         {
+            "id": "jacobian",
+            "term": "Jacobian",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 4
+        },
+        {
             "id": "llm-as-a-judge-2",
             "term": "LLM as a Judge",
             "type": "concept",
@@ -3598,6 +3850,13 @@
             "degree": 4
         },
         {
+            "id": "macro-average",
+            "term": "macro-average",
+            "type": "metric",
+            "level": "basic",
+            "degree": 4
+        },
+        {
             "id": "mfcc",
             "term": "MFCC",
             "type": "concept",
@@ -3609,6 +3868,13 @@
             "term": "multimodal memory",
             "type": "concept",
             "level": "advanced",
+            "degree": 4
+        },
+        {
+            "id": "multimodal-model",
+            "term": "multimodal model",
+            "type": "model",
+            "level": "basic",
             "degree": 4
         },
         {
@@ -3661,6 +3927,13 @@
             "degree": 4
         },
         {
+            "id": "osworld-verified",
+            "term": "OSWorld-Verified",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 4
+        },
+        {
             "id": "pairwise-comparison",
             "term": "Pairwise Comparison",
             "type": "concept",
@@ -3690,26 +3963,12 @@
             "degree": 4
         },
         {
-            "id": "pose-graph-optimization",
-            "term": "pose-graph optimization",
-            "type": "concept",
-            "level": "advanced",
-            "degree": 4
-        },
-        {
             "id": "position-bias",
             "term": "Position Bias",
             "type": "concept",
             "level": "core",
             "degree": 4,
             "article": "https://ai.salamthabet.com/lesson.php?slug=llm-as-a-judge"
-        },
-        {
-            "id": "post-training",
-            "term": "post-training",
-            "type": "concept",
-            "level": "basic",
-            "degree": 4
         },
         {
             "id": "progress-aligned-recurrence",
@@ -3749,6 +4008,13 @@
             "article": "https://ai.salamthabet.com/lesson.php?slug=what-is-reward-hacking"
         },
         {
+            "id": "rollouts",
+            "term": "rollouts",
+            "type": "concept",
+            "level": "basic",
+            "degree": 4
+        },
+        {
             "id": "rouge-l",
             "term": "ROUGE-L",
             "type": "metric",
@@ -3762,13 +4028,6 @@
             "level": "core",
             "degree": 4,
             "article": "https://ai.salamthabet.com/lesson.php?slug=llm-as-a-judge"
-        },
-        {
-            "id": "semantic-accuracy",
-            "term": "semantic accuracy",
-            "type": "metric",
-            "level": "basic",
-            "degree": 4
         },
         {
             "id": "singularity",
@@ -3831,20 +4090,6 @@
             "term": "Supervised Fine-Tuning",
             "type": "concept",
             "level": "basic",
-            "degree": 4
-        },
-        {
-            "id": "svg",
-            "term": "SVG",
-            "type": "concept",
-            "level": "advanced",
-            "degree": 4
-        },
-        {
-            "id": "teacher-model",
-            "term": "teacher model",
-            "type": "model",
-            "level": "advanced",
             "degree": 4
         },
         {
@@ -4075,24 +4320,10 @@
             "degree": 3
         },
         {
-            "id": "osworld-verified",
-            "term": "OSWorld-Verified",
-            "type": "concept",
-            "level": "advanced",
-            "degree": 3
-        },
-        {
             "id": "phishing",
             "term": "Phishing",
             "type": "concept",
             "level": "core",
-            "degree": 3
-        },
-        {
-            "id": "pruning",
-            "term": "pruning",
-            "type": "concept",
-            "level": "basic",
             "degree": 3
         },
         {
@@ -4107,13 +4338,6 @@
             "term": "reverse CAPTCHA",
             "type": "concept",
             "level": "core",
-            "degree": 3
-        },
-        {
-            "id": "rollouts",
-            "term": "rollouts",
-            "type": "concept",
-            "level": "basic",
             "degree": 3
         },
         {
@@ -4291,13 +4515,6 @@
             "id": "chinese-room",
             "term": "Chinese Room",
             "type": "concept",
-            "level": "core",
-            "degree": 2
-        },
-        {
-            "id": "clip",
-            "term": "CLIP",
-            "type": "model",
             "level": "core",
             "degree": 2
         },
@@ -4585,6 +4802,13 @@
             "term": "license",
             "type": "concept",
             "level": "core",
+            "degree": 2
+        },
+        {
+            "id": "manipulation",
+            "term": "manipulation",
+            "type": "concept",
+            "level": "basic",
             "degree": 2
         },
         {
@@ -4932,13 +5156,6 @@
             "degree": 2
         },
         {
-            "id": "trajectory",
-            "term": "trajectory",
-            "type": "concept",
-            "level": "core",
-            "degree": 2
-        },
-        {
             "id": "turing-test",
             "term": "Turing Test",
             "type": "concept",
@@ -4965,6 +5182,13 @@
             "id": "weights",
             "term": "weights",
             "type": "concept",
+            "level": "core",
+            "degree": 2
+        },
+        {
+            "id": "word2vec",
+            "term": "Word2Vec",
+            "type": "model",
             "level": "core",
             "degree": 2
         },
@@ -5138,6 +5362,13 @@
             "term": "Claude",
             "type": "model",
             "level": "core",
+            "degree": 1
+        },
+        {
+            "id": "claude-opus-5-5",
+            "term": "Claude Opus 5.5",
+            "type": "model",
+            "level": "advanced",
             "degree": 1
         },
         {
@@ -5558,6 +5789,13 @@
             "degree": 0
         },
         {
+            "id": "6c-quality-score",
+            "term": "6C quality score",
+            "type": "metric",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "6dof",
             "term": "6DoF",
             "type": "concept",
@@ -5575,6 +5813,13 @@
             "id": "aaarena",
             "term": "AAArena",
             "type": "dataset",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "ab-attention",
+            "term": "AB-Attention",
+            "type": "model",
             "level": "advanced",
             "degree": 0
         },
@@ -5670,6 +5915,13 @@
             "degree": 0
         },
         {
+            "id": "actor-critic",
+            "term": "Actor-Critic",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "adam",
             "term": "Adam",
             "type": "model",
@@ -5707,6 +5959,13 @@
         {
             "id": "adversarial",
             "term": "adversarial",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "adversarial-agent-team",
+            "term": "Adversarial Agent Team",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -6105,6 +6364,13 @@
             "degree": 0
         },
         {
+            "id": "atest",
+            "term": "ATEST",
+            "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "attention-maps",
             "term": "attention maps",
             "type": "concept",
@@ -6266,6 +6532,13 @@
             "degree": 0
         },
         {
+            "id": "autoregressive-decoding",
+            "term": "autoregressive decoding",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "autoregressive-modeling",
             "term": "autoregressive modeling",
             "type": "concept",
@@ -6303,6 +6576,13 @@
         {
             "id": "av-flamingo",
             "term": "AV-Flamingo",
+            "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "av-tfgridnet",
+            "term": "AV‑TFGridNet",
             "type": "model",
             "level": "advanced",
             "degree": 0
@@ -6406,6 +6686,13 @@
             "degree": 0
         },
         {
+            "id": "batch-size",
+            "term": "batch size",
+            "type": "concept",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "bayesian",
             "term": "Bayesian",
             "type": "concept",
@@ -6422,6 +6709,13 @@
         {
             "id": "bayesian-decomposition",
             "term": "Bayesian decomposition",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "bayesian-experimental-design",
+            "term": "Bayesian experimental design",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -6444,6 +6738,13 @@
             "id": "bayesian-online-learning",
             "term": "Bayesian online learning",
             "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "bayesian-witness-benchmark",
+            "term": "Bayesian-witness benchmark",
+            "type": "dataset",
             "level": "advanced",
             "degree": 0
         },
@@ -6501,13 +6802,6 @@
             "term": "BERT",
             "type": "model",
             "level": "basic",
-            "degree": 0
-        },
-        {
-            "id": "bfcl",
-            "term": "BFCL",
-            "type": "concept",
-            "level": "advanced",
             "degree": 0
         },
         {
@@ -6623,9 +6917,23 @@
             "degree": 0
         },
         {
+            "id": "bptt",
+            "term": "BPTT",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "braille-toolkit",
             "term": "Braille Toolkit",
             "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "brier-loss",
+            "term": "Brier loss",
+            "type": "metric",
             "level": "advanced",
             "degree": 0
         },
@@ -6653,6 +6961,13 @@
         {
             "id": "budget-constrained-dynamic-grouping",
             "term": "budget-constrained dynamic grouping",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "budget-controllable",
+            "term": "budget-controllable",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -6723,6 +7038,13 @@
         {
             "id": "camera-conditioning",
             "term": "camera conditioning",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "capability-tree",
+            "term": "Capability tree",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -7001,13 +7323,6 @@
             "degree": 0
         },
         {
-            "id": "claude-opus-5-5",
-            "term": "Claude Opus 5.5",
-            "type": "model",
-            "level": "advanced",
-            "degree": 0
-        },
-        {
             "id": "clevr-robot",
             "term": "CLEVR-Robot",
             "type": "dataset",
@@ -7053,6 +7368,13 @@
             "id": "cmm",
             "term": "CMM",
             "type": "dataset",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "co-design-bench",
+            "term": "Co-Design Bench",
+            "type": "concept",
             "level": "advanced",
             "degree": 0
         },
@@ -7155,6 +7477,20 @@
             "degree": 0
         },
         {
+            "id": "complex",
+            "term": "COMPLEX",
+            "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "composer",
+            "term": "Composer",
+            "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "compositional-generalization",
             "term": "compositional generalization",
             "type": "concept",
@@ -7220,6 +7556,13 @@
         {
             "id": "connectionist-temporal-classification",
             "term": "Connectionist Temporal Classification",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "connector",
+            "term": "connector",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -7323,6 +7666,13 @@
             "degree": 0
         },
         {
+            "id": "continuous-semantic-compression",
+            "term": "continuous semantic compression",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "contrastive-activation-addition",
             "term": "Contrastive Activation Addition",
             "type": "concept",
@@ -7332,6 +7682,13 @@
         {
             "id": "contrastive-decoder",
             "term": "contrastive decoder",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "contrastive-loss",
+            "term": "contrastive loss",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -7375,6 +7732,13 @@
             "id": "copilot-cli",
             "term": "Copilot CLI",
             "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "copula",
+            "term": "copula",
+            "type": "concept",
             "level": "advanced",
             "degree": 0
         },
@@ -7436,6 +7800,13 @@
             "degree": 0
         },
         {
+            "id": "coupled-welfare-corpus",
+            "term": "coupled welfare corpus",
+            "type": "dataset",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "crax",
             "term": "CRAX",
             "type": "model",
@@ -7468,6 +7839,13 @@
             "term": "cross-axis TIES",
             "type": "concept",
             "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "cross-entropy",
+            "term": "cross-entropy",
+            "type": "metric",
+            "level": "basic",
             "degree": 0
         },
         {
@@ -7702,6 +8080,13 @@
             "degree": 0
         },
         {
+            "id": "decision-quality",
+            "term": "Decision Quality",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "decision-stack",
             "term": "decision stack",
             "type": "model",
@@ -7727,6 +8112,13 @@
             "term": "decoding",
             "type": "concept",
             "level": "basic",
+            "degree": 0
+        },
+        {
+            "id": "deep-noir",
+            "term": "Deep Noir",
+            "type": "model",
+            "level": "advanced",
             "degree": 0
         },
         {
@@ -7814,6 +8206,13 @@
             "degree": 0
         },
         {
+            "id": "deterministic-trajectory-evaluator",
+            "term": "deterministic trajectory evaluator",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "dexterous-hand-object-interaction",
             "term": "dexterous hand-object interaction",
             "type": "concept",
@@ -7870,8 +8269,15 @@
             "degree": 0
         },
         {
-            "id": "diffusion-language-model",
-            "term": "diffusion language model",
+            "id": "difficulty-aware-prompt-sampling",
+            "term": "Difficulty-Aware Prompt Sampling",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "diffusion-decoder",
+            "term": "diffusion decoder",
             "type": "model",
             "level": "advanced",
             "degree": 0
@@ -7964,6 +8370,13 @@
             "id": "dists",
             "term": "DISTS",
             "type": "metric",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "dllm",
+            "term": "DLLM",
+            "type": "model",
             "level": "advanced",
             "degree": 0
         },
@@ -8073,6 +8486,13 @@
             "degree": 0
         },
         {
+            "id": "dual-ascent-controller",
+            "term": "dual-ascent controller",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "dual-attention",
             "term": "dual-attention",
             "type": "model",
@@ -8157,6 +8577,13 @@
             "degree": 0
         },
         {
+            "id": "eau",
+            "term": "EAU",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "ecco",
             "term": "ECCO",
             "type": "dataset",
@@ -8182,6 +8609,20 @@
             "term": "EEG",
             "type": "concept",
             "level": "basic",
+            "degree": 0
+        },
+        {
+            "id": "effective-rank",
+            "term": "effective rank",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "effort-level",
+            "term": "effort level",
+            "type": "concept",
+            "level": "advanced",
             "degree": 0
         },
         {
@@ -8367,6 +8808,20 @@
             "degree": 0
         },
         {
+            "id": "entropy-adaptive-negative-advantages",
+            "term": "entropy-adaptive negative advantages",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "entropy-based-retrieval",
+            "term": "entropy-based retrieval",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "environment",
             "term": "environment",
             "type": "concept",
@@ -8392,6 +8847,13 @@
             "term": "EPO",
             "type": "dataset",
             "level": "basic",
+            "degree": 0
+        },
+        {
+            "id": "epsbench",
+            "term": "EPSBench",
+            "type": "concept",
+            "level": "advanced",
             "degree": 0
         },
         {
@@ -8439,6 +8901,13 @@
         {
             "id": "evidence-blindness",
             "term": "Evidence Blindness",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "evidence-faithfulness",
+            "term": "Evidence Faithfulness",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -8542,6 +9011,13 @@
             "degree": 0
         },
         {
+            "id": "factorized-vector-quantization",
+            "term": "Factorized Vector Quantization",
+            "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "fairness",
             "term": "fairness",
             "type": "concept",
@@ -8622,13 +9098,6 @@
             "id": "fft",
             "term": "FFT",
             "type": "concept",
-            "level": "advanced",
-            "degree": 0
-        },
-        {
-            "id": "fid",
-            "term": "FID",
-            "type": "metric",
             "level": "advanced",
             "degree": 0
         },
@@ -8836,6 +9305,13 @@
             "degree": 0
         },
         {
+            "id": "function-space-policy-optimization",
+            "term": "Function-Space Policy Optimization",
+            "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "further-pre-training",
             "term": "further pre-training",
             "type": "concept",
@@ -8885,6 +9361,13 @@
             "degree": 0
         },
         {
+            "id": "gaap",
+            "term": "GAAP",
+            "type": "concept",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "gain-shape-k-means-gskm",
             "term": "Gain-Shape K-means (GSKM)",
             "type": "concept",
@@ -8923,6 +9406,13 @@
             "id": "gaussian-splatting",
             "term": "Gaussian Splatting",
             "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "gcg-attack",
+            "term": "GCG attack",
+            "type": "concept",
             "level": "advanced",
             "degree": 0
         },
@@ -8990,6 +9480,13 @@
             "degree": 0
         },
         {
+            "id": "generative-refinement-networks",
+            "term": "Generative Refinement Networks",
+            "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "genetic-algorithm",
             "term": "Genetic Algorithm",
             "type": "model",
@@ -9015,6 +9512,13 @@
             "term": "geospatial embeddings",
             "type": "concept",
             "level": "basic",
+            "degree": 0
+        },
+        {
+            "id": "gepa-curator",
+            "term": "GEPA-Curator",
+            "type": "model",
+            "level": "advanced",
             "degree": 0
         },
         {
@@ -9067,6 +9571,13 @@
             "degree": 0
         },
         {
+            "id": "gnn",
+            "term": "GNN",
+            "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "gnn-retriever",
             "term": "GNN Retriever",
             "type": "model",
@@ -9095,6 +9606,13 @@
             "degree": 0
         },
         {
+            "id": "golden-data-model",
+            "term": "Golden Data Model",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "golden-negative-trajectories",
             "term": "Golden Negative Trajectories",
             "type": "concept",
@@ -9112,6 +9630,13 @@
             "id": "gptq",
             "term": "GPTQ",
             "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "gradient-attribution",
+            "term": "gradient attribution",
+            "type": "concept",
             "level": "advanced",
             "degree": 0
         },
@@ -9326,6 +9851,13 @@
             "degree": 0
         },
         {
+            "id": "habit-bench",
+            "term": "HABIT-Bench",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "halo-effect",
             "term": "halo effect",
             "type": "concept",
@@ -9452,6 +9984,13 @@
             "degree": 0
         },
         {
+            "id": "hidden-profile-task",
+            "term": "hidden-profile task",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "hidden-state",
             "term": "hidden-state",
             "type": "concept",
@@ -9487,8 +10026,15 @@
             "degree": 0
         },
         {
-            "id": "hierarchical-memory",
-            "term": "hierarchical memory",
+            "id": "hierarchical-neighbor-search",
+            "term": "hierarchical neighbor search",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "hierarchical-optimization",
+            "term": "hierarchical optimization",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -9543,6 +10089,13 @@
             "degree": 0
         },
         {
+            "id": "hint",
+            "term": "hint",
+            "type": "concept",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "holiworld-data",
             "term": "HOLIWORLD-Data",
             "type": "dataset",
@@ -9559,7 +10112,7 @@
         {
             "id": "human-evaluation",
             "term": "human evaluation",
-            "type": "concept",
+            "type": "metric",
             "level": "basic",
             "degree": 0
         },
@@ -9774,6 +10327,13 @@
             "degree": 0
         },
         {
+            "id": "inclusion-probability-weighting",
+            "term": "Inclusion-Probability Weighting",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "inference-engine",
             "term": "inference engine",
             "type": "concept",
@@ -9942,6 +10502,13 @@
             "degree": 0
         },
         {
+            "id": "intra-block-clustering-selector",
+            "term": "Intra-Block Clustering Selector",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "isyv-bench",
             "term": "ISYV-Bench",
             "type": "dataset",
@@ -9959,13 +10526,6 @@
             "id": "iv-cot",
             "term": "IV-CoT",
             "type": "model",
-            "level": "advanced",
-            "degree": 0
-        },
-        {
-            "id": "jacobian",
-            "term": "Jacobian",
-            "type": "concept",
             "level": "advanced",
             "degree": 0
         },
@@ -10089,6 +10649,13 @@
             "degree": 0
         },
         {
+            "id": "kl-analysis",
+            "term": "KL analysis",
+            "type": "metric",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "kl-drift",
             "term": "KL drift",
             "type": "metric",
@@ -10107,6 +10674,13 @@
             "term": "kNN",
             "type": "concept",
             "level": "basic",
+            "degree": 0
+        },
+        {
+            "id": "knowing-using-gap",
+            "term": "Knowing--Using Gap",
+            "type": "concept",
+            "level": "advanced",
             "degree": 0
         },
         {
@@ -10243,6 +10817,13 @@
             "degree": 0
         },
         {
+            "id": "latent-visual-evidence",
+            "term": "latent visual evidence",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "latent-world-model",
             "term": "latent world model",
             "type": "concept",
@@ -10355,6 +10936,13 @@
             "degree": 0
         },
         {
+            "id": "llm-verifier",
+            "term": "LLM verifier",
+            "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "llm-as-a-judge",
             "term": "LLM-as-a-judge",
             "type": "metric",
@@ -10414,6 +11002,13 @@
         {
             "id": "loca-bench",
             "term": "LOCA-bench",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "local-attention",
+            "term": "local attention",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -10503,9 +11098,9 @@
             "degree": 0
         },
         {
-            "id": "looped-transformers",
-            "term": "looped Transformers",
-            "type": "concept",
+            "id": "looped-transformer",
+            "term": "looped transformer",
+            "type": "model",
             "level": "advanced",
             "degree": 0
         },
@@ -10519,6 +11114,13 @@
         {
             "id": "low-rank-adaptation",
             "term": "Low-Rank Adaptation",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "low-rank-map",
+            "term": "low-rank map",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -10580,6 +11182,13 @@
             "degree": 0
         },
         {
+            "id": "macro-accuracy",
+            "term": "macro accuracy",
+            "type": "metric",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "macro-auc",
             "term": "macro AUC",
             "type": "metric",
@@ -10608,15 +11217,15 @@
             "degree": 0
         },
         {
-            "id": "macro-average",
-            "term": "macro-average",
+            "id": "macro-averaged-auc",
+            "term": "macro-averaged AUC",
             "type": "metric",
-            "level": "basic",
+            "level": "advanced",
             "degree": 0
         },
         {
-            "id": "macro-averaged-auc",
-            "term": "macro-averaged AUC",
+            "id": "macro-averaged-concordance",
+            "term": "macro-averaged concordance",
             "type": "metric",
             "level": "advanced",
             "degree": 0
@@ -10646,6 +11255,20 @@
             "id": "mage-vit",
             "term": "Mage-ViT",
             "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "mage-vl",
+            "term": "Mage-VL",
+            "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "majority-voting",
+            "term": "majority-voting",
+            "type": "concept",
             "level": "advanced",
             "degree": 0
         },
@@ -10783,6 +11406,13 @@
             "degree": 0
         },
         {
+            "id": "mcq",
+            "term": "MCQ",
+            "type": "concept",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "mean-average-precision",
             "term": "Mean Average Precision",
             "type": "metric",
@@ -10829,6 +11459,13 @@
             "term": "mechanistic interpretability",
             "type": "concept",
             "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "medi-q",
+            "term": "Medi-Q",
+            "type": "concept",
+            "level": "basic",
             "degree": 0
         },
         {
@@ -10968,6 +11605,13 @@
             "id": "mini-bvb",
             "term": "Mini-BVB",
             "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "minite",
+            "term": "miniTE",
+            "type": "model",
             "level": "advanced",
             "degree": 0
         },
@@ -11225,6 +11869,13 @@
             "degree": 0
         },
         {
+            "id": "multi-teacher-on-policy-distillation",
+            "term": "multi-teacher on-policy distillation",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "multi-turn-reasoning",
             "term": "multi-turn reasoning",
             "type": "concept",
@@ -11250,6 +11901,13 @@
             "term": "multi-turn RL",
             "type": "concept",
             "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "multi-view",
+            "term": "multi-view",
+            "type": "concept",
+            "level": "basic",
             "degree": 0
         },
         {
@@ -11312,6 +11970,13 @@
             "id": "multimodal-decision-model",
             "term": "multimodal decision model",
             "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "multimodal-editing",
+            "term": "Multimodal Editing",
+            "type": "concept",
             "level": "advanced",
             "degree": 0
         },
@@ -11379,13 +12044,6 @@
             "degree": 0
         },
         {
-            "id": "multimodal-model",
-            "term": "multimodal model",
-            "type": "model",
-            "level": "basic",
-            "degree": 0
-        },
-        {
             "id": "multimodal-reasoning",
             "term": "multimodal reasoning",
             "type": "concept",
@@ -11425,6 +12083,13 @@
             "term": "multiprobe grid",
             "type": "model",
             "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "multispectral",
+            "term": "multispectral",
+            "type": "concept",
+            "level": "basic",
             "degree": 0
         },
         {
@@ -11508,6 +12173,13 @@
             "id": "ndcg-k",
             "term": "nDCG@K",
             "type": "metric",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "negative-log-odds-gradients",
+            "term": "negative log-odds gradients",
+            "type": "concept",
             "level": "advanced",
             "degree": 0
         },
@@ -11638,6 +12310,13 @@
             "degree": 0
         },
         {
+            "id": "npc-rubricbench",
+            "term": "NPC-RubricBench",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "null-detection",
             "term": "null detection",
             "type": "concept",
@@ -11677,6 +12356,13 @@
             "term": "OCR-Robust",
             "type": "concept",
             "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "ocrbench",
+            "term": "OCRBench",
+            "type": "concept",
+            "level": "basic",
             "degree": 0
         },
         {
@@ -11827,13 +12513,6 @@
             "degree": 0
         },
         {
-            "id": "optical-flow",
-            "term": "optical flow",
-            "type": "concept",
-            "level": "basic",
-            "degree": 0
-        },
-        {
             "id": "optimization-model",
             "term": "optimization model",
             "type": "concept",
@@ -11894,6 +12573,13 @@
             "term": "outcome-based reinforcement learning",
             "type": "concept",
             "level": "basic",
+            "degree": 0
+        },
+        {
+            "id": "oytser",
+            "term": "Oytser",
+            "type": "dataset",
+            "level": "advanced",
             "degree": 0
         },
         {
@@ -12002,6 +12688,13 @@
             "degree": 0
         },
         {
+            "id": "pawm",
+            "term": "PAWM",
+            "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "pbr",
             "term": "PBR",
             "type": "concept",
@@ -12027,6 +12720,13 @@
             "term": "Pearl's rungs",
             "type": "concept",
             "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "pearson-correlation",
+            "term": "Pearson correlation",
+            "type": "metric",
+            "level": "basic",
             "degree": 0
         },
         {
@@ -12083,6 +12783,13 @@
             "term": "personalization",
             "type": "concept",
             "level": "basic",
+            "degree": 0
+        },
+        {
+            "id": "pfn",
+            "term": "PFN",
+            "type": "concept",
+            "level": "advanced",
             "degree": 0
         },
         {
@@ -12387,6 +13094,13 @@
             "degree": 0
         },
         {
+            "id": "pressure-ladder",
+            "term": "pressure ladder",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "pretraining",
             "term": "pretraining",
             "type": "concept",
@@ -12445,6 +13159,13 @@
         {
             "id": "privileged-interventions",
             "term": "privileged interventions",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "privileged-reasoning",
+            "term": "privileged reasoning",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -12667,6 +13388,13 @@
             "degree": 0
         },
         {
+            "id": "quantized-weights",
+            "term": "quantized weights",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "quantum-recurrent-network",
             "term": "quantum recurrent network",
             "type": "model",
@@ -12793,6 +13521,13 @@
             "degree": 0
         },
         {
+            "id": "ranking-objective",
+            "term": "ranking objective",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "rc-cot",
             "term": "RC-CoT",
             "type": "concept",
@@ -12846,6 +13581,13 @@
             "term": "reasoning trace",
             "type": "concept",
             "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "recall-1",
+            "term": "Recall@1",
+            "type": "metric",
+            "level": "basic",
             "degree": 0
         },
         {
@@ -12968,6 +13710,13 @@
             "degree": 0
         },
         {
+            "id": "reflexion",
+            "term": "Reflexion",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "regression-models",
             "term": "regression models",
             "type": "concept",
@@ -12996,9 +13745,23 @@
             "degree": 0
         },
         {
+            "id": "reminder",
+            "term": "reminder",
+            "type": "concept",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "repeated-sampling-metrics",
             "term": "repeated-sampling metrics",
             "type": "metric",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "replica-method",
+            "term": "replica method",
+            "type": "concept",
             "level": "advanced",
             "degree": 0
         },
@@ -13012,6 +13775,13 @@
         {
             "id": "repos",
             "term": "repos",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "repository-editing",
+            "term": "Repository Editing",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -13087,9 +13857,23 @@
             "degree": 0
         },
         {
+            "id": "retrieval-corpus",
+            "term": "retrieval corpus",
+            "type": "dataset",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "retrieval-correctness",
             "term": "retrieval correctness",
             "type": "metric",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "retrieval-heads",
+            "term": "retrieval heads",
+            "type": "concept",
             "level": "advanced",
             "degree": 0
         },
@@ -13150,6 +13934,13 @@
             "degree": 0
         },
         {
+            "id": "reward-weighted-update",
+            "term": "reward-weighted update",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "rgb",
             "term": "RGB",
             "type": "concept",
@@ -13201,6 +13992,13 @@
         {
             "id": "rlpo",
             "term": "RLPO",
+            "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "rlsplat",
+            "term": "RLSplat",
             "type": "model",
             "level": "advanced",
             "degree": 0
@@ -13423,6 +14221,20 @@
             "degree": 0
         },
         {
+            "id": "sate-bench",
+            "term": "SATE-Bench",
+            "type": "dataset",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "scaling-law",
+            "term": "scaling law",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "scapo",
             "term": "SCAPO",
             "type": "model",
@@ -13460,6 +14272,13 @@
         {
             "id": "schema-linking",
             "term": "schema linking",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "schema-validated-structured-text",
+            "term": "schema-validated structured text",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -13509,6 +14328,13 @@
         {
             "id": "segmentation",
             "term": "segmentation",
+            "type": "concept",
+            "level": "basic",
+            "degree": 0
+        },
+        {
+            "id": "selection-bias",
+            "term": "selection bias",
             "type": "concept",
             "level": "basic",
             "degree": 0
@@ -13628,6 +14454,13 @@
         {
             "id": "semantic-evidence-generation",
             "term": "Semantic Evidence Generation",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "semantic-ids",
+            "term": "semantic IDs",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -13775,6 +14608,13 @@
         {
             "id": "shapley",
             "term": "Shapley",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "shapley-value",
+            "term": "Shapley value",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -14018,6 +14858,13 @@
             "degree": 0
         },
         {
+            "id": "soft-mtp",
+            "term": "Soft-MTP",
+            "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "softmax",
             "term": "softmax",
             "type": "concept",
@@ -14060,6 +14907,13 @@
             "degree": 0
         },
         {
+            "id": "sope",
+            "term": "SOPE",
+            "type": "dataset",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "sophia",
             "term": "SOPHIA",
             "type": "concept",
@@ -14074,10 +14928,10 @@
             "degree": 0
         },
         {
-            "id": "source-free-environment",
-            "term": "source-free environment",
+            "id": "source-free-environments",
+            "term": "source-free environments",
             "type": "concept",
-            "level": "advanced",
+            "level": "basic",
             "degree": 0
         },
         {
@@ -14125,6 +14979,13 @@
         {
             "id": "spatio-temporal-evidence-accumulation",
             "term": "spatio-temporal evidence accumulation",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "spatiotemporal-attention",
+            "term": "spatiotemporal attention",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -14207,6 +15068,20 @@
             "degree": 0
         },
         {
+            "id": "spot",
+            "term": "SPOT",
+            "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "spurious-signals",
+            "term": "spurious signals",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "sql-syntax-validity",
             "term": "SQL syntax validity",
             "type": "metric",
@@ -14218,6 +15093,13 @@
             "term": "SQLite",
             "type": "concept",
             "level": "basic",
+            "degree": 0
+        },
+        {
+            "id": "ssu-wanda",
+            "term": "SSU-Wanda",
+            "type": "model",
+            "level": "advanced",
             "degree": 0
         },
         {
@@ -14291,6 +15173,13 @@
             "degree": 0
         },
         {
+            "id": "streaming-video-understanding",
+            "term": "streaming video understanding",
+            "type": "concept",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "strict-accuracy",
             "term": "strict accuracy",
             "type": "metric",
@@ -14358,6 +15247,13 @@
             "term": "style captions",
             "type": "concept",
             "level": "basic",
+            "degree": 0
+        },
+        {
+            "id": "style-prototype-similarity",
+            "term": "Style Prototype Similarity",
+            "type": "metric",
+            "level": "advanced",
             "degree": 0
         },
         {
@@ -14431,6 +15327,20 @@
             "degree": 0
         },
         {
+            "id": "surface-normal-maps",
+            "term": "surface-normal maps",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "surrogate-error",
+            "term": "surrogate error",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "survival-prediction",
             "term": "survival prediction",
             "type": "concept",
@@ -14462,6 +15372,13 @@
             "id": "swe-together",
             "term": "SWE‑Together",
             "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "swin-transformer",
+            "term": "Swin Transformer",
+            "type": "model",
             "level": "advanced",
             "degree": 0
         },
@@ -14697,6 +15614,13 @@
             "degree": 0
         },
         {
+            "id": "temporal-memory",
+            "term": "temporal memory",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "temporal-reasoning",
             "term": "temporal reasoning",
             "type": "concept",
@@ -14714,6 +15638,27 @@
             "id": "terminal-bench-v2",
             "term": "Terminal-Bench V2",
             "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "ternary-sketch",
+            "term": "ternary sketch",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "test-suite",
+            "term": "test suite",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "test-time-memory-evolution",
+            "term": "Test-Time Memory Evolution",
+            "type": "model",
             "level": "advanced",
             "degree": 0
         },
@@ -14788,6 +15733,13 @@
             "degree": 0
         },
         {
+            "id": "thought-block-chains",
+            "term": "Thought Block Chains",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "three-layer-grounding-protocol",
             "term": "Three-Layer Grounding Protocol",
             "type": "concept",
@@ -14805,6 +15757,13 @@
             "id": "tide",
             "term": "TIDE",
             "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "ties",
+            "term": "TIES",
+            "type": "model",
             "level": "advanced",
             "degree": 0
         },
@@ -14844,6 +15803,13 @@
             "degree": 0
         },
         {
+            "id": "token-perceptron",
+            "term": "token perceptron",
+            "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "token-probability",
             "term": "token probability",
             "type": "concept",
@@ -14869,6 +15835,13 @@
             "term": "token-level clipping",
             "type": "concept",
             "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "token-level-f1",
+            "term": "token-level F1",
+            "type": "metric",
+            "level": "basic",
             "degree": 0
         },
         {
@@ -14900,6 +15873,13 @@
             "degree": 0
         },
         {
+            "id": "tool-invocation",
+            "term": "tool invocation",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "tool-policy",
             "term": "Tool Policy",
             "type": "concept",
@@ -14917,6 +15897,13 @@
             "id": "top-d",
             "term": "TOP-D",
             "type": "model",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "top-k",
+            "term": "top-k",
+            "type": "concept",
             "level": "advanced",
             "degree": 0
         },
@@ -14998,6 +15985,13 @@
             "degree": 0
         },
         {
+            "id": "trajectory-rollouts",
+            "term": "trajectory rollouts",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "transfer-reliability-score",
             "term": "Transfer Reliability Score",
             "type": "concept",
@@ -15061,6 +16055,13 @@
             "degree": 0
         },
         {
+            "id": "trope-memory",
+            "term": "trope memory",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "truth-table",
             "term": "truth table",
             "type": "concept",
@@ -15089,6 +16090,13 @@
             "degree": 0
         },
         {
+            "id": "tulu",
+            "term": "Tulu",
+            "type": "model",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "tvbi-token",
             "term": "TVBI token",
             "type": "concept",
@@ -15098,6 +16106,13 @@
         {
             "id": "twap",
             "term": "TWAP",
+            "type": "concept",
+            "level": "basic",
+            "degree": 0
+        },
+        {
+            "id": "twenty-questions",
+            "term": "Twenty Questions",
             "type": "concept",
             "level": "basic",
             "degree": 0
@@ -15114,6 +16129,13 @@
             "term": "UE-MeshyScene",
             "type": "dataset",
             "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "uinavbench",
+            "term": "UINavBench",
+            "type": "dataset",
+            "level": "basic",
             "degree": 0
         },
         {
@@ -15156,6 +16178,13 @@
             "term": "uncertainty quantification",
             "type": "concept",
             "level": "basic",
+            "degree": 0
+        },
+        {
+            "id": "usb",
+            "term": "USB",
+            "type": "dataset",
+            "level": "advanced",
             "degree": 0
         },
         {
@@ -15238,6 +16267,13 @@
         {
             "id": "value-logits",
             "term": "value logits",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "value-of-information",
+            "term": "value-of-information",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -15331,6 +16367,13 @@
             "term": "VICReg",
             "type": "concept",
             "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "video-captioning",
+            "term": "video captioning",
+            "type": "concept",
+            "level": "basic",
             "degree": 0
         },
         {
@@ -15439,6 +16482,13 @@
             "degree": 0
         },
         {
+            "id": "visual-embeddings",
+            "term": "visual embeddings",
+            "type": "concept",
+            "level": "basic",
+            "degree": 0
+        },
+        {
             "id": "visual-fidelity",
             "term": "visual fidelity",
             "type": "metric",
@@ -15453,6 +16503,13 @@
             "degree": 0
         },
         {
+            "id": "visual-question-answering",
+            "term": "visual question answering",
+            "type": "dataset",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
             "id": "visual-reconstruction",
             "term": "visual reconstruction",
             "type": "concept",
@@ -15462,6 +16519,13 @@
         {
             "id": "visual-token-merging",
             "term": "visual token merging",
+            "type": "concept",
+            "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "visual-token-prediction",
+            "term": "visual token prediction",
             "type": "concept",
             "level": "advanced",
             "degree": 0
@@ -15499,6 +16563,13 @@
             "term": "VLM-based Rejection Score",
             "type": "metric",
             "level": "advanced",
+            "degree": 0
+        },
+        {
+            "id": "voting",
+            "term": "voting",
+            "type": "concept",
+            "level": "basic",
             "degree": 0
         },
         {
@@ -15688,6 +16759,13 @@
             "term": "win rate",
             "type": "metric",
             "level": "basic",
+            "degree": 0
+        },
+        {
+            "id": "work-openness",
+            "term": "work openness",
+            "type": "concept",
+            "level": "advanced",
             "degree": 0
         },
         {
@@ -15989,6 +17067,14 @@
         },
         {
             "source": "benchmark",
+            "target": "fine-tuning",
+            "weight": 7,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "benchmark",
             "target": "overfitting",
             "weight": 6,
             "via": [
@@ -16064,14 +17150,6 @@
         {
             "source": "llm",
             "target": "rag",
-            "weight": 6,
-            "via": [
-                "issue"
-            ]
-        },
-        {
-            "source": "benchmark",
-            "target": "fine-tuning",
             "weight": 6,
             "via": [
                 "issue"
@@ -18394,6 +19472,22 @@
             ]
         },
         {
+            "source": "embedding",
+            "target": "word2vec",
+            "weight": 3,
+            "via": [
+                "lesson"
+            ]
+        },
+        {
+            "source": "semantic-search",
+            "target": "word2vec",
+            "weight": 3,
+            "via": [
+                "lesson"
+            ]
+        },
+        {
             "source": "reward-models",
             "target": "rlhf",
             "weight": 3,
@@ -20626,6 +21720,14 @@
             ]
         },
         {
+            "source": "llm",
+            "target": "quantization",
+            "weight": 2,
+            "via": [
+                "issue"
+            ]
+        },
+        {
             "source": "attention",
             "target": "diffusion-transformer",
             "weight": 2,
@@ -20883,6 +21985,14 @@
         },
         {
             "source": "llm",
+            "target": "mixed-precision",
+            "weight": 2,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "llm",
             "target": "swe-bench",
             "weight": 2,
             "via": [
@@ -20900,6 +22010,14 @@
         {
             "source": "fine-tuning",
             "target": "moe",
+            "weight": 2,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "pruning",
+            "target": "self-distillation",
             "weight": 2,
             "via": [
                 "issue"
@@ -23220,14 +24338,6 @@
         {
             "source": "llm",
             "target": "pretrained-language-model",
-            "weight": 1,
-            "via": [
-                "issue"
-            ]
-        },
-        {
-            "source": "llm",
-            "target": "quantization",
             "weight": 1,
             "via": [
                 "issue"
@@ -26627,14 +27737,6 @@
         },
         {
             "source": "llm",
-            "target": "mixed-precision",
-            "weight": 1,
-            "via": [
-                "issue"
-            ]
-        },
-        {
-            "source": "llm",
             "target": "static-analysis",
             "weight": 1,
             "via": [
@@ -27403,14 +28505,6 @@
         },
         {
             "source": "diffusion-transformer",
-            "target": "self-distillation",
-            "weight": 1,
-            "via": [
-                "issue"
-            ]
-        },
-        {
-            "source": "pruning",
             "target": "self-distillation",
             "weight": 1,
             "via": [
@@ -30564,6 +31658,38 @@
         {
             "source": "pii",
             "target": "resolve-rate",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "cl-bench",
+            "target": "in-context-learning",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "cl-bench",
+            "target": "osworld-verified",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "cl-bench",
+            "target": "rollouts",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "cl-bench",
+            "target": "self-distillation",
             "weight": 1,
             "via": [
                 "issue"
@@ -33923,6 +35049,14 @@
         },
         {
             "source": "asymmetric-attention",
+            "target": "conditional-experience-transfer",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "asymmetric-attention",
             "target": "pose-graph-optimization",
             "weight": 1,
             "via": [
@@ -33947,6 +35081,38 @@
         },
         {
             "source": "asymmetric-attention",
+            "target": "teacher-model",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "conditional-experience-transfer",
+            "target": "pose-graph-optimization",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "conditional-experience-transfer",
+            "target": "post-training",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "conditional-experience-transfer",
+            "target": "semantic-accuracy",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "conditional-experience-transfer",
             "target": "teacher-model",
             "weight": 1,
             "via": [
@@ -34019,6 +35185,14 @@
         },
         {
             "source": "am-bench",
+            "target": "evaluation-metrics",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "am-bench",
             "target": "llm",
             "weight": 1,
             "via": [
@@ -34043,6 +35217,14 @@
         },
         {
             "source": "benchmark",
+            "target": "evaluation-metrics",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "benchmark",
             "target": "svg",
             "weight": 1,
             "via": [
@@ -34051,6 +35233,30 @@
         },
         {
             "source": "code-generation",
+            "target": "evaluation-metrics",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "code-generation",
+            "target": "svg",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "evaluation-metrics",
+            "target": "llm",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "evaluation-metrics",
             "target": "svg",
             "weight": 1,
             "via": [
@@ -41770,8 +42976,1232 @@
             ]
         },
         {
+            "source": "manipulation",
+            "target": "recursive-self-improvement",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "manipulation",
+            "target": "sft",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
             "source": "recursive-self-improvement",
             "target": "sft",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "confidentiality",
+            "target": "dgcnn",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "confidentiality",
+            "target": "diffusion-language-model",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "confidentiality",
+            "target": "gafu",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "confidentiality",
+            "target": "llm",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "confidentiality",
+            "target": "mixed-precision",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "confidentiality",
+            "target": "mosaic-effect",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "confidentiality",
+            "target": "quantization",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "confidentiality",
+            "target": "vstar-bench",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "dgcnn",
+            "target": "diffusion-language-model",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "dgcnn",
+            "target": "gafu",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "dgcnn",
+            "target": "llm",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "dgcnn",
+            "target": "mixed-precision",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "dgcnn",
+            "target": "mosaic-effect",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "dgcnn",
+            "target": "quantization",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "dgcnn",
+            "target": "vstar-bench",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion-language-model",
+            "target": "gafu",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion-language-model",
+            "target": "llm",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion-language-model",
+            "target": "mixed-precision",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion-language-model",
+            "target": "mosaic-effect",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion-language-model",
+            "target": "quantization",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion-language-model",
+            "target": "vstar-bench",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "gafu",
+            "target": "llm",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "gafu",
+            "target": "mixed-precision",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "gafu",
+            "target": "mosaic-effect",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "gafu",
+            "target": "quantization",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "gafu",
+            "target": "vstar-bench",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "llm",
+            "target": "mosaic-effect",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "llm",
+            "target": "vstar-bench",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "mixed-precision",
+            "target": "mosaic-effect",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "mixed-precision",
+            "target": "quantization",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "mixed-precision",
+            "target": "vstar-bench",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "mosaic-effect",
+            "target": "quantization",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "mosaic-effect",
+            "target": "vstar-bench",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "quantization",
+            "target": "vstar-bench",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "jacobian",
+            "target": "macro-average",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "jacobian",
+            "target": "multimodal-model",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "jacobian",
+            "target": "reinforcement-learning",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "jacobian",
+            "target": "trajectory",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "macro-average",
+            "target": "multimodal-model",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "macro-average",
+            "target": "reinforcement-learning",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "macro-average",
+            "target": "trajectory",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "multimodal-model",
+            "target": "reinforcement-learning",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "multimodal-model",
+            "target": "trajectory",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "reinforcement-learning",
+            "target": "trajectory",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "benchmark",
+            "target": "bfcl",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "benchmark",
+            "target": "hierarchical-memory",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "benchmark",
+            "target": "proactive-interaction",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "benchmark",
+            "target": "trajectory-tracing",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "benchmark",
+            "target": "video-foundation-models",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "bfcl",
+            "target": "fine-tuning",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "bfcl",
+            "target": "hierarchical-memory",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "bfcl",
+            "target": "proactive-interaction",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "bfcl",
+            "target": "trajectory-tracing",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "bfcl",
+            "target": "video-foundation-models",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "fine-tuning",
+            "target": "hierarchical-memory",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "fine-tuning",
+            "target": "proactive-interaction",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "fine-tuning",
+            "target": "trajectory-tracing",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "fine-tuning",
+            "target": "video-foundation-models",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "hierarchical-memory",
+            "target": "proactive-interaction",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "hierarchical-memory",
+            "target": "trajectory-tracing",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "hierarchical-memory",
+            "target": "video-foundation-models",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "proactive-interaction",
+            "target": "trajectory-tracing",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "proactive-interaction",
+            "target": "video-foundation-models",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "trajectory-tracing",
+            "target": "video-foundation-models",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "causal-attention",
+            "target": "curriculum-learning",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "causal-attention",
+            "target": "diffusion",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "causal-attention",
+            "target": "ecot",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "causal-attention",
+            "target": "libero",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "causal-attention",
+            "target": "optical-flow",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "causal-attention",
+            "target": "ovo-s-bench",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "causal-attention",
+            "target": "prompt-enhancer",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "causal-attention",
+            "target": "sft",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "curriculum-learning",
+            "target": "diffusion",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "curriculum-learning",
+            "target": "ecot",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "curriculum-learning",
+            "target": "libero",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "curriculum-learning",
+            "target": "optical-flow",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "curriculum-learning",
+            "target": "ovo-s-bench",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "curriculum-learning",
+            "target": "prompt-enhancer",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "curriculum-learning",
+            "target": "sft",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion",
+            "target": "ecot",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion",
+            "target": "libero",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion",
+            "target": "optical-flow",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion",
+            "target": "ovo-s-bench",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion",
+            "target": "prompt-enhancer",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion",
+            "target": "sft",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "ecot",
+            "target": "libero",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "ecot",
+            "target": "optical-flow",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "ecot",
+            "target": "ovo-s-bench",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "ecot",
+            "target": "prompt-enhancer",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "ecot",
+            "target": "sft",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "libero",
+            "target": "optical-flow",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "libero",
+            "target": "ovo-s-bench",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "libero",
+            "target": "prompt-enhancer",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "libero",
+            "target": "sft",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "optical-flow",
+            "target": "ovo-s-bench",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "optical-flow",
+            "target": "prompt-enhancer",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "optical-flow",
+            "target": "sft",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "ovo-s-bench",
+            "target": "prompt-enhancer",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "ovo-s-bench",
+            "target": "sft",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "prompt-enhancer",
+            "target": "sft",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "claude-opus-5-5",
+            "target": "llm",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "difficulty-axis",
+            "target": "diffusion",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "difficulty-axis",
+            "target": "ema",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "difficulty-axis",
+            "target": "lora",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "difficulty-axis",
+            "target": "multimodal-questions",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "difficulty-axis",
+            "target": "task-pool",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion",
+            "target": "ema",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion",
+            "target": "lora",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion",
+            "target": "multimodal-questions",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "diffusion",
+            "target": "task-pool",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "ema",
+            "target": "lora",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "ema",
+            "target": "multimodal-questions",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "ema",
+            "target": "task-pool",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "lora",
+            "target": "multimodal-questions",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "lora",
+            "target": "task-pool",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "multimodal-questions",
+            "target": "task-pool",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "clip",
+            "target": "dct",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "clip",
+            "target": "fid",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "clip",
+            "target": "joint-embedding-predictive-architecture",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "clip",
+            "target": "osad",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "clip",
+            "target": "pruning",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "clip",
+            "target": "quantization",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "clip",
+            "target": "self-distillation",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "clip",
+            "target": "youtu-omni-encoder",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "dct",
+            "target": "fid",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "dct",
+            "target": "joint-embedding-predictive-architecture",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "dct",
+            "target": "osad",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "dct",
+            "target": "pruning",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "dct",
+            "target": "quantization",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "dct",
+            "target": "self-distillation",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "dct",
+            "target": "youtu-omni-encoder",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "fid",
+            "target": "joint-embedding-predictive-architecture",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "fid",
+            "target": "osad",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "fid",
+            "target": "pruning",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "fid",
+            "target": "quantization",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "fid",
+            "target": "self-distillation",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "fid",
+            "target": "youtu-omni-encoder",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "joint-embedding-predictive-architecture",
+            "target": "osad",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "joint-embedding-predictive-architecture",
+            "target": "pruning",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "joint-embedding-predictive-architecture",
+            "target": "quantization",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "joint-embedding-predictive-architecture",
+            "target": "self-distillation",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "joint-embedding-predictive-architecture",
+            "target": "youtu-omni-encoder",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "osad",
+            "target": "pruning",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "osad",
+            "target": "quantization",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "osad",
+            "target": "self-distillation",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "osad",
+            "target": "youtu-omni-encoder",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "pruning",
+            "target": "quantization",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "pruning",
+            "target": "youtu-omni-encoder",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "quantization",
+            "target": "self-distillation",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "quantization",
+            "target": "youtu-omni-encoder",
+            "weight": 1,
+            "via": [
+                "issue"
+            ]
+        },
+        {
+            "source": "self-distillation",
+            "target": "youtu-omni-encoder",
             "weight": 1,
             "via": [
                 "issue"
